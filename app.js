@@ -263,5 +263,5 @@ iweb.run(['$rootScope', function ($rootScope) {
     });
 
     rootScope = $rootScope;
-    apiconn.connect();
+    // apiconn.connect();
 }]);
