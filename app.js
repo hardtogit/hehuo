@@ -129,7 +129,7 @@ apiconn.response_received_handler = function (jo) {
     });
 };
 
-apiconn.wsUri = "ws://live.121tongbu.com/znyx_ga";
+apiconn.wsUri = "ws://live.121tongbu.com/znyx";
 angular.module("iweb")
     .factory('fileReader', function ($q, $log) {
 
