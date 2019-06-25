@@ -38,7 +38,8 @@ function logout() {
     apiconn.logout();
 }
 
-var apiconn = new APIConnection();
+var apiconn ={}
+// new APIConnection();
 window.ajax = function (params, cb) {
     if (cb) {
         if (callBackFn[params.obj + '_' + params.act]) {
@@ -49,7 +50,7 @@ window.ajax = function (params, cb) {
     }
     apiconn.send_obj(params)
 }
-apiconn.client_info.clienttype = "web";
+// apiconn.client_info.clienttype = "web";
 
 apiconn.state_changed_handler = function () {
     rootScope.$apply(function () {
@@ -129,7 +130,7 @@ apiconn.response_received_handler = function (jo) {
     });
 };
 
-apiconn.wsUri = "ws://live.121tongbu.com/znyx";
+// apiconn.wsUri = "ws://live.121tongbu.com/znyx";
 angular.module("iweb")
     .factory('fileReader', function ($q, $log) {
 
