@@ -1,7 +1,7 @@
 iweb.controller('i100', function($scope,$routeParams) {
-    setTimeout(()=>{
-        $('body,html').scrollTop(0);
-    },0)
+    // setTimeout(()=>{
+    //     $('body,html').scrollTop(0);
+    // },0)
 
     // $(window).resize(function(){
     //     if($(window).width()>993){
