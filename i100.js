@@ -42,6 +42,9 @@ iweb.controller('i100', function($scope,$routeParams) {
                 }
             },
             lazyLoading: true,
+          afterRender:function () {
+              alert('ss')
+          }
             // afterLoad: function(anchorLink, index){
             //     alert(index)
             // },
