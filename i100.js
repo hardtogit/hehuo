@@ -42,8 +42,9 @@ iweb.controller('i100', function($scope,$routeParams) {
                 }
             },
             lazyLoading: true,
-          afterRender:function () {
-              alert('ss')
+          afterRender: function(){
+            var pluginContainer = $(this);
+            alert("The resulting DOM structure is ready");
           }
             // afterLoad: function(anchorLink, index){
             //     alert(index)
