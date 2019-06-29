@@ -1,11 +1,7 @@
 iweb.controller('i100', function($scope,$routeParams) {
-    $(function () {
-        setTimeout(()=>{
-            $('body,html').scrollTop(0);
-        },0)
-
-        $('.footer').addClass('fixed')
-    })
+    setTimeout(()=>{
+        $('body,html').scrollTop(0);
+    },0)
 
     // $(window).resize(function(){
     //     if($(window).width()>993){
