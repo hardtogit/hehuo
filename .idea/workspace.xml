@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8938f1a4-f985-4615-840b-19ddf79f1f0e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i100.html" beforeDir="false" afterPath="$PROJECT_DIR$/i100.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i100.js" beforeDir="false" afterPath="$PROJECT_DIR$/i100.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="i100.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i100.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+            <state relative-caret-position="416">
+              <caret line="172" column="18" lean-forward="true" selection-start-line="171" selection-end-line="172" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -91,8 +90,8 @@
       <file leaf-file-name="i100.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/i100.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -137,8 +136,8 @@
         <option value="$PROJECT_DIR$/header.less" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/i100.js" />
         <option value="$PROJECT_DIR$/i100.html" />
+        <option value="$PROJECT_DIR$/i100.js" />
       </list>
     </option>
   </component>
@@ -313,11 +312,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561783870494</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="pc首页">
+      <created>1561784130906</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561784130906</updated>
+    </task>
+    <task id="LOCAL-00014" summary="pc首页">
+      <created>1561784288515</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561784288515</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59059000" />
+    <option name="totallyTimeSpent" value="59823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -327,7 +340,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.025755879" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.21836506" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.16797313" />
@@ -594,8 +607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/i100.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+        <state relative-caret-position="416">
+          <caret line="172" column="18" lean-forward="true" selection-start-line="171" selection-end-line="172" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -605,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/i100.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
