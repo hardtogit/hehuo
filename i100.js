@@ -27,7 +27,7 @@ iweb.controller('i100', function($scope,$routeParams) {
     // })
 
     if($(window).width()>993) {
-      $(function () {
+      // $(function () {
         $('#fullpage').fullpage({
           scrollBar: true,
           onLeave: function (index, nextIndex, direction) {
@@ -51,10 +51,12 @@ iweb.controller('i100', function($scope,$routeParams) {
           //     alert(index)
           // },
         });
-      })
+      // })
 
     }
-
+    AOS.init({
+      duration: 1200
+    });
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 8,
         spaceBetween: 5,
