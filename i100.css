@@ -1,0 +1,260 @@
+@media screen and (min-width: 1200px) {
+  .i100 .title,
+  .i100 .introduce {
+    font-size: 40px;
+  }
+  .i100 .introduce {
+    margin-top: 100px;
+  }
+  .i100 .introduce .car {
+    background-color: #fff;
+    height: 320px;
+    padding-top: 30px;
+    border-bottom: 2px solid #1A8A2F;
+    cursor: pointer;
+  }
+  .i100 .introduce .car:hover {
+    box-shadow: 0px 10px 10px #ddd;
+  }
+  .i100 .introduce .car img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  .i100 .introduce .car .tab-text {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #18922F;
+  }
+  .i100 .introduce .car .text {
+    font-size: 14px;
+    padding: 20px 30px 0 30px;
+  }
+  .i100 .comply {
+    background-image: url("./img/inbg.png");
+    background-size: auto 100%;
+  }
+  .i100 .comply .map {
+    width: 780px;
+    margin: 0 auto;
+    display: block;
+  }
+  .i100 .comply .mapTextLeft {
+    width: 460px;
+    display: block;
+    margin-left: 200px;
+    position: relative;
+    top: -40px;
+  }
+  .i100 .comply .mapSubTextLeft {
+    width: 360px;
+    margin-left: 200px;
+  }
+  .i100 .comply .mapTextRight {
+    width: 310px;
+    margin-left: 100px;
+  }
+  .firend .section-title {
+    width: 365px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+  }
+  .firend .subTitle {
+    text-align: center;
+    font-size: 30px;
+    color: #1A8A2F;
+    font-weight: bold;
+  }
+  .firend .subTileImg {
+    width: 375px;
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+  .firend .swiper-container {
+    height: 80px;
+  }
+  .firend .swiper-container img {
+    height: 100%;
+  }
+  .firend .items img {
+    width: 340px;
+    display: block;
+    margin: 0 auto 30px auto;
+  }
+  .firend .items img:hover {
+    box-shadow: 0px 10px 10px #ddd;
+  }
+  .firend .container-swiper {
+    position: relative;
+  }
+  .firend .container-swiper .siderLeft {
+    position: absolute;
+    width: 28px;
+    height: 35px;
+    left: -28px;
+    top: 25px;
+    cursor: pointer;
+  }
+  .firend .container-swiper .siderRight {
+    position: absolute;
+    width: 28px;
+    height: 35px;
+    right: -28px;
+    top: 25px;
+    cursor: pointer;
+  }
+  .news .section-title {
+    width: 289px;
+    padding-top: 0;
+    display: block;
+    margin: 0 auto;
+  }
+  .news .newsItems .new {
+    height: 272px;
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+  .news .newsItems .new .left {
+    float: left;
+  }
+  .news .newsItems .new .left img {
+    height: 272px;
+    width: 272px;
+  }
+  .news .newsItems .new .center {
+    width: 70px;
+    float: left;
+    height: 272px;
+  }
+  .news .newsItems .new .center .date {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .news .newsItems .new .center .date .day {
+    font-size: 32px;
+    color: #89D05C;
+    font-weight: bold;
+  }
+  .news .newsItems .new .center .date .month {
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    color: #222;
+  }
+  .news .newsItems .new .right {
+    float: left;
+    width: 213px;
+  }
+  .news .newsItems .new .right .title {
+    font-size: 16px;
+    color: #222;
+    font-weight: bold;
+    padding: 20px 20px 20px 10px;
+  }
+  .news .newsItems .new .right .text {
+    color: #777;
+    font-size: 12px;
+    line-height: 22px;
+    height: 100px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .news .newsItems .new .right img {
+    width: 134px;
+    cursor: pointer;
+    margin: 10px 0 0 10px;
+  }
+  .news .newsItems .new.sub .left {
+    float: right;
+  }
+  .news .newsItems .new.sub .center {
+    float: right;
+  }
+  .news .newsItems .new.sub .right {
+    float: right;
+  }
+  .join {
+    background-image: url("./img/joinBg.png");
+    background-size: 100% 100%;
+  }
+  .join .container {
+    padding: 0 200px;
+  }
+  .join .a {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .join .b {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .join .c {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .join .d {
+    margin-bottom: 30px;
+    display: block;
+  }
+  .join .e {
+    display: block;
+    margin: 0 auto 30px auto;
+  }
+  .join .f {
+    display: block;
+    margin: 0 auto;
+  }
+  .qrcode .container {
+    text-align: center;
+  }
+  .qrcode .code {
+    width: 268px;
+    display: inline-block;
+    margin: 0 40px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .i100 .title,
+  .i100 .introduce {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .i100 .title,
+  .i100 .introduce {
+    font-size: 16px;
+  }
+}
+.i100 .phone {
+  position: fixed;
+  right: 70px;
+  top: 200px;
+  z-index: 100;
+}
+.i100 .title .titleEn {
+  width: 16.5em;
+  display: block;
+  margin: 40px auto 0 auto;
+}
+.i100 .title .titleCn {
+  width: 7em;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -0.3em;
+}
+.i100 .title .subTitle {
+  width: 4.5em;
+  display: block;
+  margin: 0.2rem auto;
+}
+.i100 .introduce .car {
+  margin-top: 2rem;
+  background-color: #fff;
+}
+/*# sourceMappingURL=i100.css.map */
