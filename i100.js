@@ -41,7 +41,7 @@ iweb.controller('i100', function($scope,$routeParams) {
                     $('.footer').css('bottom',0)
                 }
             },
-            resetSliders: true,
+            lazyLoading: true,
             // afterLoad: function(anchorLink, index){
             //     alert(index)
             // },

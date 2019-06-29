@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8938f1a4-f985-4615-840b-19ddf79f1f0e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/common.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/aos-animation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fullpage.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i100.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/CompanyEn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/News 1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/News 2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/News 3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/News 4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/News 5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/News 6@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/car1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/car2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/car3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/car4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/companyCn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/detailBtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/firend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/firendp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/firp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/footerImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/hezuo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/hezuot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/inbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/joinBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/joinImgL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/joinPhone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/joinUs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mapSubTextLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mapTextLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mapTextRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/moreLine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/newP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/newsT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/siderLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/siderRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/subTitle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/fullpage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/swiper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i001.css" beforeDir="false" afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i001.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i001.less" beforeDir="false" afterPath="$PROJECT_DIR$/header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i100.html" beforeDir="false" afterPath="$PROJECT_DIR$/i100.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i100.js" beforeDir="false" afterPath="$PROJECT_DIR$/i100.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -139,8 +86,8 @@
       <file leaf-file-name="i100.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/i100.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="361">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -271,7 +218,7 @@
       <updated>1561377040833</updated>
       <workItem from="1561377042095" duration="25624000" />
       <workItem from="1561701553805" duration="21252000" />
-      <workItem from="1561770636117" duration="9415000" />
+      <workItem from="1561770636117" duration="9871000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1561469800667</created>
@@ -315,24 +262,38 @@
       <option name="project" value="LOCAL" />
       <updated>1561483662910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="pc首页">
+      <created>1561780136345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561780136345</updated>
+    </task>
+    <task id="LOCAL-00008" summary="pc首页">
+      <created>1561780309003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561780309003</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56291000" />
+    <option name="totallyTimeSpent" value="56747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473573" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2473573" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.62486005" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3057111" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.033594623" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.47032475" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -371,7 +332,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="pc首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="pc首页" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/aos.js">
@@ -606,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/i100.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="361">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>
