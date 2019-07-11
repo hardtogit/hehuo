@@ -1,0 +1,106 @@
+.i102 .banner img {
+  width: 100%;
+}
+.i102 .two {
+  background-color: #fff;
+  padding: 80px 0;
+}
+.i102 .two .title {
+  width: 880px;
+  display: block;
+  margin: 0 auto;
+}
+.i102 .two .text {
+  position: relative;
+  letter-spacing: 6px;
+  font-size: 24px;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.i102 .two .text .inner {
+  width: 988px;
+  margin: 0 auto;
+}
+.i102 .two .text .two2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 46px;
+  height: 42px;
+}
+.i102 .two .text .two3 {
+  position: absolute;
+  width: 46px;
+  height: 42px;
+  bottom: 0;
+  right: 0;
+}
+.i102 .two .imgs {
+  margin-top: 30px;
+}
+.i102 .two .imgs div {
+  padding: 5px;
+}
+.i102 .two .imgs img {
+  width: 100%;
+}
+.i102 .three #myMap {
+  height: 900px;
+  border-bottom: 3px solid #84C759;
+}
+.i102 .three .regions {
+  text-align: center;
+  position: relative;
+  top: -88px;
+  z-index: 200;
+}
+.i102 .three .regions .region {
+  background-image: url("./img/i102/three2.png");
+  float: left;
+  width: 194px;
+  height: 178px;
+  font-size: 30px;
+  color: #999;
+  padding-top: 64px;
+  background-size: 100% 100%;
+}
+.i102 .three .regions .region img {
+  width: 68px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+.i102 .three .regions .region.active {
+  background-image: url("./img/i102/three1.png");
+  color: #fff;
+  padding-top: 30px;
+}
+.i102 .four .title {
+  width: 634px;
+  display: block;
+  margin: 0 auto;
+}
+.i102 .four .video {
+  height: 490px;
+  background-color: #000;
+  margin: 50px auto;
+}
+.i102 .four .line {
+  width: 200px;
+  height: 10px;
+  margin-top: 50px;
+  background-color: #9DD27A;
+  margin-bottom: 50px;
+}
+.i102 .four .text {
+  line-height: 36px;
+  text-indent: 2em;
+}
+.i102 .four .pics {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.i102 .four .pics img {
+  width: 100%;
+}
+/*# sourceMappingURL=i102.css.map */

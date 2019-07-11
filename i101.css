@@ -1,0 +1,168 @@
+.i101 {
+  padding-top: 100px;
+}
+.i101 .banner {
+  height: 480px;
+  background-image: url("./img/i101/banner.png");
+  background-size: 100% 100%;
+}
+.i101 .banner .container {
+  position: relative;
+  overflow: visible;
+  height: 100%;
+}
+.i101 .banner .container .label {
+  width: 260px;
+  height: 225px;
+  display: block;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  bottom: -36px;
+}
+.i101 .two {
+  padding-top: 140px;
+}
+.i101 .two .left {
+  width: 316px;
+  float: left;
+  height: 372px;
+}
+.i101 .two .left img {
+  width: 100%;
+  height: 100%;
+}
+.i101 .two .right {
+  width: 770px;
+  float: left;
+  margin-left: 80px;
+}
+.i101 .two .right .title {
+  font-size: 42px;
+  font-weight: 400;
+  color: #84c759;
+}
+.i101 .two .right .text {
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #a1a1a1;
+  line-height: 36px;
+}
+.i101 .two .bottom {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+.i101 .three {
+  background-color: #84C759;
+}
+.i101 .three .container {
+  padding: 40px 0;
+}
+.i101 .three .container .list {
+  text-align: center;
+}
+.i101 .three .container .list.first {
+  margin-bottom: 20px;
+}
+.i101 .three .container .list .type {
+  display: inline-block;
+  margin-left: 20px;
+  width: 250px;
+  height: 250px;
+}
+.i101 .three .container .list .type.first {
+  margin-left: 0;
+}
+.i101 .four .title {
+  display: block;
+  margin: 120px auto 0 auto;
+  width: 246px;
+}
+.i101 .four .content {
+  margin-top: 70px;
+}
+.i101 .four .content .left {
+  width: 374px;
+  height: 430px;
+  padding-top: 20px;
+  float: left;
+}
+.i101 .four .content .left img {
+  width: 100%;
+  height: 100%;
+}
+.i101 .four .content .right {
+  padding-left: 180px ;
+  float: left;
+}
+.i101 .four .content .right span {
+  font-size: 42px;
+  position: relative;
+  top: 8px;
+  margin-right: 20px;
+}
+.i101 .four .content .right li {
+  font-size: 24px;
+  color: #333333;
+  line-height: 52px;
+}
+.i101 .five {
+  background-color: #fff;
+  padding: 120px 0;
+}
+.i101 .five .title {
+  width: 880px;
+  display: block;
+  margin: 0 auto;
+}
+.i101 .five .detail {
+  width: 1180px;
+  height: 580px;
+  display: block;
+  margin: 50px auto;
+}
+.i101 .six {
+  background-image: url("./img/i101/six1.png");
+  background-size: 100% 100%;
+  height: 540px;
+  color: #fff;
+}
+.i101 .six .text1 {
+  margin-top: 180px;
+  font-size: 42px;
+}
+.i101 .six .text2 {
+  margin-top: 30px;
+  font-size: 52px;
+  font-weight: bold;
+}
+.i101 .six .text3 {
+  margin-top: 40px;
+  font-size: 20px;
+}
+.i101 .seven {
+  padding: 60px 0 90px 0;
+  background-color: #fff;
+}
+.i101 .seven .left {
+  float: left;
+}
+.i101 .seven .left .textImg {
+  width: 496px;
+  display: block;
+  margin-top: 30px;
+}
+.i101 .seven .left .textImg.flag {
+  width: 347px;
+}
+.i101 .seven .right {
+  float: left;
+}
+.i101 .seven .right img {
+  width: 610px;
+  height: 362px;
+  margin: 90px 0 0 64px;
+}
+/*# sourceMappingURL=i101.css.map */

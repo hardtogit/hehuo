@@ -1,0 +1,151 @@
+.i104 {
+  padding-top: 100px;
+  background-color: #fff;
+}
+.i104 .banner {
+  height: 480px;
+  background-image: url("./img/i104/banner.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.i104 .tabs {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top: -38px;
+}
+.i104 .tabs .tab {
+  width: 600px;
+  height: 76px;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  line-height: 76px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+}
+.i104 .tabs .tab.active {
+  background: #84C759;
+}
+.i104 .content {
+  margin-top: 20px;
+}
+.i104 .content .icon {
+  width: 190px;
+  display: inline-block;
+  height: 250px;
+  float: left;
+  cursor: pointer;
+}
+.i104 .content .icon img {
+  width: 100%;
+  height: 100%;
+}
+.i104 .content .title {
+  font-size: 42px;
+  color: #6FBA2C;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.i104 .content .subText {
+  color: #7F8080;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.i104 .content .bottomImg {
+  width: 100%;
+  margin: 40px auto;
+}
+.i104 .content .item {
+  padding: 0 50px 30px 50px;
+  background-color: #fff;
+  position: relative;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.i104 .content .item:hover {
+  box-shadow: 4px 4px 4px #ddd;
+}
+.i104 .content .item .title {
+  text-align: left;
+}
+.i104 .content .item .date {
+  width: 164px;
+  height: 58px;
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  background-color: #84C759;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 58px;
+}
+.i104 .content .item .header {
+  height: 110px;
+}
+.i104 .content .item .header .more {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-top: 36px;
+}
+.i104 .content .item .body .left {
+  float: left;
+  width: 730px;
+}
+.i104 .content .item .body .left .title {
+  font-size: 30px;
+  color: #666666;
+  font-weight: bold;
+}
+.i104 .content .item .body .left .text {
+  font-size: 16px;
+  margin-top: 48px;
+  line-height: 32px;
+  height: 126px;
+  overflow-y: hidden;
+}
+.i104 .content .item .body .right {
+  float: left;
+  margin-left: 40px;
+}
+.i104 .content .item .body .right img {
+  width: 280px;
+  height: 216px;
+}
+.i104 .content .detail {
+  padding-bottom: 60px;
+}
+.i104 .content .detail .title {
+  font-size: 42px;
+  padding: 0 90px;
+  color: #6FBA2C;
+  text-align: left;
+  position: relative;
+}
+.i104 .content .detail .title .closed {
+  position: absolute;
+  width: 80px;
+  cursor: pointer;
+  height: 80px;
+  right: 0;
+  top: 0;
+}
+.i104 .content .detail .text {
+  margin-top: 60px;
+  font-size: 24px;
+  line-height: 42px;
+  color: #666;
+}
+.i104 .content .detail .img {
+  display: block;
+  width: 100%;
+  margin-top: 60px;
+}
+/*# sourceMappingURL=i104.css.map */
