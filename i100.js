@@ -31,11 +31,11 @@ iweb.controller('i100', function($scope,$routeParams) {
             //     alert(index)
             // },
           });
-          AOS.init({
-            duration: 1200,
-            offset:0
-            // debounceDelay:10000
-          });
+          // AOS.init({
+          //   duration: 1200,
+          //   offset:0
+          //   // debounceDelay:10000
+          // });
         },0)
         })
 
