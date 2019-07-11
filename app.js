@@ -14,6 +14,30 @@ iweb.config(['$routeProvider',
             templateUrl: 'i100.html',
             controller: 'i100'
         }).
+        when('/i101', {
+          templateUrl: 'i101.html',
+          controller: 'i101'
+        }).
+        when('/i102', {
+          templateUrl: 'i102.html',
+          controller: 'i102'
+        }).
+        when('/i103', {
+          templateUrl: 'i103.html',
+          controller: 'i103'
+        }).
+        when('/i104', {
+          templateUrl: 'i104.html',
+          controller: 'i104'
+        }).
+        when('/i105', {
+          templateUrl: 'i105.html',
+          controller: 'i105'
+        }).
+        when('/i106', {
+          templateUrl: 'i106.html',
+          controller: 'i106'
+        }).
         otherwise({
             redirectTo: '/i100'
         });
@@ -31,7 +55,6 @@ function goto_view(v) {
     baseUrl = (baseUrl.indexOf('#') > 0 ? baseUrl.substr(0, baseUrl.indexOf('#')) : baseUrl);
     window.location.href = baseUrl + "#/" + v;
 }
-
 function logout() {
     sessionStorage.setItem("login_name", "");
     sessionStorage.setItem("login_passwd", "");
@@ -247,6 +270,8 @@ angular.module("iweb")
 
 iweb.run(['$rootScope', function ($rootScope) {
     $rootScope.$on("$routeChangeSuccess", function (angularEvent, current, previous) { //
+
+      console.log(current)
         if (current.controller == "main") {
             $rootScope.showMenu = false;
         } else {
@@ -266,3 +291,8 @@ iweb.run(['$rootScope', function ($rootScope) {
     rootScope = $rootScope;
     // apiconn.connect();
 }]);
+iweb.filter('showAsHtml',function ($sce) {
+  return function (input) {
+    return $sce.trustAsHtml(input);
+  }
+})

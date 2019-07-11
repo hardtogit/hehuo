@@ -1,5 +1,4 @@
 <div class="headerNav" ng-controller="header" >
-    <div class="menu-nev_line"></div>
     <nav class="navbar container">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -15,25 +14,31 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#" class="active">首页 <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">公司介绍</a></li>
+                    <li class="active"><a href="#/i100" data-href="#/i100" >首页 <span class="sr-only">(current)</span></a></li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">工厂介绍</a>
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-href="#/i101">公司介绍</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#/i101?type=1">企业介绍</a></li>
+                        <li><a href="#/i101?type=2">公司荣誉</a></li>
+                        <li><a href="#/i101?type=3">发展历程</a></li>
+                        <li><a href="#/i101?type=4">愿景使命</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-href="#/i102" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">工厂介绍</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
+                            <li><a href="#/i102?factory=1">北京</a></li>
+                            <li><a href="#/i102?factory=2">重庆</a></li>
+                            <li><a href="#/i102?factory=3">四川</a></li>
+                            <li><a href="#/i102?factory=4">福建</a></li>
+                            <li><a href="#/i102?factory=5">安徽</a></li>
+                            <li><a href="#/i102?factory=6">江苏</a></li>
                         </ul>
                     </li>
-                    <li><a href="">新闻资讯</a></li>
-                    <li><a href="">合作伙伴</a></li>
-                    <li><a href="">合作伙伴</a></li>
-                    <li><a href="">洽谈合作</a></li>
-                    <li><a href="">加入我们</a></li>
+                    <li><a href="#/i103" data-href="#/i103">新闻资讯</a></li>
+                    <li><a href="#/i104" data-href="#/i104">服务客户</a></li>
+                    <li><a href="#/i105" data-href="#/i105">洽谈合作</a></li>
+                    <li><a href="#/i106" data-href="#/i106">加入我们</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

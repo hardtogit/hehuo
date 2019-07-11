@@ -14,15 +14,15 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <!--<div class="item active">-->
-            <!--<img style="height: 100%;" src="./img/v2_pthmj9.png" alt="...">-->
+            <!--<img style="width: 100%;height: 100%" src="./img/v2_pthmj9.png" alt="...">-->
           <!--</div>-->
           <div class="item active">
-            <img style="height: 100%;"  src="./img/v2_psvze7.png" alt="...">
+            <img style="height: 100%;width: 100%"  src="./img/v2_psvze7.png" alt="...">
           </div>
         </div>
       </div>
     </div>
-    <div class="section">
+    <div class="section told">
       <div class="container">
         <div class="title" data-aos="fade-down">
           <img class="titleEn" src="./img/CompanyEn.png" alt="">
@@ -30,7 +30,7 @@
           <img class="subTitle" src="./img/subTitle.png" alt="">
         </div>
         <div class="introduce">
-          <div class="col-lg-3 col-md-6 col-xs-6" data-aos="zoom-in-up">
+          <div class="col-lg-3 col-md-6 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=1')">
             <div class="car">
               <img src="./img/car1.png" alt="">
               <div class="tab-text">
@@ -41,18 +41,18 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-xs-6" data-aos="zoom-in-up">
+          <div class="col-lg-3 col-md-6 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=2')">
             <div class="car">
               <img src="./img/car2.png" alt="">
               <div class="tab-text">
-                公司历史
+                公司荣誉
               </div>
               <div class="text">
                 中国企业500强之一，是国家级“流通”及“农业产业化”双龙头企业，政府重要商品应急保供重点企业，被国家七部委誉为中国“农改超”
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-xs-6" data-aos="zoom-in-up">
+          <div class="col-lg-3 col-md-6 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=3')">
             <div class="car">
               <img src="./img/car3.png" alt="">
               <div class="tab-text">
@@ -63,7 +63,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-xs-6" data-aos="zoom-in-up">
+          <div class="col-lg-3 col-md-6 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=4')">
             <div class="car">
               <img src="./img/car4.png" alt="">
               <div class="tab-text">
@@ -79,7 +79,15 @@
     </div>
     <div class="section comply">
       <div class="container">
-        <img class="map" data-aos="zoom-in" src="./img/map.png" alt="">
+        <div class="mapContainer" data-aos="zoom-in">
+          <img class="city bj" src="./img/i100/bj.png" alt="">
+          <img class="city sc" src="./img/i100/sc.png" alt="">
+          <img class="city js" src="./img/i100/js.png" alt="">
+          <img class="city ah" src="./img/i100/ah.png" alt="">
+          <img class="city fj" src="./img/i100/fj.png" alt="">
+          <img class="city cq" src="./img/i100/cq.png" alt="">
+        <img class="map"  src="./img/map.png" alt="">
+        </div>
         <img class="mapTextLeft"  data-aos="fade-right" src="./img/mapTextLeft.png" alt="">
         <img class="mapSubTextLeft" data-aos="fade-right" src="./img/mapSubTextLeft.png" alt="">
         <img class="mapTextRight" data-aos="fade-left" src="./img/mapTextRight.png" alt="">
@@ -89,23 +97,23 @@
       <div class="container">
         <img class="section-title" data-aos="fade-down" src="./img/firend.png" alt="">
         <div class="items clearfix">
-          <div class="col-lg-4" data-aos="flip-right">
+          <div class="col-lg-4" data-aos="flip-right" onclick="goto_view('i104?type=1')">
             <img src="./img/News%201@2x.png" alt="">
           </div>
-          <div class="col-lg-4" data-aos="flip-right">
-            <img src="./img/News%202@2x.png" alt="">
+          <div class="col-lg-4" data-aos="flip-right" onclick="goto_view('i104?type=2')">
+            <img src="./img/News%206@2x.png" alt="">
           </div>
-          <div class="col-lg-4" data-aos="flip-right">
+          <div class="col-lg-4" data-aos="flip-right" onclick="goto_view('i104?type=3')">
             <img src="./img/News%203@2x.png" alt="">
           </div>
-          <div class="col-lg-4" data-aos="flip-right">
+          <div class="col-lg-4" data-aos="flip-right" onclick="goto_view('i104?type=4')">
             <img src="./img/News%204@2x.png" alt="">
           </div>
-          <div class="col-lg-4" data-aos="flip-right">
+          <div class="col-lg-4" data-aos="flip-right" onclick="goto_view('i104?type=5')">
             <img src="./img/News%205@2x.png" alt="">
           </div>
-          <div class="col-lg-4" data-aos="flip-right">
-            <img src="./img/News%206@2x.png" alt="">
+          <div class="col-lg-4" data-aos="flip-right" onclick="goto_view('i104?type=6')">
+            <img src="./img/News%202@2x.png" alt="">
           </div>
         </div>
         <!--<div class="subTitle">-->
@@ -113,13 +121,32 @@
         <!--</div>-->
         <!--<img class="subTileImg" src="./img/moreLine.png" alt="">-->
         <div class="container-swiper" data-aos="slide-up">
-          <img class="siderLeft" src="./img/siderLeft.png" alt="">
-          <img class="siderRight" src="./img/siderRight.png" alt="">
+          <div class="siderLeft" ng-click="slidePrev()" alt="">
+            <!--<img src="./img/siderLeft.png" alt="">-->
+          </div>
+          <div class="siderRight" ng-click="slideNext()" alt="">
+            <!--<img  src="./img/siderRight.png" >-->
+          </div>
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="./img/firendp.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/firendp.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/firendp.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/1.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/2.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/3.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/4.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/5.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/6.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/7.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/8.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/9.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/10.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/11.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/12.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/13.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/14.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/15.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/16.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/17.png" alt=""></div>
+              <div class="swiper-slide"><img src="./img/i100/18.png" alt=""></div>
             </div>
           </div>
         </div>
@@ -128,7 +155,13 @@
     </div>
     <div class="section news">
       <div class="container">
-        <img class="section-title" data-aos="fade-down" src="./img/newsT.png" alt="">
+        <div class="title">
+          <img class="section-title" data-aos="fade-down" src="./img/newsT.png" alt="">
+          <div class="more" onclick="goto_view('i103')">
+            更多新闻
+          </div>
+        </div>
+
         <div class="newsItems clearfix">
           <div class="col-lg-6" data-aos="zoom-out-up">
             <div class="new">
@@ -217,13 +250,13 @@
         </div>
       </div>
     </div>
-
     <div class="section join">
       <div class="container">
-        <img class="a" data-aos="zoom-in-right" width="234" src="./img/joinUs.png" alt="">
+        <img class="a" data-aos="zoom-in-right" onclick="goto_view('i106')" width="234" src="./img/joinUs.png" alt="">
         <img class="b" data-aos="zoom-in-right" width="281" src="./img/joinImgL.png" alt="">
+        <img class="c" data-aos="zoom-in-left" width="587" src="./img/joinImgR.png" alt="">
         <!--<img src="./img/joinImgL.png" alt="">-->
-        <img class="d" data-aos="zoom-in-right" width="417" src="./img/hezuo.png" alt="">
+        <img class="d" data-aos="zoom-in-right" onclick="goto_view('i105')" width="417" src="./img/hezuo.png" alt="">
         <img class="e" data-aos="flip-up" width="674" src="./img/hezuot.png" alt="">
         <img class="f" data-aos="flip-up" width="722" src="./img/joinPhone.png" alt="">
 
@@ -231,8 +264,7 @@
     </div>
     <div class="section qrcode">
       <div class="container">
-        <img class="code" src="./img/code.png" alt="">
-        <img class="code" src="./img/code.png" alt="">
+        <img class="code" data-aos="zoom-in" src="./img/qrCode.png" alt="">
       </div>
 
     </div>
