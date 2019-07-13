@@ -84,7 +84,7 @@
   padding: 0 50px 60px 50px;
 }
 .i103 .two .detail .title {
-  font-size: 42px;
+  font-size: 36px;
   padding: 0 90px;
   color: #6FBA2C;
   text-align: left;
@@ -99,9 +99,9 @@
   top: 0;
 }
 .i103 .two .detail .text {
-  margin-top: 60px;
-  font-size: 24px;
-  line-height: 42px;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 32px;
   color: #666;
 }
 .i103 .two .detail .text .subTitle {
@@ -111,13 +111,13 @@
 }
 .i103 .two .detail .textTitle {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
   font-size: 60px;
   font-weight: bold;
 }
 .i103 .two .detail .img {
   display: block;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=i103.css.map */

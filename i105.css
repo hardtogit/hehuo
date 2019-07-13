@@ -16,14 +16,11 @@
   box-shadow: 0 4px 4px #ddd;
 }
 .i105 .know .container .line {
-  width: 38px;
-  height: 5px;
-  background-color: #198A2E;
   margin-top: 40px;
 }
 .i105 .know .container .title {
   font-size: 43px;
-  margin-top: 30px;
+  margin-top: 70px;
   color: #198A2E;
 }
 .i105 .know .container .title small {
@@ -31,7 +28,7 @@
   font-size: 16px;
 }
 .i105 .know .container .subTitle {
-  font-size: 24px;
+  font-size: 16px;
   margin-top: 50px;
   color: #666;
 }
@@ -39,10 +36,16 @@
   list-style: none;
   padding-bottom: 30px;
   color: #666;
-  font-size: 20px;
+  font-size: 16px;
+  padding-left: 0;
+}
+.i105 .know .container ul .line {
+  height: 2px;
+  width: 100%;
+  background-color: #999;
 }
 .i105 .know .container ul li {
-  margin-top: 35px;
+  margin-top: 28px;
 }
 .i105 .two .title {
   width: 757px;

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'FZLTHJW--GB1-0 ';
+  src: url('./fonts/FZLTHJW--GB1-0.eot');
+  src: url('./fonts/FZLTHJW--GB1-0.eot') format('embedded-opentype'), url('./fonts/FZLTHJW--GB1-0.woff2') format('woff2'), url('./fonts/FZLTHJW--GB1-0.woff') format('woff'), url('./fonts/FZLTHJW--GB1-0.ttf') format('truetype'), url('./fonts/FZLTHJW--GB1-0.svg') format('svg');
+}
+body {
+  font-family: FZLTHJW--GB1-0 !important;
+}
 .nav .open > a,
 .nav .open > a:focus,
 .nav .open > a:hover {

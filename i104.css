@@ -123,7 +123,7 @@
   padding-bottom: 60px;
 }
 .i104 .content .detail .title {
-  font-size: 42px;
+  font-size: 36px;
   padding: 0 90px;
   color: #6FBA2C;
   text-align: left;
@@ -138,14 +138,14 @@
   top: 0;
 }
 .i104 .content .detail .text {
-  margin-top: 60px;
-  font-size: 24px;
-  line-height: 42px;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 32px;
   color: #666;
 }
 .i104 .content .detail .img {
   display: block;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=i104.css.map */

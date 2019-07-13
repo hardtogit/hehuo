@@ -6,13 +6,19 @@
   .i100 .told {
     background-color: #f6f6f6;
   }
+  .i100 .swiper-banner-container {
+    padding-top: 100px;
+  }
+  .i100 .swiper-banner-container .swiper-slide img {
+    width: 100%;
+  }
   .i100 .introduce {
     margin-top: 100px;
   }
   .i100 .introduce .car {
     background-color: #fff;
     height: 320px;
-    padding-top: 30px;
+    padding-top: 80px;
     border-bottom: 2px solid #1A8A2F;
     cursor: pointer;
   }
@@ -86,11 +92,12 @@
     top: -40px;
   }
   .i100 .comply .mapSubTextLeft {
-    width: 360px;
+    width: 352px;
+    float: left;
     margin-left: 200px;
   }
   .i100 .comply .mapTextRight {
-    width: 310px;
+    width: 295px;
     margin-left: 100px;
   }
   .firend {

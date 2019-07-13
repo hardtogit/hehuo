@@ -1,4 +1,7 @@
 iweb.controller('i100', function($scope,$routeParams) {
+  // $scope.height=$(window).height-100
+  // $scope.flag=true
+// $scope.$apply()
 
     if($(window).width()>993) {
       console.log('sssssssss');
@@ -31,11 +34,11 @@ iweb.controller('i100', function($scope,$routeParams) {
             //     alert(index)
             // },
           });
-          // AOS.init({
-          //   duration: 1200,
-          //   offset:0
-          //   // debounceDelay:10000
-          // });
+          AOS.init({
+            duration: 1200,
+            offset:0
+            // debounceDelay:10000
+          });
         },0)
         })
 
@@ -56,6 +59,17 @@ iweb.controller('i100', function($scope,$routeParams) {
         window.location.reload()
       },600)
 )
+  $('.swiper-banner-container img').css('height',$(window).height()-100+'px')
+  // setTimeout(function () {
+    var myBannerSwiper = new Swiper('.swiper-banner-container', {
+      // freeMode:true,
+      autoplay:true,
+      delay:5000,
+      setWrapperSize :true,
+      loop:true,
+      height:300
+    });
+
     var mySwiper = new Swiper('.swiper-container', {
         slidesPerView: 8,
         spaceBetween: 5,
