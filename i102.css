@@ -12,6 +12,7 @@
 }
 .i102 .two .title {
   width: 880px;
+  height: 129px;
   display: block;
   margin: 0 auto;
 }
@@ -48,6 +49,7 @@
 }
 .i102 .two .imgs img {
   width: 100%;
+  height: 280px;
 }
 .i102 .three .mapContainer {
   height: 580px;
@@ -70,6 +72,7 @@
   height: 178px;
   font-size: 30px;
   color: #999;
+  text-align: center;
   padding-top: 64px;
   background-size: 100% 100%;
 }

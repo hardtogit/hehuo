@@ -6,49 +6,49 @@ iweb.controller('i104', function($scope,$routeParams) {
   $scope.data=[{
     title:'政府、企事业单位食堂配送',
     content:[
-      '冷链配送   准时新鲜',
-      '源头直供   剔除溢价',
-      '按需定制   提升效率'
+      '冷链配送&nbsp&nbsp&nbsp准时新鲜',
+      '源头直供&nbsp&nbsp&nbsp剔除溢价',
+      '按需定制&nbsp&nbsp&nbsp提升效率'
     ],
     bottomImg:'./img/i104/-s-tu1.png'
   },{
     title:'餐饮机构配送',
     content:[
-      '食材采购　一站解决',
-      '便捷送达　安心无忧',
-      '省钱省心　更省时间'
+      '食材采购&nbsp&nbsp&nbsp一站解决',
+      '便捷送达&nbsp&nbsp&nbsp安心无忧',
+      '省钱省心&nbsp&nbsp&nbsp更省时间'
     ],
     bottomImg:'./img/i104/-s-tu2.png'
   },{
     title:'福利礼品',
     content:[
-      '专人挑选   量身定制',
-      '更高品质   价格实惠',
-      '随心选择   安心使用'
+      '专人挑选&nbsp&nbsp&nbsp量身定制',
+      '更高品质&nbsp&nbsp&nbsp价格实惠',
+      '随心选择&nbsp&nbsp&nbsp安心使用'
     ],
     bottomImg:'./img/i104/-s-tu3.png'
   },{
     title:'中小生产原料企业',
     content:[
       '为企业定制专属供应链',
-      '高频次   优化采购管理',
-      '严质检   为食安保品质'
+      '高频次&nbsp&nbsp&nbsp优化采购管理',
+      '严质检&nbsp&nbsp&nbsp为食安保品质'
     ],
     bottomImg:'./img/i104/-s-tu4.png'
   },{
     title:'企业购',
     content:[
-      '项目经理   全程跟进',
-      'API接入    移动商城',
-      '海量库存   多样选择'
+      '项目经理&nbsp&nbsp&nbsp全程跟进',
+      'API接入&nbsp&nbsp&nbsp移动商城',
+      '海量库存&nbsp&nbsp&nbsp多样选择'
     ],
     bottomImg:'./img/i104/-s-tu5.png'
   },{
     title:'商超渠道配送',
     content:[
-      '丰富商超品类结构',
-      '助力生鲜食材流通',
-      '丰富居民健康饮食'
+      '丰富商超&nbsp&nbsp&nbsp品类结构',
+      '助力生鲜&nbsp&nbsp&nbsp食材流通',
+      '丰富居民&nbsp&nbsp&nbsp健康饮食'
     ],
     bottomImg:'./img/i104/-s-tu6.png'
   }]

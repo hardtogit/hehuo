@@ -1,14 +1,4 @@
 iweb.controller('i102', function($scope,$routeParams) {
-  // 百度地图API功能
-  var map = new BMap.Map("myMap");    // 创建Map实例
-  $scope.factory=$routeParams.factory?parseInt($routeParams.factory):1
-  if($routeParams.factory){
-    setTimeout(function () {
-      $(window).scrollTop(1280)
-    },0)
-  }
-  var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
-  map.addControl(top_right_navigation);
   $scope.location=[{
     lat:116.276336,
     lng:39.762759,
@@ -36,7 +26,7 @@ iweb.controller('i102', function($scope,$routeParams) {
     subContent:'成都市濛阳镇濛兴西路50号永辉物流',
     title:'./img/i102/sc/title.png',
     text:'四川彩食鲜供应链管理有限公司于2017年6月在四川彭州市成立，注册地址为四川省彭州市濛阳镇濛兴西路50号，注册资本1亿元，是永辉云商板块旗下的集生鲜食材生产加工、食用品采供销售、供应链服务输出等为一体的供应链集成管理公司，专门负责永辉在四川地区供应链建设项目运营和S2B供应链业务运营等。<br/>' +
-    '秉承“融合共享、成于至善”的经营理念，四川彩食鲜供应链管理有限公司，坚持以促进“产供销”高效链接，带动产业链上下游企业协同发展为宗旨，大力强化以四川供应链产业园、四川彩食鲜中央工厂等大型建设项目为依托的S2B业务运营和生产管理,并重点培育和打造以“永辉云商企业购”为品牌落地的食用品供应链科技服务平台，通过整合、集聚、开放永辉生态圈上强大的供应链资源，致力于面向四川地区的永辉门店、合作伙伴及广大的B端企业客户，提供优质的产品采供和供应链服务，推动流通市场转型升级，提高供应链效率，降低成本，使批发交易向现代化、平台化方向迈进。',
+    '<div style="text-indent: 2em">秉承“融合共享、成于至善”的经营理念，四川彩食鲜供应链管理有限公司，坚持以促进“产供销”高效链接，带动产业链上下游企业协同发展为宗旨，大力强化以四川供应链产业园、四川彩食鲜中央工厂等大型建设项目为依托的S2B业务运营和生产管理,并重点培育和打造以“永辉云商企业购”为品牌落地的食用品供应链科技服务平台，通过整合、集聚、开放永辉生态圈上强大的供应链资源，致力于面向四川地区的永辉门店、合作伙伴及广大的B端企业客户，提供优质的产品采供和供应链服务，推动流通市场转型升级，提高供应链效率，降低成本，使批发交易向现代化、平台化方向迈进。</div>',
     leftImg:'./img/i102/sc/left.png',
     rightImg:'./img/i102/sc/right.png',
     centerImg:''
@@ -55,25 +45,32 @@ iweb.controller('i102', function($scope,$routeParams) {
     lng:31.845604,
     titleText:'安徽工厂',
     subContent:'安徽省合肥市肥东县撮镇镇东风大道与铁路北路交叉口永辉物流',
-      title:'./img/i102/ah/title.png',
-      text:'安徽彩食鲜供应链发展有限公司成立于2017年06月19日，注册地址在合肥市肥东县撮镇镇龙塘村综合楼，占地面积约300亩（包括永辉物流面积），其中彩食鲜生鲜库面积6000平方米，主要从事速冻食品【速冻面米食品（生制品）、速冻其他食品（速冻肉制品、速冻果蔬制品）】、蛋制品（其他类）、糕点（烘烤类糕点、油炸类糕点、熟粉类糕点、月饼）、豆制品（非发酵性豆制品）生产、加工、配送、销售；淀粉及淀粉制品（淀粉）、糖（白砂糖、冰糖）、水产加工品（干制水产品）、蔬菜制品【食用菌制品（干制食用菌）】、其他粮食加工品、谷物粉类制成品、谷物碾磨加工品、谷物加工品、水果制品（水果干制品）、炒货食品及坚果制品（烘炒类）、味精 谷氨酸钠（99味精）分装、配送、销售；食品塑料袋生产、销售；食品加工、食品销售；农产品加工、销售；水电销售；物业管理、仓储（危险品除外）服务。彩食鲜是永辉打造的B2B食材服务商，是永辉生鲜中央工厂，为永辉超市各业态门店，B端零售商，企事业单位、高等院校、酒店、餐饮店等渠道供货。目前彩食鲜已在北京、上海、重庆、福建等建立多家工厂，按照ISO22000、ISO9001质量管理体系运行，并建立食品安全检测实验室，通过多种措施设置食品安全防线。',
-      leftImg:'',
-      rightImg:'',
-      centerImg:'./img/i102/ah/center.png'
+    title:'./img/i102/ah/title.png',
+    text:'安徽彩食鲜供应链发展有限公司成立于2017年06月19日，注册地址在合肥市肥东县撮镇镇龙塘村综合楼，占地面积约300亩（包括永辉物流面积），其中彩食鲜生鲜库面积6000平方米，主要从事速冻食品【速冻面米食品（生制品）、速冻其他食品（速冻肉制品、速冻果蔬制品）】、蛋制品（其他类）、糕点（烘烤类糕点、油炸类糕点、熟粉类糕点、月饼）、豆制品（非发酵性豆制品）生产、加工、配送、销售；淀粉及淀粉制品（淀粉）、糖（白砂糖、冰糖）、水产加工品（干制水产品）、蔬菜制品【食用菌制品（干制食用菌）】、其他粮食加工品、谷物粉类制成品、谷物碾磨加工品、谷物加工品、水果制品（水果干制品）、炒货食品及坚果制品（烘炒类）、味精 谷氨酸钠（99味精）分装、配送、销售；食品塑料袋生产、销售；食品加工、食品销售；农产品加工、销售；水电销售；物业管理、仓储（危险品除外）服务。彩食鲜是永辉打造的B2B食材服务商，是永辉生鲜中央工厂，为永辉超市各业态门店，B端零售商，企事业单位、高等院校、酒店、餐饮店等渠道供货。目前彩食鲜已在北京、上海、重庆、福建等建立多家工厂，按照ISO22000、ISO9001质量管理体系运行，并建立食品安全检测实验室，通过多种措施设置食品安全防线。',
+    leftImg:'./img/i102/ah/left.png',
+    rightImg:'./img/i102/ah/right.png',
   },{
     lat:121.128402,
     lng:31.322928,
     titleText:'江苏工厂',
     subContent:'江苏省苏州市昆山市双华路338号',
-      title:'./img/i102/js/title.png',
-      text:'江苏彩食鲜供应链发展有限公司于2017年8月30日注册成立，是一家集生产、仓储、物流和销售为一体的大型企业。为华东地区的超市和团体提供新鲜的水果、蔬菜、水产品、各类肉品、干货、面条、即食性水产品和即食果蔬系列。<br/>' +
-      '江苏永辉彩食鲜采用产地直采，冷链加工，冷链配送，冷链追踪。全厂面积13441.7㎡。拥有水产车间、肉类车间、蔬果车间、净菜车间、即食果蔬车间、面条车间、即食三文鱼、干货车间。下设生产、行政、质量、人事、财务、IT模板、采购、销售部门。公司秉承客户第一，产品新鲜的要求，提供给客户和消费者最具价格竞争力的产品，同时确保产品拥有最高质量，各项生产技术不断革新，目前已通过ISO9001，ISO22000，ISO14001和OHSAS18001认证，覆盖公司所有产品。',
-      leftImg:'./img/i102/js/left.png',
-      rightImg:'./img/i102/js/right.png',
-      centerImg:''
+    title:'./img/i102/js/title.png',
+    text:'江苏彩食鲜供应链发展有限公司于2017年8月30日注册成立，是一家集生产、仓储、物流和销售为一体的大型企业。为华东地区的超市和团体提供新鲜的水果、蔬菜、水产品、各类肉品、干货、面条、即食性水产品和即食果蔬系列。<br/>' +
+    '江苏永辉彩食鲜采用产地直采，冷链加工，冷链配送，冷链追踪。全厂面积13441.7㎡。拥有水产车间、肉类车间、蔬果车间、净菜车间、即食果蔬车间、面条车间、即食三文鱼、干货车间。下设生产、行政、质量、人事、财务、IT模板、采购、销售部门。公司秉承客户第一，产品新鲜的要求，提供给客户和消费者最具价格竞争力的产品，同时确保产品拥有最高质量，各项生产技术不断革新，目前已通过ISO9001，ISO22000，ISO14001和OHSAS18001认证，覆盖公司所有产品。',
+    leftImg:'./img/i102/js/left.png',
+    rightImg:'./img/i102/js/right.png',
+    centerImg:''
   }]
-
-
+  // 百度地图API功能
+  var map = new BMap.Map("myMap");    // 创建Map实例
+  $scope.factory=$routeParams.factory?parseInt($routeParams.factory):1
+  if($routeParams.factory){
+    setTimeout(function () {
+      $(window).scrollTop($('.three').offset().top-180)
+    },0)
+  }
+  var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
+  map.addControl(top_right_navigation);
 
   var setCenter=function(lat,lng,titleText,subContent){
     map.clearOverlays()
@@ -122,9 +119,11 @@ iweb.controller('i102', function($scope,$routeParams) {
 
       textSpan.style.fontSize='30px'
       textSpan.innerText=titleText
+      textSpan.style.fontWeight='bold'
 
       subText.style.fontSize='24px'
       subText.style.marginTop='20px'
+      subText.style.color='#333'
       subText.innerText=subContent
 
       titleDiv.appendChild(titleImg)

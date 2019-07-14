@@ -42,9 +42,11 @@ iweb.controller('i105', function($scope,$routeParams) {
 
       textSpan.style.fontSize='30px'
       textSpan.innerText=titleText
+      textSpan.style.fontWeight='bold'
 
       subText.style.fontSize='24px'
       subText.style.marginTop='20px'
+      subText.style.color='#333'
       subText.innerText=subContent
 
       titleDiv.appendChild(titleImg)

@@ -38,7 +38,7 @@
 
     </div>
     <div class="subText" ng-repeat="item in data[type-1].content">
-      {{item}}
+      <span ng-bind-html="item|showAsHtml"></span>
     </div>
     <!--<div class="subText">-->
       <!--便捷送达　安心无忧-->
