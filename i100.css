@@ -4,7 +4,12 @@
     font-size: 40px;
   }
   .i100 .told {
-    background-color: #f6f6f6;
+    background-color: #E5E5E5;
+  }
+  .i100 .told .title {
+    width: 665px;
+    display: block;
+    margin: 0 auto;
   }
   .i100 .swiper-banner-container {
     padding-top: 100px;
@@ -43,8 +48,8 @@
     padding: 20px 30px 0 30px;
   }
   .i100 .comply {
-    background-image: url("./img/inbg.png");
-    background-size: auto 100%;
+    background-image: url("./img/i100/map/bg.png");
+    background-size: 100% 100%;
   }
   .i100 .comply .mapContainer {
     width: 780px;
@@ -55,37 +60,68 @@
   .i100 .comply .mapContainer .city {
     position: absolute;
     width: 30px;
+    height: 44px;
   }
   .i100 .comply .mapContainer .city.bj {
     left: 520px;
     top: 226px;
+    background-image: url("./img/i100/map/bj.png");
+    background-size: 100% 100%;
+  }
+  .i100 .comply .mapContainer .city.bj:hover {
+    background-image: url("./img/i100/map/bjH.png");
   }
   .i100 .comply .mapContainer .city.sc {
     left: 358px;
     top: 370px;
+    background-image: url("./img/i100/map/sc.png");
+    background-size: 100% 100%;
+  }
+  .i100 .comply .mapContainer .city.sc:hover {
+    background-image: url("./img/i100/map/scH.png");
   }
   .i100 .comply .mapContainer .city.cq {
     left: 400px;
     top: 399px;
+    background-image: url("./img/i100/map/cq.png");
+    background-size: 100% 100%;
+  }
+  .i100 .comply .mapContainer .city.cq:hover {
+    background-image: url("./img/i100/map/cqH.png");
   }
   .i100 .comply .mapContainer .city.js {
     left: 586px;
     top: 358px;
+    background-image: url("./img/i100/map/js.png");
+    background-size: 100% 100%;
+  }
+  .i100 .comply .mapContainer .city.js:hover {
+    background-image: url("./img/i100/map/jsH.png");
   }
   .i100 .comply .mapContainer .city.fj {
     left: 565px;
     top: 452px;
+    background-image: url("./img/i100/map/fj.png");
+    background-size: 100% 100%;
+  }
+  .i100 .comply .mapContainer .city.fj:hover {
+    background-image: url("./img/i100/map/fjH.png");
   }
   .i100 .comply .mapContainer .city.ah {
     left: 532px;
     top: 352px;
+    background-image: url("./img/i100/map/ah.png");
+    background-size: 100% 100%;
+  }
+  .i100 .comply .mapContainer .city.ah:hover {
+    background-image: url("./img/i100/map/ahH.png");
   }
   .i100 .comply .mapContainer .map {
     width: 100%;
     height: 100%;
   }
   .i100 .comply .mapTextLeft {
-    width: 460px;
+    width: 780px;
     display: block;
     margin-left: 200px;
     position: relative;
@@ -98,10 +134,10 @@
   }
   .i100 .comply .mapTextRight {
     width: 295px;
-    margin-left: 100px;
+    margin-left: 140px;
   }
   .firend {
-    background-color: #f6f6f6;
+    background-color: #E5E5E5;
   }
   .firend .section-title {
     width: 712px;
@@ -129,12 +165,18 @@
     width: 100%;
   }
   .firend .items img {
-    width: 340px;
+    width: 310px;
     display: block;
+    cursor: pointer;
     margin: 0 auto 30px auto;
   }
   .firend .items img:hover {
     box-shadow: 0px 10px 10px #ddd;
+  }
+  .firend .subTitle {
+    display: block;
+    width: 340px;
+    margin: 20px auto 40px auto ;
   }
   .firend .container-swiper {
     position: relative;
@@ -165,8 +207,11 @@
   .firend .container-swiper .siderRight:hover {
     background-image: url("./img/siderRightH.png");
   }
+  .news {
+    background-color: #f6f6f6;
+  }
   .news .section-title {
-    width: 289px;
+    width: 195px;
     padding-top: 0;
     display: block;
     margin: 0 auto;
@@ -236,7 +281,7 @@
     font-size: 16px;
     color: #222;
     font-weight: bold;
-    padding: 20px 20px 20px 10px;
+    padding: 20px 20px 0px 10px;
   }
   .news .newsItems .new .right .text {
     color: #777;
@@ -261,7 +306,7 @@
     float: right;
   }
   .join {
-    background-image: url("./img/joinBg.png");
+    background-color: #E6E6E6;
     background-size: 100% 100%;
   }
   .join .container {
@@ -270,6 +315,7 @@
   .join .a {
     display: block;
     margin-bottom: 50px;
+    width: 234px;
   }
   .join .b {
     display: inline-block;
@@ -290,7 +336,6 @@
   }
   .join .f {
     display: block;
-    margin: 0 auto;
   }
   .qrcode {
     background-color: #f6f6f6;

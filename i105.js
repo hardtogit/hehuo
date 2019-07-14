@@ -1,13 +1,10 @@
 iweb.controller('i105', function($scope,$routeParams) {
   // 百度地图API功能
   var map = new BMap.Map("myMapTwo");    // 创建Map实例
-  map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+  map.centerAndZoom(new BMap.Point(116.504, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
   //添加地图类型控件
-  map.addControl(new BMap.MapTypeControl({
-    mapTypes:[
-      BMAP_NORMAL_MAP,
-      BMAP_HYBRID_MAP
-    ]}));
+  var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
+  map.addControl(top_right_navigation);
   map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
   // map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
   var setCenter=function(lat,lng,titleText,subContent){

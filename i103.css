@@ -2,7 +2,7 @@
   padding-top: 100px;
 }
 .i103 .banner {
-  height: 480px;
+  height: 420px;
   background-image: url("./img/i103/one2.png");
   background-size: 100% 100%;
 }
@@ -81,11 +81,12 @@
   height: 216px;
 }
 .i103 .two .detail {
-  padding: 0 50px 60px 50px;
+  padding: 0 49px 60px 48px;
 }
 .i103 .two .detail .title {
-  font-size: 36px;
-  padding: 0 90px;
+  font-size: 24px;
+  border-bottom: 2px dashed #ddd;
+  padding-bottom: 40px;
   color: #6FBA2C;
   text-align: left;
   position: relative;
@@ -98,6 +99,11 @@
   right: 0;
   top: 0;
 }
+.i103 .two .detail .title .time {
+  font-size: 12px;
+  color: #999;
+  margin-top: 26px;
+}
 .i103 .two .detail .text {
   margin-top: 40px;
   font-size: 16px;
@@ -105,7 +111,7 @@
   color: #666;
 }
 .i103 .two .detail .text .subTitle {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }

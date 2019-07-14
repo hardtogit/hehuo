@@ -3,7 +3,7 @@
   background-color: #fff;
 }
 .i105 .banner {
-  height: 480px;
+  height: 420px;
   background-image: url("./img/i05/banner.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@
   margin-top: 28px;
 }
 .i105 .two .title {
-  width: 757px;
+  width: 750px;
   display: block;
   margin: 0 auto;
 }
@@ -58,9 +58,8 @@
   height: 300px;
 }
 .i105 .two .items .item {
-  width: 115px;
-  height: 154px;
-  margin: 0 20px;
+  width: 128px;
+  height: 162px;
   display: inline-block;
   position: relative;
 }
@@ -71,15 +70,24 @@
   top: 36px;
 }
 .i105 .two .items .item.four {
-  top: 92px;
+  top: 86px;
+}
+.i105 .two .items .item.five {
+  top: 152px;
 }
 .i105 .two .phone {
   display: block;
   width: 630px;
-  margin: 180px auto;
+  margin: 120px auto;
+}
+.i105 .mapContainer {
+  height: 580px;
+  border: 4px solid #85C759;
+  padding: 16px 20px;
+  margin-bottom: 60px;
 }
 .i105 .map {
   width: 100%;
-  height: 900px;
+  height: 100%;
 }
 /*# sourceMappingURL=i105.css.map */

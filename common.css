@@ -1,10 +1,22 @@
 @font-face {
-  font-family: 'FZLTHJW--GB1-0 ';
+  font-family: 'FZLTHJW';
   src: url('./fonts/FZLTHJW--GB1-0.eot');
   src: url('./fonts/FZLTHJW--GB1-0.eot') format('embedded-opentype'), url('./fonts/FZLTHJW--GB1-0.woff2') format('woff2'), url('./fonts/FZLTHJW--GB1-0.woff') format('woff'), url('./fonts/FZLTHJW--GB1-0.ttf') format('truetype'), url('./fonts/FZLTHJW--GB1-0.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-body {
-  font-family: FZLTHJW--GB1-0 !important;
+@font-face {
+  font-family: 'FZYDTHJW';
+  src: url('./fonts/FZYDTHJW--GB1-0.eot');
+  src: url('./fonts/FZYDTHJW--GB1-0.eot') format('embedded-opentype'), url('./fonts/FZYDTHJW--GB1-0.woff2') format('woff2'), url('./fonts/FZYDTHJW--GB1-0.woff') format('woff'), url('./fonts/FZYDTHJW--GB1-0.ttf') format('truetype'), url('./fonts/FZYDTHJW--GB1-0.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.anchorBL {
+  display: none;
+}
+* {
+  font-family: 'FZLTHJW';
 }
 .nav .open > a,
 .nav .open > a:focus,

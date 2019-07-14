@@ -14,24 +14,24 @@
       <img ng-if="type===1" src="./img/i104/one1H.png" alt="">
     </div>
       <div class="icon" ng-click="changeType(2)">
-        <img  ng-if="type!==2" src="./img/i104/one6.png" alt="">
-        <img ng-if="type===2" src="./img/i104/one6H.png" alt="">
+        <img  ng-if="type!==2" src="./img/i104/one2.png" alt="">
+        <img ng-if="type===2" src="./img/i104/one2H.png" alt="">
       </div>
       <div class="icon" ng-click="changeType(3)">
-        <img  ng-if="type!==3" src="./img/i104/one5.png" alt="">
-        <img ng-if="type===3" src="./img/i104/one5H.png" alt="">
+        <img  ng-if="type!==3" src="./img/i104/one3.png" alt="">
+        <img ng-if="type===3" src="./img/i104/one3H.png" alt="">
       </div>
     <div class="icon" ng-click="changeType(4)">
-      <img  ng-if="type!==4" src="./img/i104/one2.png" alt="">
-      <img ng-if="type===4" src="./img/i104/one2H.png" alt="">
+      <img  ng-if="type!==4" src="./img/i104/one4.png" alt="">
+      <img ng-if="type===4" src="./img/i104/one4H.png" alt="">
     </div>
     <div class="icon" ng-click="changeType(5)">
-      <img  ng-if="type!==5" src="./img/i104/one3.png" alt="">
-      <img ng-if="type===5" src="./img/i104/one3H.png" alt="">
+      <img  ng-if="type!==5" src="./img/i104/one5.png" alt="">
+      <img ng-if="type===5" src="./img/i104/one5H.png" alt="">
     </div>
     <div class="icon" ng-click="changeType(6)">
-      <img  ng-if="type!==6" src="./img/i104/one4.png" alt="">
-      <img ng-if="type===6" src="./img/i104/one4H.png" alt="">
+      <img  ng-if="type!==6" src="./img/i104/one6.png" alt="">
+      <img ng-if="type===6" src="./img/i104/one6H.png" alt="">
     </div>
     </div>
     <div class="title" ng-bind-html="data[type-1].title|showAsHtml">
@@ -40,105 +40,63 @@
     <div class="subText" ng-repeat="item in data[type-1].content">
       {{item}}
     </div>
-    <div class="subText">
-      便捷送达　安心无忧
-    </div>
-    <div class="subText">
-      省钱省心　更省时间
-    </div>
-    <img class="bottomImg" src="./img/i104/two1.png" alt="">
+    <!--<div class="subText">-->
+      <!--便捷送达　安心无忧-->
+    <!--</div>-->
+    <!--<div class="subText">-->
+      <!--省钱省心　更省时间-->
+    <!--</div>-->
+    <img class="bottomImg" src={{data[type-1].bottomImg}} alt="">
   </div>
 
   <div class="content container" ng-if="tab===2">
     <div ng-if="!detail">
-    <div class="item clearfix" ng-click="goDetail(1)">
-      <div class="date">
-        06.26
-      </div>
-      <div class="header">
-        <img class="more" src="./img/i103/two2.png" alt="">
-      </div>
+    <div class="item clearfix">
       <div class="body">
         <div class="left">
-          <div class="title  text-left">
-            永辉彩食鲜与森塘农业泉水梨项目签约仪式顺利举行
-          </div>
-          <div class="text">
-            清澈泉水淙淙流淌，1600亩梨园绿意盎然，一颗颗“泉水梨”挂满枝头。6月22日晚，新都区中国农民丰收节暨乡村旅游文化节——清流镇泉水丰收季开幕，为期30天的夏日盛宴正式开启。
-          </div>
-        </div>
-        <div class="right">
           <img src="./img/i104/three1.png" alt="">
         </div>
-      </div>
-    </div>
-    <div class="item clearfix" ng-click="goDetail(2)">
-      <div class="date">
-        05.17
-      </div>
-      <div class="header">
-        <img class="more" src="./img/i103/two2.png" alt="">
-      </div>
-      <div class="body">
-        <div class="left">
-          <div class="title text-left">
-            永辉集团四川彩食鲜发展有限公司与华沙梦想水果
-            合作社胭脂脆桃项目签约仪式顺利举行
+        <div class="right">
+          <div class="title  text-left">
+            合作种植，乐享新鲜果品
           </div>
           <div class="text">
-            今天（5.17），永辉集团四川彩食鲜发展有限公司与华沙梦想水果合作社胭脂脆桃项目签约仪式顺利举行。双方在合作协议上签字，就胭脂脆桃项目展开多方面合作，充分发挥和利用各自的资源以及优势。
+            永辉彩食鲜与福建鸿蕉农业合作共建种植基地，直接参与到上游供应链的建设，基地优培、香蕉优选、精细储运。通过输出标准及技术支撑，对上游相关环节进行重构。坚持为消费者提供健康优质的香蕉，让消费者乐享新鲜香蕉果品，提升大众健康生活品质，推动中国香蕉行业可持续发展。          </div>
+
+        </div>
+      </div>
+    </div>
+      <div class="item clearfix">
+        <div class="body">
+          <div class="left">
+            <img src="./img/i104/three2.png" alt="">
+          </div>
+          <div class="right">
+            <div class="title  text-left">
+              农产品高标准种植园区
+            </div>
+            <div class="text">
+              永辉彩食鲜建设河北沽源西兰花种植基地，种植面积500亩，全区采用农产品高标准管理，实现产品源头化开发、品质把控、品牌化发展。切实保障食材从源头到餐桌全链条的高标准生产。
           </div>
         </div>
-        <div class="right">
-          <img src="./img/i104/three2.png" alt="">
-        </div>
       </div>
     </div>
-    </div>
-    <div class="detail" ng-if="detail">
-      <div ng-if="detailId===1">
-        <div class="title">永辉彩食鲜与森塘农业泉水梨项目签约仪式顺利举行 <img ng-click="close()" class="closed" src="./img/i104/close.png" alt=""></div>
-        <div class="text">
-          清澈泉水淙淙流淌，1600亩梨园绿意盎然，一颗颗“泉水梨”挂满枝头。6月22日晚，新都区中国农民丰收节暨乡村旅游文化节——清流镇泉水丰收季开幕，为期30天的夏日盛宴正式开启。
+      <div class="item clearfix">
+        <div class="body">
+          <div class="left">
+            <img src="./img/i104/three3.png" alt="">
+          </div>
+          <div class="right">
+            <div class="title  text-left">
+              农业帮扶，助力农民增收
+            </div>
+            <div class="text">
+              永辉彩食鲜与华沙梦想水果合作社、成都市森塘专业合作社等农业基地，充分发挥和利用各自的资源以及优势，以种植和生产产地为采购基地，进行产地直采合作。
+              永辉彩食鲜希望通过产地直采起到农业帮扶的作用，以基地直采的方式来帮到更多的老百姓，帮助解决当地土地增值、农民增收的问题。
+            </div>
+          </div>
         </div>
-         <img class="img" src="./img/i104/one/1.png" alt="">
-        <div class="text">
-          当晚丰收节活动上，永辉集团四川彩食鲜发展有限公司与成都市森塘专业合作社泉水梨项目签约仪式顺利举行。双方在合作协议上签字，就泉水梨项目展开多方面合作，充分发挥和利用各自的资源以及优势。
-        </div>
-      <img class="img" src="./img/i104/one/2.png" alt="">
-        <div class="text">
-          永辉集团四川彩食鲜发展有限公司总经理陈建斌：一是因为清流政府的大力支持，二是清流的天然泉水、土壤和气候更容易出高质量的水果，所以我们选择了这块基地来合作。后期我们希望跟当地政府不单单涉及到水果，可能涉及更多品种的更深层次的合作。我们更多是希望起到一个帮扶的作用，以基地直采的方式来帮到更多的老百姓，来解决当地土地增值、农民增收的问题。
-        </div>
-      <img class="img" alt="" src="./img/i104/one/3.png">
-      <div class="text">
-        成都市森塘专业合作社社长陈兴国：从设计、规划建园之初，我们业主就立志塑造"清流泉水梨"品牌。一是因为清流政府的大力支持;二是我们有着得天独厚的自然环境优势，能孕育出优质的泉水梨;三是我们业主理念高度一致，从种植技术、农资选用、细节管理都统一化、规范化、标准化，为我们"泉水梨"品牌奠定扎实的基础。通过这次永辉彩食鲜与我们基地的合作，我们觉得四年来艰辛付出是值得的，也更加坚定了我们走品牌化路线的信心!
-      </div>
-        <img class="img" alt="" src="./img/i104/one/4.png">
-      <div class="text">
-        此次永辉彩食鲜与森塘专业合作社携手，相信通过永辉彩食鲜品牌影响力、渠道终端资源，会将泉水梨的品牌进一步打造、推向新的高度，成为我们新都乃至川内的著名品牌。
-      </div>
-      </div>
-      <div ng-if="detailId===2">
-        <div class="title">永辉集团四川彩食鲜发展有限公司与华沙梦想水果合作社胭脂脆桃项目签约仪式顺利举行 <img ng-click="close()" class="closed" src="./img/i104/close.png" alt=""></div>
-        <div class="text">
-          今天（5.17），永辉集团四川彩食鲜发展有限公司与华沙梦想水果合作社胭脂脆桃项目签约仪式顺利举行。双方在合作协议上签字，就胭脂脆桃项目展开多方面合作，充分发挥和利用各自的资源以及优势。
-        </div>
-        <img class="img" alt="" src="./img/i104/two/1.png">
-        <div class="text">
-          华沙梦想水果合作社的胭脂脆桃是我县特色农产品，面积超过1000亩，植株超过20万，年产胭脂脆桃200余万斤，果大质优，有着“川内第一桃”的美誉。此次签约合作，确立了以种植和生产产地为采购基地，根据产地的季节性出货高峰，安排采购人员现场组织货源进行多数品项的产地直采项目合作。
-        </div>
-        <img class="img" alt="" src="./img/i104/two/2.png">
-        <div class="text">
-          永辉集团四川彩食鲜发展有限公司总经理陈建斌：一是因为梓潼政府的大力支持，二是梓潼的水土和气候更容易出高质量的水果，所以我们选择了这块基地来合作。后期我们希望跟当地政府不单单涉及到水果，可能涉及更多品种的更深层次的合作。我们更多是希望起到一个帮扶的作用，以基地直采的方式来帮到更多的老百姓，来解决当地土地增值、农民增收的问题 。
-        </div>
-        <img class="img" alt="" src="./img/i104/two/3.png">
-        <div class="text">
-          据了解，近年来，我县农业对外产销合作逐步加强，许州蜜柚、金宝李、胭脂脆桃等一系列特色农产品逐渐形成品牌并通过产地直采、网络销售等形式不断拓宽销路，为广大农民朋友增长收入。
-        </div>
-        <img class="img" alt="" src="./img/i104/two/4.png">
-        <div class="text">
-          县商务和经济合作局电子商务发展中心主任裴勇 ： 商务局和经济合作局在胭脂脆桃销售方面，我们通过多种途径，线上线下助推销售。前几年我们通过京东、阿里巴巴、苏宁易购等电商平台助推销售，今年我们又引进了成都亿禾、永辉彩食鲜与梦想专业合作社携手，相信通过多种途径的努力，会将胭脂脆桃的品牌进一步打造，成为我们梓潼乃至川内的著名品牌。        </div>
-      </div>
+  </div>
     </div>
   </div>
 </div>

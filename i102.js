@@ -2,7 +2,13 @@ iweb.controller('i102', function($scope,$routeParams) {
   // 百度地图API功能
   var map = new BMap.Map("myMap");    // 创建Map实例
   $scope.factory=$routeParams.factory?parseInt($routeParams.factory):1
-
+  if($routeParams.factory){
+    setTimeout(function () {
+      $(window).scrollTop(1280)
+    },0)
+  }
+  var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
+  map.addControl(top_right_navigation);
   $scope.location=[{
     lat:116.276336,
     lng:39.762759,
@@ -71,13 +77,13 @@ iweb.controller('i102', function($scope,$routeParams) {
 
   var setCenter=function(lat,lng,titleText,subContent){
     map.clearOverlays()
-    map.centerAndZoom(new BMap.Point(lat, lng), 11);  // 初始化地图,设置中心点坐标和地图级别
+    map.centerAndZoom(new BMap.Point(lat+0.1, lng), 11);  // 初始化地图,设置中心点坐标和地图级别
     //添加地图类型控件
-    map.addControl(new BMap.MapTypeControl({
-      mapTypes:[
-        BMAP_NORMAL_MAP,
-        BMAP_HYBRID_MAP
-      ]}));
+    // map.addControl(new BMap.MapTypeControl({
+    //   mapTypes:[
+    //     BMAP_NORMAL_MAP,
+    //     BMAP_HYBRID_MAP
+    //   ]}));
     // map.setCurrentCity("成都");          // 设置地图显示的城市 此项是必须设置的
     // map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 

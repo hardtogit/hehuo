@@ -10,4 +10,9 @@ iweb.controller('header', function($scope,$routeParams) {
           $(item).addClass('active')
         }
       })
+  $('.dropdown').on('mouseover',function () {
+    $($(this).find('.dropdown-menu')[0]).css('display','block')
+  }).on('mouseout',function () {
+    $($(this).find('.dropdown-menu')[0]).css('display','none')
+  })
 })

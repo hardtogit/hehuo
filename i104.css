@@ -3,7 +3,7 @@
   background-color: #fff;
 }
 .i104 .banner {
-  height: 480px;
+  height: 380px;
   background-image: url("./img/i104/banner.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -60,64 +60,43 @@
   margin: 40px auto;
 }
 .i104 .content .item {
-  padding: 0 50px 30px 50px;
-  background-color: #fff;
+  padding: 10px;
   position: relative;
   border: 1px solid #ddd;
   margin-bottom: 30px;
-  cursor: pointer;
-}
-.i104 .content .item:hover {
-  box-shadow: 4px 4px 4px #ddd;
-}
-.i104 .content .item .title {
-  text-align: left;
-}
-.i104 .content .item .date {
-  width: 164px;
-  height: 58px;
-  position: absolute;
-  left: -10px;
-  top: 20px;
-  background-color: #84C759;
-  font-size: 30px;
-  color: #fff;
-  font-weight: bold;
-  text-align: center;
-  line-height: 58px;
-}
-.i104 .content .item .header {
-  height: 110px;
-}
-.i104 .content .item .header .more {
-  width: 40px;
-  height: 40px;
-  float: right;
-  margin-top: 36px;
+  width: 1178px;
+  background: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .i104 .content .item .body .left {
+  width: 468px;
   float: left;
-  width: 730px;
 }
-.i104 .content .item .body .left .title {
-  font-size: 30px;
-  color: #666666;
-  font-weight: bold;
-}
-.i104 .content .item .body .left .text {
-  font-size: 16px;
-  margin-top: 48px;
-  line-height: 32px;
-  height: 126px;
-  overflow-y: hidden;
+.i104 .content .item .body .left img {
+  display: block;
+  width: 440px;
+  height: 332px;
 }
 .i104 .content .item .body .right {
   float: left;
-  margin-left: 40px;
+  width: 656px;
 }
-.i104 .content .item .body .right img {
-  width: 280px;
-  height: 216px;
+.i104 .content .item .body .right .title {
+  font-size: 30px;
+  color: #666666;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.i104 .content .item .body .right .text {
+  font-size: 16px;
+  color: #666;
+  margin-top: 48px;
+  line-height: 32px;
+  text-indent: 2em;
+  height: 126px;
+  overflow-y: hidden;
 }
 .i104 .content .detail {
   padding-bottom: 60px;
