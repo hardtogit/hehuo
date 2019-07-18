@@ -25,6 +25,9 @@
   background-color: #85C759;
   color: #fff !important;
 }
+.section-title {
+  border: none!important;
+}
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
