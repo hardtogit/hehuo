@@ -45,6 +45,18 @@
     <script src="i104.js"></script>
     <script src="i105.js"></script>
     <script src="i106.js"></script>
+    <script type="text/javascript">
+      if($(window).width()<=768){
+        var htmlDc=document.getElementsByTagName('html')[0];
+        setRootSize=function () {
+          var clientWidth=document.documentElement.clientWidth||document.body.clientWidth;
+          var clientHeight=document.documentElement.clientHeight||document.body.clientHeight;
+          htmlDc.style.fontSize=clientWidth/3.75+'px';
+          htmlDc.style.minHeight=clientHeight+'px';
+        };
+        setRootSize();
+      }
+    </script>
   </head>
 
   <body ng-app="iweb">

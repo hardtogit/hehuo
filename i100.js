@@ -41,10 +41,13 @@ iweb.controller('i100', function($scope,$routeParams) {
           });
         },0)
         })
-
       // })
-
     }
+  AOS.init({
+    duration: 1200,
+    offset:0
+    // debounceDelay:10000
+  });
   function debounce(fn,wait){
     var timer = null;
     return function(){
