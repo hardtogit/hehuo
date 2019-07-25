@@ -41,7 +41,40 @@ iweb.controller('i100', function($scope,$routeParams) {
           });
         },0)
         })
+      var mySwiper = new Swiper('.swiper-container', {
+        slidesPerView: 8,
+        spaceBetween: 5,
+        freeMode:true,
+        // autoplay:true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+      $scope.slideNext=function(){
+        mySwiper.slideNext()
+      }
+      $scope.slidePrev=function(){
+        mySwiper.slidePrev()
+      }
       // })
+    }else{
+      var mySwiper = new Swiper('.swiper-container', {
+        slidesPerView: 4,
+        spaceBetween: 5,
+        freeMode:true,
+        // autoplay:true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+      $scope.slideNext=function(){
+        mySwiper.slideNext()
+      }
+      $scope.slidePrev=function(){
+        mySwiper.slidePrev()
+      }
     }
   AOS.init({
     duration: 1200,
@@ -73,22 +106,7 @@ iweb.controller('i100', function($scope,$routeParams) {
       height:300
     });
 
-    var mySwiper = new Swiper('.swiper-container', {
-        slidesPerView: 8,
-        spaceBetween: 5,
-        freeMode:true,
-      // autoplay:true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
-  $scope.slideNext=function(){
-    mySwiper.slideNext()
-  }
-  $scope.slidePrev=function(){
-    mySwiper.slidePrev()
-  }
+
 
 
 

@@ -436,8 +436,15 @@
       }
     }
     .comply{
-      background-image: url("./img/i100/map/bg.png");
+      .container{
+        padding: 0;
+        background-color: #e5e5e5;
+      }
       background-size: 100% 100%;
+      .bg-container{
+        padding: .1rem 0;
+        background-image: url("./img/i100/map/bg.png");
+      }
       .mapContainer{
         width: 2.45rem;
         margin: 0 auto;
@@ -445,61 +452,43 @@
         position: relative;
         .city{
           position: absolute;
-          width: 30px;
-          height: 44px;
+          width: 0.075rem;
+          height: 0.12rem;
           &.bj{
-            left: 520px;
-            top:226px;
-            background-image: url("./img/i100/map/bj.png");
+            left: 1.6rem;
+            top:.7rem;
+            background-image: url("./img/i100/map/bjH.png");
             background-size: 100% 100%;
-            &:hover{
-              background-image: url("./img/i100/map/bjH.png");
-            }
           }
           &.sc{
-            left: 358px;
-            top:370px;
-            background-image: url("./img/i100/map/sc.png");
+            left: 1.11rem;
+            top:1.16rem;
+            background-image: url("./img/i100/map/scH.png");
             background-size: 100% 100%;
-            &:hover{
-              background-image: url("./img/i100/map/scH.png");
-            }
           }
           &.cq{
-            left: 400px;
-            top:399px;
-            background-image: url("./img/i100/map/cq.png");
+            left: 1.25rem;
+            top:1.25rem;
+            background-image: url("./img/i100/map/cqH.png");
             background-size: 100% 100%;
-            &:hover{
-              background-image: url("./img/i100/map/cqH.png");
-            }
           }
           &.js{
-            left: 586px;
-            top:358px;
-            background-image: url("./img/i100/map/js.png");
+            left: 1.83rem;
+            top:1.13rem;
+            background-image: url("./img/i100/map/jsH.png");
             background-size: 100% 100%;
-            &:hover{
-              background-image: url("./img/i100/map/jsH.png");
-            }
           }
           &.fj{
-            left: 565px;
-            top:452px;
-            background-image: url("./img/i100/map/fj.png");
+            left: 1.77rem;
+            top:1.42rem;
+            background-image: url("./img/i100/map/fjH.png");
             background-size: 100% 100%;
-            &:hover{
-              background-image: url("./img/i100/map/fjH.png");
-            }
           }
           &.ah{
-            left: 532px;
-            top:352px;
-            background-image: url("./img/i100/map/ah.png");
+            left: 1.66rem;
+            top:1.11rem;
+            background-image: url("./img/i100/map/ahH.png");
             background-size: 100% 100%;
-            &:hover{
-              background-image: url("./img/i100/map/ahH.png");
-            }
           }
         }
         .map{
@@ -508,31 +497,34 @@
         }
       }
       .mapTextLeft{
-        width: 780px;
+        width: 1.89rem;
         display: block;
-        margin-left: 200px;
+        margin-left: .5rem;
+        margin-top: .225rem;
         position: relative;
-        top:-40px
       }
       .mapSubTextLeft{
-        width: 352px;
+        width: 2rem;
         float: left;
-        margin-left: 200px;
+        margin-left: .5rem;
+        margin-top: .15rem;
       }
       .mapTextRight{
-        width: 295px;
-        margin-left: 140px;
+        width: 1.7rem;
+        margin-left: .5rem;
+        margin-top: .15rem;
       }
     }
   }
   .firend{
+    padding-bottom: .37rem;
     background-color: #E5E5E5;
     .section-title{
-      width: 712px;
+      width: 2.5rem;
       display: block;
       height: auto;
       //height: 160px;
-      margin: 0 auto;
+      margin: .45rem auto 0 auto;
       padding: 0 0 30px 0;
     }
     .subTitle{
@@ -547,7 +539,7 @@
       margin: 10px auto 0 auto;
     }
     .swiper-container{
-      height: 80px;
+      height: .4rem;
       img{
         height: 100%;
         width: 100%;
@@ -555,7 +547,8 @@
     }
     .items{
       img{
-        width: 310px;
+        width: 1.56rem;
+        height: .96rem;
         //margin-bottom: 30px;
         display: block;
         cursor: pointer;
@@ -567,17 +560,19 @@
     }
     .subTitle{
       display: block;
-      width: 340px;
-      margin:20px auto 40px auto ;
+      width: 1.7rem;
+      margin:.2rem auto ;
     }
     .container-swiper{
       position: relative;
+      width: 2.90rem;
+      margin: 0 auto;
       .siderLeft{
         position: absolute;
-        width: 28px;
-        height: 35px;
-        left: -28px;
-        top:25px;
+        width: .15rem;
+        height: .19rem;
+        left: -.16rem;
+        top:.12rem;
         cursor: pointer;
         background-image: url("./img/siderLeft.png");
         background-size: 100% 100%;
@@ -587,10 +582,10 @@
       }
       .siderRight{
         position: absolute;
-        width: 28px;
-        height: 35px;
-        right: -28px;
-        top:25px;
+        width: .15rem;
+        height: .19rem;
+        right: -.16rem;
+        top:.12rem;
         cursor: pointer;
         background-image: url("./img/siderRight.png");
         background-size: 100% 100%;
@@ -605,10 +600,10 @@
   .news{
     background-color: #f6f6f6;
     .section-title{
-      width: 195px;
+      width: .98rem;
       padding-top: 0;
       display: block;
-      margin: 0 auto;
+      margin: .4rem auto 0 auto;
     }
     .title{
       position: relative;
@@ -633,7 +628,7 @@
 
     .newsItems{
       .new{
-        height: 272px;
+        height: 2.35rem;
         margin-bottom: 15px;
         background-color: #fff;
         cursor: pointer;
@@ -644,14 +639,14 @@
         .left{
           float: left;
           img{
-            height: 272px;
-            width: 272px;
+            height: 1.36rem;
+            width: 1.39rem;
           }
         }
         .center{
-          width: 70px;
+          width: .35rem;
           float: left;
-          height: 272px;
+          height: 1.36rem;
           .date{
             text-align: center;
             padding-top: 30px;
@@ -670,17 +665,17 @@
         }
         .right{
           float: left;
-          width: 213px;
+          width: 1.39rem;
           .title{
-            font-size: 16px;
+            font-size: .08rem;
             color: #222;
             font-weight: bold;
             padding: 20px 20px 0px 10px;
           }
           .text{
             color: #777;
-            font-size: 12px;
-            line-height: 22px;
+            font-size: .06rem;
+            line-height: .11rem;
             height: 100px;
             overflow: hidden;
             padding: 10px;
