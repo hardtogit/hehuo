@@ -15,9 +15,11 @@
 .anchorBL {
   display: none;
 }
-* {
+body {
   font-family: 'FZLTHJW';
   text-align: justify;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: inherit;
 }
 .nav .open > a,
 .nav .open > a:focus,
