@@ -257,6 +257,7 @@
     width: 70px;
     float: left;
     height: 272px;
+    text-align: center;
   }
   .news .newsItems .new .center .date {
     text-align: center;
@@ -264,12 +265,15 @@
   }
   .news .newsItems .new .center .date .day {
     font-size: 32px;
+    text-align: center;
     color: #89D05C;
     font-weight: bold;
   }
   .news .newsItems .new .center .date .month {
     font-size: 12px;
     position: relative;
+    text-align: center;
+    margin-top: 2px;
     top: -10px;
     color: #222;
   }
