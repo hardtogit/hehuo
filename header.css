@@ -59,54 +59,10 @@
     line-height: 36px!important;
   }
 }
-@media screen and (max-width: 1200px) {
-  .menu-nev_line {
-    width: 100%;
-    height: 5px;
-    background: #0A669F;
-    margin: 0 auto;
-  }
-  .headerNav .navbar {
-    height: 60px;
-    margin-bottom: 0;
-  }
-  .headerNav .navbar .navbar-brand {
-    padding: 6px;
-  }
-  .headerNav .navbar .navbar-brand img {
-    width: 160px;
-    margin-left: 9%;
-  }
-  .headerNav .navbar .container-fluid {
-    height: 100%;
-  }
-  .headerNav .navbar .container-fluid .navbar-collapse {
-    height: 100%;
-    float: none;
-  }
-  .headerNav .navbar .container-fluid .navbar-collapse .navbar-nav {
-    height: 60px;
-  }
-  .headerNav .navbar .container-fluid .navbar-collapse .navbar-nav li {
-    height: 100%;
-    line-height: 60px;
-    text-align: center;
-    font-size: 16px;
-    width: 80px;
-  }
-  .headerNav .navbar .container-fluid .navbar-collapse .navbar-nav li a {
-    line-height: 55px;
-    padding: 0;
-    display: block;
-    color: #1A8A2F;
-    box-sizing: border-box;
-  }
-  .headerNav .navbar .container-fluid .navbar-collapse .navbar-nav li a:hover {
-    border-bottom: 5px solid #1A8A2F;
-    background-color: #fff;
-  }
-}
 @media screen and (max-width: 768px) {
+  .headerNav .container {
+    padding: 0;
+  }
   .headerNav .navbar {
     margin-bottom: 0;
   }
@@ -142,9 +98,22 @@
     color: #1A8A2F;
     box-sizing: border-box;
   }
-  .headerNav .navbar .container-fluid .navbar-collapse .navbar-nav li a:hover {
-    border-bottom: 5px solid #1A8A2F;
-    background-color: #fff;
+  .headerNav .navbar .container-fluid .navbar-collapse .navbar-nav li a.active {
+    border-bottom: 4px solid #85C759;
+  }
+  .headerNav .arrow-menu {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 0;
+    background-image: url("./img/down.png");
+    background-size: 18px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .headerNav .arrow-menu.up {
+    background-image: url("./img/up.png");
   }
 }
 /*# sourceMappingURL=header.css.map */

@@ -369,6 +369,8 @@
     font-size: 16px;
   }
   .i100 .told {
+    padding-top: 0.2rem;
+    padding-bottom: 0.1rem;
     background-color: #E5E5E5;
   }
   .i100 .told .title {
@@ -379,9 +381,6 @@
   .i100 .told .title img {
     display: block;
     width: 100%!important;
-  }
-  .i100 .swiper-banner-container {
-    padding-top: 100px;
   }
   .i100 .swiper-banner-container .swiper-slide img {
     width: 100%;
@@ -428,6 +427,7 @@
   .i100 .comply .bg-container {
     padding: 0.1rem 0;
     background-image: url("./img/i100/map/bg.png");
+    background-size: 100% 100%;
   }
   .i100 .comply .mapContainer {
     width: 2.45rem;
@@ -527,6 +527,10 @@
     height: 100%;
     width: 100%;
   }
+  .firend .items .col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .firend .items img {
     width: 1.56rem;
     height: 0.96rem;
@@ -576,11 +580,14 @@
   .news {
     background-color: #f6f6f6;
   }
+  .news .container {
+    padding: 0 0.15rem;
+  }
   .news .section-title {
     width: 0.98rem;
     padding-top: 0;
     display: block;
-    margin: 0.4rem auto 0 auto;
+    margin: 0.2rem auto 0 auto;
   }
   .news .title {
     position: relative;
@@ -602,22 +609,48 @@
     border: 2px solid #18922F;
     color: #18922F;
   }
+  .news .more-m {
+    border: 0.01rem solid #18922F;
+    border-radius: 4px;
+    font-size: 0.12rem;
+    width: 0.64rem;
+    height: 0.22rem;
+    line-height: 0.22rem;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto 0.15rem auto;
+  }
+  .news .more-m:hover {
+    border: 0.01rem solid #18922F;
+    color: #18922F;
+  }
+  .news .newsItems {
+    margin-top: 0.2rem;
+  }
+  .news .newsItems .col-lg-6 {
+    padding: 0;
+  }
   .news .newsItems .new {
-    height: 2.35rem;
+    height: 1.36rem;
     margin-bottom: 15px;
     background-color: #fff;
     cursor: pointer;
-    border: 1px solid #ddd;
+    border: 0.01rem solid #ddd;
   }
   .news .newsItems .new:hover {
     box-shadow: 4px 4px 4px #ddd;
   }
   .news .newsItems .new .left {
     float: left;
+    width: 1.42rem;
+    height: 1.36rem;
+    overflow: hidden;
+    padding: 0 0.04rem 0 0;
   }
   .news .newsItems .new .left img {
-    height: 1.36rem;
-    width: 1.39rem;
+    display: block;
+    width: 1.38rem;
+    height: 100%;
   }
   .news .newsItems .new .center {
     width: 0.35rem;
@@ -626,44 +659,57 @@
   }
   .news .newsItems .new .center .date {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 0.15rem;
   }
   .news .newsItems .new .center .date .day {
-    font-size: 32px;
+    font-size: 0.16rem;
     color: #89D05C;
     font-weight: bold;
   }
   .news .newsItems .new .center .date .month {
-    font-size: 12px;
+    font-size: 0.08rem;
     position: relative;
-    top: -10px;
+    top: -0.02rem;
     color: #222;
   }
   .news .newsItems .new .right {
     float: left;
-    width: 1.39rem;
+    width: 1.64rem;
+    padding: 0 0.1rem 0 0.04rem;
+    height: 1.36rem;
   }
   .news .newsItems .new .right .title {
     font-size: 0.08rem;
     color: #222;
     font-weight: bold;
-    padding: 20px 20px 0px 10px;
+    padding: 0.1rem 0 0px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
   .news .newsItems .new .right .text {
+    margin-top: 0.06rem;
     color: #777;
     font-size: 0.06rem;
     line-height: 0.11rem;
-    height: 100px;
     overflow: hidden;
-    padding: 10px;
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
   }
   .news .newsItems .new .right img {
-    width: 134px;
+    width: 0.62rem;
     cursor: pointer;
-    margin: 10px 0 0 10px;
+    margin: 0.1rem 0 0 0.1rem;
   }
   .news .newsItems .new.sub .left {
     float: right;
+    padding: 0 0 0 0.04rem;
   }
   .news .newsItems .new.sub .center {
     float: right;
@@ -676,20 +722,21 @@
     background-size: 100% 100%;
   }
   .join .container {
-    padding: 0 140px;
+    padding: 0.16rem 0.13rem;
   }
   .join .a {
     display: block;
-    margin-bottom: 50px;
-    width: 234px;
+    margin-bottom: 0.25rem;
+    width: 1.17rem;
   }
   .join .b {
     display: inline-block;
-    margin-bottom: 60px;
+    width: 3.22rem;
+    margin-bottom: 0.25rem;
   }
   .join .c {
     display: inline-block;
-    margin-bottom: 60px;
+    margin-bottom: 0.25rem;
     float: right;
   }
   .join .d {
@@ -702,6 +749,7 @@
   }
   .join .f {
     display: block;
+    width: 3rem;
   }
   .qrcode {
     background-color: #f6f6f6;
@@ -710,10 +758,14 @@
     text-align: center;
   }
   .qrcode .code {
-    width: 320px;
-    height: 320px;
+    width: 1.2rem;
+    height: 1.2rem;
     display: inline-block;
-    margin: 0 40px;
+    margin: 0.24rem auto 0 auto;
+  }
+  .qrcode .text-center {
+    font-size: 0.12rem !important;
+    margin-top: 0.1rem !important;
   }
 }
 .i100 .phone {

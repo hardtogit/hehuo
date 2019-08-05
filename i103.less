@@ -1,14 +1,15 @@
-.i103{
-  padding-top: 100px;
-    .banner{
-      height:420px;
+@media screen and (min-width: 1200px) {
+  .i103 {
+    padding-top: 100px;
+    .banner {
+      height: 420px;
       background-image: url("./img/i103/banner.png");
       background-size: 100% 100%;
-      .container{
+      .container {
         position: relative;
         overflow: visible;
         height: 100%;
-        .label{
+        .label {
           width: 260px;
           height: 225px;
           display: block;
@@ -19,115 +20,257 @@
         }
       }
     }
-  .two{
-    margin-top: 60px;
-    .item{
-      padding: 0 50px 30px 50px;
-      background-color: #fff;
-      position: relative;
-      margin-bottom: 30px;
-      border: 1px solid #ddd;
-      cursor: pointer;
-      &:hover{
-        box-shadow: 0 4px 4px #ddd;
-      }
-      .date{
-        width: 164px;
-        height: 58px;
-        position: absolute;
-        left: -10px;
-        top:20px;
-        background-color: #84C759;
-        font-size: 30px;
-        color: #fff;
-        font-weight: bold;
-        text-align: center;
-        line-height: 58px;
-      }
-      .header{
-        height: 110px;
-        .more{
-          width: 40px;
-          height: 40px;
-          float: right;
-          margin-top: 36px;
+    .two {
+      margin-top: 60px;
+      .item {
+        padding: 0 50px 30px 50px;
+        background-color: #fff;
+        position: relative;
+        margin-bottom: 30px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        &:hover {
+          box-shadow: 0 4px 4px #ddd;
+        }
+        .date {
+          width: 164px;
+          height: 58px;
+          position: absolute;
+          left: -10px;
+          top: 20px;
+          background-color: #84C759;
+          font-size: 30px;
+          color: #fff;
+          font-weight: bold;
+          text-align: center;
+          line-height: 58px;
+        }
+        .header {
+          height: 110px;
+          .more {
+            width: 40px;
+            height: 40px;
+            float: right;
+            margin-top: 36px;
+          }
+        }
+        .body {
+          .left {
+            float: left;
+            width: 730px;
+            .title {
+              font-size: 30px;
+              color: #666666;
+              font-weight: bold;
+            }
+            .text {
+              font-size: 16px;
+              margin-top: 48px;
+              line-height: 32px;
+              height: 126px;
+              overflow-y: hidden;
+            }
+
+          }
+          .right {
+            float: left;
+            margin-left: 40px;
+            img {
+              width: 280px;
+              height: 216px;
+            }
+
+          }
         }
       }
-      .body{
-        .left{
-          float: left;
-          width: 730px;
-          .title{
-            font-size: 30px;
-            color: #666666;
+
+      .detail {
+        padding: 0 49px 60px 48px;
+        .title {
+          font-size: 24px;
+          border-bottom: 2px dashed #ddd;
+          padding-bottom: 40px;
+          color: #6FBA2C;
+          text-align: left;
+          position: relative;
+          .closed {
+            position: absolute;
+            width: 80px;
+            cursor: pointer;
+            height: 80px;
+            right: 0;
+            top: 0
+          }
+          .time {
+            font-size: 12px;
+            color: #999;
+            margin-top: 26px;
+          }
+        }
+        .text {
+          margin-top: 40px;
+          font-size: 16px;
+          line-height: 32px;
+          color: #666;
+          .subTitle {
+            font-size: 24px;
             font-weight: bold;
+            margin-bottom: 20px;
           }
-          .text{
-            font-size: 16px;
-            margin-top: 48px;
-            line-height: 32px;
-            height: 126px;
-            overflow-y: hidden;
-          }
-
-
         }
-        .right{
-          float: left;
-          margin-left: 40px;
-          img{
-            width:280px;
-            height: 216px;
-          }
-
+        .textTitle {
+          text-align: center;
+          margin-top: 40px;
+          font-size: 60px;
+          font-weight: bold;
+        }
+        .img {
+          display: block;
+          width: 100%;
+          margin-top: 40px;
         }
       }
     }
-
-    .detail{
-      padding:0 49px 60px 48px;
-      .title{
-        font-size: 24px;
-        border-bottom: 2px dashed #ddd;
-        padding-bottom: 40px;
-        color: #6FBA2C;
-        text-align: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .i103 {
+    padding-top: 56px;
+    .banner {
+      height:1.05rem;
+      background-image: url("./img/i103/banner.png");
+      background-size: 100% 100%;
+      .container {
         position: relative;
-        .closed{
+        overflow: visible;
+        height: 100%;
+        .label {
+          width: 1.3rem;
+          height: 1.12rem;
+          display: block;
+          left: .1rem;
           position: absolute;
-          width: 80px;
-          cursor: pointer;
-          height: 80px;
-          right: 0;
-          top:0
-        }
-        .time{
-          font-size: 12px;
-          color: #999;
-          margin-top: 26px;
+          padding: 0;
+          bottom: -.18rem;
         }
       }
-      .text{
-        margin-top: 40px;
-        font-size: 16px;
-        line-height: 32px;
-        color: #666;
-        .subTitle{
-          font-size: 24px;
+    }
+    .two {
+      margin-top: 60px;
+      .item {
+        padding: 0 .15rem .15rem .15rem;
+        background-color: #fff;
+        position: relative;
+        margin-bottom: 30px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        &:hover {
+          box-shadow: 0 4px 4px #ddd;
+        }
+        .date {
+          width: .82rem;
+          height: .29rem;
+          position: absolute;
+          left: -.05rem;
+          top: .1rem;
+          background-color: #84C759;
+          font-size: .15rem;
+          color: #fff;
           font-weight: bold;
-          margin-bottom: 20px;
+          text-align: center;
+          line-height: .29rem;
+        }
+        .header {
+          height: .55rem;
+          .more {
+            width: .2rem;
+            height: .2rem;
+            float: right;
+            margin-top: .18rem;
+          }
+        }
+        .body {
+          .left {
+            //float: left;
+            width: 100%;
+            .title {
+              font-size: .15rem;
+              color: #666666;
+              font-weight: bold;
+            }
+            .text {
+              font-size: .008rem;
+              margin-top: .10rem;
+              line-height: .2rem;
+              overflow: hidden;
+              display: -webkit-box;
+              word-break: break-all;
+              text-overflow: ellipsis;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp:5;
+            }
+
+          }
+          .right {
+            margin-top: .1rem;
+            img {
+              width: 100%;
+            }
+
+          }
         }
       }
-      .textTitle{
-        text-align: center;
-        margin-top: 40px;
-        font-size: 60px;
-        font-weight: bold;
-      }
-      .img{
-        display: block;
-        width: 100%;
-        margin-top: 40px;
+
+      .detail {
+        padding: 0 0 .2rem 0;
+        .title {
+          font-size: .12rem;
+          border-bottom: .01rem dashed #ddd;
+          padding-bottom: .2rem;
+          color: #6FBA2C;
+          text-align: left;
+          position: relative;
+          padding-right:.5rem;
+
+          .closed {
+            position: absolute;
+            width: .4rem!important;
+            cursor: pointer;
+            height: .4rem;
+            right: 0;
+            top: 0
+          }
+          .time {
+            font-size: .08rem;
+            color: #999;
+            margin-top: .13rem;
+          }
+        }
+        .text {
+          margin-top: .2rem;
+          font-size: .08rem;
+          line-height: .2rem;
+          color: #666;
+          .subTitle {
+            font-size: .12rem;
+            font-weight: bold;
+            margin-bottom: .1rem;
+          }
+        }
+        .textTitle {
+          text-align: center;
+          margin-top: .2rem;
+          font-size: .3rem;
+          font-weight: bold;
+        }
+        img{
+          width: 100%!important;
+        }
+        .img {
+          display: block;
+          width: 100%;
+          margin-top: .2rem;
+        }
       }
     }
   }

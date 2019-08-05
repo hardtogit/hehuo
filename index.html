@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="./css/aos-animation.css">
-    <link rel="stylesheet" href="./css/aos.css">
+    <!--<link rel="stylesheet" href="./css/aos-animation.css">-->
+    <!--<link rel="stylesheet" href="./css/aos.css">-->
     <link rel="stylesheet" href="./css/fullpage.min.css">
     <link rel="stylesheet" href="./css/swiper.min.css">
     <script src="angular.min.js"></script>
@@ -46,6 +46,25 @@
     <script src="i105.js"></script>
     <script src="i106.js"></script>
     <script type="text/javascript">
+      var Head = document.getElementsByTagName('head')[0],style = document.createElement('style');
+      function linkScript(parm, fn) {
+             var linkScript;
+            if(/\.css[^\.]*$/.test(parm)) {
+                   linkScript = document.createElement("link");
+                   linkScript.type = "text/" + ("css");
+                   linkScript.rel = "stylesheet";
+                   linkScript.href = parm;
+               } else {
+                   linkScript = document.createElement("script");
+                   linkScript.type = "text/" + ("javascript");
+                   linkScript.src = parm;
+               }
+             Head.insertBefore(linkScript, Head.lastChild)
+             linkScript.onload = linkScript.onerror = function() {
+                   if(fn) fn()
+               }
+         }
+
       if($(window).width()<=768){
         var htmlDc=document.getElementsByTagName('html')[0];
         setRootSize=function () {
@@ -55,6 +74,9 @@
           htmlDc.style.minHeight=clientHeight+'px';
         };
         setRootSize();
+      }else{
+        linkScript('./css/aos-animation.css')
+        linkScript('./css/aos.css')
       }
     </script>
   </head>

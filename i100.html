@@ -2,7 +2,7 @@
   <img  class="hidden-xs hidden-sm phone" data-aos="fade-left" src="./img/phone.png" alt="">
   <div ng-include="'header.html'"></div>
   <div id="fullpage">
-    <div class="section hidden-xs">
+    <div class="section ">
       <div  class="swiper-banner-container">
         <div class="swiper-wrapper" >
           <div class="swiper-slide"><img  src="./img/i100/banner1.png" alt=""></div>
@@ -11,6 +11,15 @@
         </div>
       </div>
     </div>
+    <!--<div class="section visible-xs">-->
+      <!--<div  class="swiper-banner-container">-->
+        <!--<div class="swiper-wrapper" >-->
+          <!--<div class="swiper-slide"><img  src="./img/i100/banner1.png" alt=""></div>-->
+          <!--<div class="swiper-slide"><img src="./img/i100/banner2.png" alt=""></div>-->
+          <!--<div class="swiper-slide"><img  src="./img/i100/banner3.png" alt=""></div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
     <div class="section told">
       <div class="container">
         <div class="title" data-aos="fade-down">
@@ -140,7 +149,7 @@
       <div class="container">
         <div class="title">
           <img class="section-title" data-aos="fade-down" src="./img/i100/news/title.png" alt="">
-          <div class="more" onclick="goto_view('i103')">
+          <div class="more hidden-xs" onclick="goto_view('i103')">
             更多新闻
           </div>
         </div>
@@ -242,6 +251,9 @@
 
             </div>
         </div>
+        <div class="more-m visible-xs" onclick="goto_view('i103')">
+          更多新闻
+        </div>
           </div>
         </div>
     <div class="section join">
@@ -264,8 +276,8 @@
         <img class="code"  src="./img/qrCode.png" alt="">
         <p class="text-center"  style="color: #666;font-size: 24px;margin-top: 25px">永辉彩食鲜服务号</p>
       </div>
-
     </div>
-    <div ng-include="'footer.html'"></div>
+    <div  ng-if="device==='pc'" ng-include="'footer.html'"></div>
   </div>
 </div>
+<div  ng-if="device==='mobile'" ng-include="'baseFooter.html'"></div>

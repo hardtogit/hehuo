@@ -2,10 +2,10 @@
   <div class="logo">
     <img width="" src="./img/footerImg.png" alt="">
   </div>
-  <div ng-show="showBack" class="backTop" ng-click="scrollToTop()">
+  <div ng-show="showBack" class="backTop hidden-xs" ng-click="scrollToTop()">
 
   </div>
-  <div class="text-center" style="font-size: 12px;height: 100px;line-height: 100px;background-color: #fff">
+  <div class="text-center bottom" >
     永辉彩食鲜发展有限公司　闽ICP备19014477号
   </div>
 
@@ -20,28 +20,71 @@
     /*transition: 1000ms;*/
     /*bottom: 0;*/
   /*}*/
-  .footer .backTop{
-    position: fixed;
-    z-index: 100;
-    width: 70px;
-    cursor: pointer;
-    height: 56px;
-    right:100px ;
-    bottom: 120px;
-    background-image: url("./img/backTop.png");
-    background-size: 100% 100%;
+  @media screen and (min-width: 1200px) {
+    .footer .backTop {
+      position: fixed;
+      z-index: 100;
+      width: 70px;
+      cursor: pointer;
+      height: 56px;
+      right: 100px;
+      bottom: 120px;
+      background-image: url("./img/backTop.png");
+      background-size: 100% 100%;
+    }
+
+    .footer .backTop:hover {
+      background-image: url("./img/backTopH.png");
+    }
+
+    .footer .logo {
+      height: 100px;
+      background-color: #000;
+    }
+
+    .footer img {
+      width: 441px;
+      float: right;
+      margin-right: 70px;
+      margin-top: 20px;
+    }
+    .bottom{
+      font-size: 12px;
+      height: 100px;
+      line-height: 100px;
+      background-color: #fff
+    }
   }
-  .footer .backTop:hover{
-    background-image: url("./img/backTopH.png");
-  }
-  .footer .logo{
-    height: 100px;
-    background-color: #000;
-  }
-  .footer img{
-    width: 441px;
-    float: right;
-    margin-right: 70px;
-    margin-top: 20px;
+  @media screen and (max-width: 768px) {
+    .footer .backTop{
+      position: fixed;
+      z-index: 100;
+      width: 70px;
+      cursor: pointer;
+      height: 56px;
+      right:100px ;
+      bottom: 120px;
+      background-image: url("./img/backTop.png");
+      background-size: 100% 100%;
+    }
+    .footer .backTop:hover{
+      background-image: url("./img/backTopH.png");
+    }
+    .footer .logo{
+      height: .5rem;
+      padding: .12rem;
+      background-color: #000;
+    }
+    .footer img{
+      width: 2.20rem;
+      display: block;
+      margin: 0 auto;
+    }
+    .bottom{
+      font-size: .08rem;
+      height: .5rem;
+      line-height: .5rem;
+      background-color: #fff
+    }
   }
 </style>

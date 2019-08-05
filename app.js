@@ -287,6 +287,11 @@ iweb.run(['$rootScope', function ($rootScope) {
             }
         }
     });
+  if($(window).width()>993) {
+    $rootScope.device='pc'
+  }else{
+    $rootScope.device='mobile'
+  }
 
     rootScope = $rootScope;
     // apiconn.connect();

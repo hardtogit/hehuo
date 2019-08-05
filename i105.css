@@ -1,93 +1,195 @@
-.i105 {
-  padding-top: 100px;
-  background-color: #fff;
+@media screen and (min-width: 1200px) {
+  .i105 {
+    padding-top: 100px;
+    background-color: #fff;
+  }
+  .i105 .banner {
+    height: 420px;
+    background-image: url("./img/i05/banner.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .i105 .know .container {
+    background-color: #fff;
+    padding: 0 140px;
+    position: relative;
+    top: -140px;
+    box-shadow: 0 4px 4px #ddd;
+  }
+  .i105 .know .container .line {
+    margin-top: 40px;
+  }
+  .i105 .know .container .title {
+    font-size: 43px;
+    margin-top: 70px;
+    color: #198A2E;
+  }
+  .i105 .know .container .title small {
+    color: #999;
+    font-size: 16px;
+  }
+  .i105 .know .container .subTitle {
+    font-size: 16px;
+    margin-top: 50px;
+    color: #666;
+  }
+  .i105 .know .container ul {
+    list-style: none;
+    padding-bottom: 30px;
+    color: #666;
+    font-size: 16px;
+    padding-left: 0;
+  }
+  .i105 .know .container ul .line {
+    height: 2px;
+    width: 100%;
+    background-color: #999;
+  }
+  .i105 .know .container ul li {
+    margin-top: 28px;
+  }
+  .i105 .two .title {
+    width: 750px;
+    display: block;
+    margin: 0 auto;
+  }
+  .i105 .two .items {
+    text-align: center;
+    margin-top: 80px;
+    height: 300px;
+  }
+  .i105 .two .items .item {
+    width: 128px;
+    height: 162px;
+    display: inline-block;
+    position: relative;
+  }
+  .i105 .two .items .item.two {
+    top: 12px;
+  }
+  .i105 .two .items .item.three {
+    top: 36px;
+  }
+  .i105 .two .items .item.four {
+    top: 86px;
+  }
+  .i105 .two .items .item.five {
+    top: 152px;
+  }
+  .i105 .two .phone {
+    display: block;
+    width: 630px;
+    margin: 120px auto;
+  }
+  .i105 .mapContainer {
+    height: 580px;
+    border: 4px solid #85C759;
+    padding: 16px 20px;
+    margin-bottom: 60px;
+  }
+  .i105 .map {
+    width: 100%;
+    height: 100%;
+  }
 }
-.i105 .banner {
-  height: 420px;
-  background-image: url("./img/i05/banner.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-.i105 .know .container {
-  background-color: #fff;
-  padding: 0 140px;
-  position: relative;
-  top: -140px;
-  box-shadow: 0 4px 4px #ddd;
-}
-.i105 .know .container .line {
-  margin-top: 40px;
-}
-.i105 .know .container .title {
-  font-size: 43px;
-  margin-top: 70px;
-  color: #198A2E;
-}
-.i105 .know .container .title small {
-  color: #999;
-  font-size: 16px;
-}
-.i105 .know .container .subTitle {
-  font-size: 16px;
-  margin-top: 50px;
-  color: #666;
-}
-.i105 .know .container ul {
-  list-style: none;
-  padding-bottom: 30px;
-  color: #666;
-  font-size: 16px;
-  padding-left: 0;
-}
-.i105 .know .container ul .line {
-  height: 2px;
-  width: 100%;
-  background-color: #999;
-}
-.i105 .know .container ul li {
-  margin-top: 28px;
-}
-.i105 .two .title {
-  width: 750px;
-  display: block;
-  margin: 0 auto;
-}
-.i105 .two .items {
-  text-align: center;
-  margin-top: 80px;
-  height: 300px;
-}
-.i105 .two .items .item {
-  width: 128px;
-  height: 162px;
-  display: inline-block;
-  position: relative;
-}
-.i105 .two .items .item.two {
-  top: 12px;
-}
-.i105 .two .items .item.three {
-  top: 36px;
-}
-.i105 .two .items .item.four {
-  top: 86px;
-}
-.i105 .two .items .item.five {
-  top: 152px;
-}
-.i105 .two .phone {
-  display: block;
-  width: 630px;
-  margin: 120px auto;
-}
-.i105 .mapContainer {
-  height: 580px;
-  border: 4px solid #85C759;
-  padding: 16px 20px;
-  margin-bottom: 60px;
-}
-.i105 .map {
-  width: 100%;
-  height: 100%;
+@media screen and (max-width: 768px) {
+  .i105 {
+    padding-top: 56px;
+    background-color: #fff;
+  }
+  .i105 .banner {
+    height: 1.05rem;
+    background-image: url("./img/i05/banner.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .i105 .know {
+    width: 3.56rem;
+    margin: 0 auto;
+  }
+  .i105 .know .container {
+    background-color: #fff;
+    padding: 0.15rem;
+    position: relative;
+    top: -0.3rem;
+    box-shadow: 0 4px 4px #ddd;
+  }
+  .i105 .know .container .line {
+    margin-top: 0.2rem;
+  }
+  .i105 .know .container .title {
+    font-size: 0.2rem;
+    color: #198A2E;
+  }
+  .i105 .know .container .title small {
+    color: #999;
+    font-size: 0.08rem;
+  }
+  .i105 .know .container .subTitle {
+    font-size: 0.08rem;
+    margin-top: 0.25rem;
+    color: #666;
+  }
+  .i105 .know .container ul {
+    list-style: none;
+    padding-bottom: 0.15rem;
+    color: #666;
+    font-size: 0.08rem;
+    padding-left: 0;
+  }
+  .i105 .know .container ul .line {
+    height: 2px;
+    width: 100%;
+    background-color: #999;
+  }
+  .i105 .know .container ul li {
+    margin-top: 0.14rem;
+  }
+  .i105 .two .title {
+    width: 3.25rem;
+    display: block;
+    margin: 0 auto;
+  }
+  .i105 .two .items {
+    text-align: center;
+    margin-top: 0.25rem;
+  }
+  .i105 .two .items .item {
+    width: 128px;
+    height: 162px;
+    display: inline-block;
+    position: relative;
+  }
+  .i105 .two .items .item.two {
+    top: 12px;
+  }
+  .i105 .two .items .item.three {
+    top: 36px;
+  }
+  .i105 .two .items .item.four {
+    top: 86px;
+  }
+  .i105 .two .items .item.five {
+    top: 152px;
+  }
+  .i105 .two .items img {
+    display: block;
+    width: 100%;
+  }
+  .i105 .two .phone {
+    display: block;
+    width: 3.15rem;
+    margin: 0.2rem auto;
+  }
+  .i105 .mapContainer {
+    height: 290px;
+    border: 2px solid #85C759;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .i105 .map {
+    width: 100%;
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=i105.css.map */

@@ -4,7 +4,16 @@ iweb.controller('i100', function($scope,$routeParams) {
 // $scope.$apply()
 
     if($(window).width()>993) {
-      console.log('sssssssss');
+      $('.swiper-banner-container img').css('height',$(window).height()-100+'px')
+      // setTimeout(function () {
+      var myBannerSwiper = new Swiper('.swiper-banner-container', {
+        // freeMode:true,
+        autoplay:true,
+        delay:5000,
+        setWrapperSize :true,
+        loop:true,
+        height:300
+      });
       $(function () {
         $('.section').css('height',$(window).height())
         setTimeout(function () {
@@ -75,12 +84,20 @@ iweb.controller('i100', function($scope,$routeParams) {
       $scope.slidePrev=function(){
         mySwiper.slidePrev()
       }
+      var myBannerSwiper = new Swiper('.swiper-banner-container', {
+        // freeMode:true,
+        autoplay:true,
+        delay:5000,
+        setWrapperSize :true,
+        loop:true,
+        height:300
+      });
     }
-  AOS.init({
-    duration: 1200,
-    offset:0
-    // debounceDelay:10000
-  });
+  // AOS.init({
+  //   duration: 1200,
+  //   offset:0
+  //   // debounceDelay:10000
+  // });
   function debounce(fn,wait){
     var timer = null;
     return function(){
@@ -90,21 +107,11 @@ iweb.controller('i100', function($scope,$routeParams) {
       },wait)
     }
   }
-    $(window).resize(
-      debounce(function () {
-        window.location.reload()
-      },600)
-)
-  $('.swiper-banner-container img').css('height',$(window).height()-100+'px')
-  // setTimeout(function () {
-    var myBannerSwiper = new Swiper('.swiper-banner-container', {
-      // freeMode:true,
-      autoplay:true,
-      delay:5000,
-      setWrapperSize :true,
-      loop:true,
-      height:300
-    });
+//     $(window).resize(
+//       debounce(function () {
+//         window.location.reload()
+//       },600)
+// )
 
 
 
