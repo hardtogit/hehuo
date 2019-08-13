@@ -10,7 +10,7 @@
     <meta http-equiv="Expires" content="0" />
     <title>永辉彩食鲜</title>
     <link rel="shortcut icon" href="./img/icon.ico">
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bootstrap/less/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="common.css">
@@ -64,16 +64,21 @@
                    if(fn) fn()
                }
          }
-
+      var htmlDc=document.getElementsByTagName('html')[0];
+      setRootSize=function () {
+        if($(window).width()<=992) {
+          var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+          var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+          htmlDc.style.fontSize = clientWidth / 3.75 + 'px';
+          htmlDc.style.minHeight = clientHeight + 'px';
+        }
+      };
+      setRootSize();
+        $(window).resize(function () {
+          setRootSize();
+        })
       if($(window).width()<=768){
-        var htmlDc=document.getElementsByTagName('html')[0];
-        setRootSize=function () {
-          var clientWidth=document.documentElement.clientWidth||document.body.clientWidth;
-          var clientHeight=document.documentElement.clientHeight||document.body.clientHeight;
-          htmlDc.style.fontSize=clientWidth/3.75+'px';
-          htmlDc.style.minHeight=clientHeight+'px';
-        };
-        setRootSize();
+
       }else{
         linkScript('./css/aos-animation.css')
         linkScript('./css/aos.css')

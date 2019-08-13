@@ -40,7 +40,13 @@ body {
     padding: 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 992px) {
   font-family: normal;
 }
 /*# sourceMappingURL=common.css.map */

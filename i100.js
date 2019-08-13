@@ -5,6 +5,9 @@ iweb.controller('i100', function($scope,$routeParams) {
 
     if($(window).width()>993) {
       $('.swiper-banner-container img').css('height',$(window).height()-100+'px')
+      if($(window).width()<1200){
+        $('.swiper-banner-container img').css('height',$(window).height()-72+'px')
+      }
       // setTimeout(function () {
       var myBannerSwiper = new Swiper('.swiper-banner-container', {
         // freeMode:true,

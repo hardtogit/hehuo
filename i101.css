@@ -137,7 +137,146 @@
     margin: 90px 0 0 64px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .i101 {
+    padding-top: 74px;
+  }
+  .i101 .banner {
+    height: 336px;
+    background-image: url("./img/i101/banner.png");
+    background-size: 100% 100%;
+  }
+  .i101 .banner .container {
+    position: relative;
+    overflow: visible;
+    height: 100%;
+  }
+  .i101 .banner .container .label {
+    width: 208px;
+    height: 180px;
+    display: block;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    bottom: -28.8px;
+  }
+  .i101 .two {
+    padding-top: 54.4px;
+  }
+  .i101 .two .title {
+    width: 532px;
+    display: block;
+    margin: 0 auto;
+  }
+  .i101 .two .text {
+    margin-top: 32px;
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .i101 .two .text .item {
+    text-indent: 2em;
+  }
+  .i101 .three {
+    padding-top: 60px;
+  }
+  .i101 .three img {
+    width: 100%;
+    display: block;
+  }
+  .i101 .four {
+    margin-top: 40px;
+    padding-bottom: 64px;
+    background-color: #f6f6f6;
+  }
+  .i101 .four .title {
+    display: block;
+    margin: 104px auto 0 auto;
+    width: 196.8px;
+  }
+  .i101 .four .content {
+    margin-top: 56px;
+  }
+  .i101 .four .content .left {
+    width: 299.2px;
+    padding-top: 72px;
+    float: left;
+    margin-left: 60px;
+  }
+  .i101 .four .content .left img {
+    width: 100%;
+    height: 100%;
+  }
+  .i101 .four .content .right {
+    padding-left: 60px ;
+    float: left;
+  }
+  .i101 .four .content .right span {
+    font-size: 36px;
+    position: relative;
+    top: 6px;
+    margin-right: 20px;
+  }
+  .i101 .four .content .right li {
+    font-size: 20px;
+    color: #333;
+    line-height: 52px;
+  }
+  .i101 .five {
+    background-color: #fff;
+    padding: 120px 0 140px 0;
+  }
+  .i101 .five .title {
+    width: 704px;
+    display: block;
+    margin: 0 auto;
+  }
+  .i101 .five .detail {
+    width: 970px;
+    height: 464px;
+    display: block;
+    margin: 40px auto;
+  }
+  .i101 .six {
+    background-image: url("./img/i101/six1.png");
+    background-size: 100% 100%;
+    height: 432px;
+    color: #fff;
+  }
+  .i101 .six .text1 {
+    margin-top: 144px;
+    font-size: 33.6px;
+  }
+  .i101 .six .text2 {
+    margin-top: 24px;
+    font-size: 41.6px;
+    font-weight: bold;
+  }
+  .i101 .seven {
+    padding: 48px 0 72px 0;
+    background-color: #fff;
+  }
+  .i101 .seven .left {
+    float: left;
+  }
+  .i101 .seven .left .textImg {
+    width: 496px;
+    display: block;
+    margin-top: 30px;
+  }
+  .i101 .seven .left .textImg.flag {
+    width: 347px;
+  }
+  .i101 .seven .right {
+    float: left;
+  }
+  .i101 .seven .right img {
+    width: 610px;
+    height: 362px;
+    margin: 90px 0 0 64px;
+  }
+}
+@media screen and (max-width: 992px) {
   .i101 {
     padding-top: 56px;
   }
@@ -217,6 +356,7 @@
     font-size: 0.1rem;
     color: #333;
     line-height: 0.24rem;
+    display: flex;
   }
   .i101 .five {
     background-color: #fff;

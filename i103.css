@@ -128,7 +128,137 @@
     margin-top: 40px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .i103 {
+    padding-top: 74px;
+  }
+  .i103 .banner {
+    height: 336px;
+    background-image: url("./img/i103/banner.png");
+    background-size: 100% 100%;
+  }
+  .i103 .banner .container {
+    position: relative;
+    overflow: visible;
+    height: 100%;
+  }
+  .i103 .banner .container .label {
+    width: 208px;
+    height: 180px;
+    display: block;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    bottom: -28.8px;
+  }
+  .i103 .two {
+    margin-top: 48px;
+  }
+  .i103 .two .item {
+    padding: 0 40px 24px 40px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 24px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  .i103 .two .item:hover {
+    box-shadow: 0 4px 4px #ddd;
+  }
+  .i103 .two .item .date {
+    width: 131.2px;
+    height: 46.4px;
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    background-color: #84C759;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 46.4px;
+  }
+  .i103 .two .item .header {
+    height: 88px;
+  }
+  .i103 .two .item .header .more {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-top: 28.8px;
+  }
+  .i103 .two .item .body .left {
+    float: left;
+    width: 584px;
+  }
+  .i103 .two .item .body .left .title {
+    font-size: 30px;
+    color: #666666;
+    font-weight: bold;
+  }
+  .i103 .two .item .body .left .text {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 32px;
+    height: 126px;
+    overflow-y: hidden;
+  }
+  .i103 .two .item .body .right {
+    float: left;
+    margin-left: 40px;
+  }
+  .i103 .two .item .body .right img {
+    width: 224px;
+    height: 172.8px;
+  }
+  .i103 .two .detail {
+    padding: 0 49px 60px 48px;
+  }
+  .i103 .two .detail .title {
+    font-size: 24px;
+    border-bottom: 2px dashed #ddd;
+    padding-bottom: 40px;
+    color: #6FBA2C;
+    text-align: left;
+    position: relative;
+  }
+  .i103 .two .detail .title .closed {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+    height: 80px;
+    right: 0;
+    top: 0;
+  }
+  .i103 .two .detail .title .time {
+    font-size: 12px;
+    color: #999;
+    margin-top: 26px;
+  }
+  .i103 .two .detail .text {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666;
+  }
+  .i103 .two .detail .text .subTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .i103 .two .detail .textTitle {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .i103 .two .detail .img {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
   .i103 {
     padding-top: 56px;
   }

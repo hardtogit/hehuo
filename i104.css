@@ -129,7 +129,138 @@
     margin-top: 40px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .i104 {
+    padding-top: 74px;
+    background-color: #fff;
+  }
+  .i104 .banner {
+    height: 336px;
+    background-image: url("./img/i104/banner.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .i104 .tabs {
+    width: 970px;
+    margin: 0 auto;
+    position: relative;
+    top: -30.4px;
+  }
+  .i104 .tabs .tab {
+    width: 50%;
+    height: 60.8px;
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 60.8px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .i104 .tabs .tab.active {
+    background: #84C759;
+  }
+  .i104 .content {
+    margin-top: 16px;
+    text-align: center;
+  }
+  .i104 .content .icon {
+    width: 152px;
+    display: inline-block;
+    height: 200px;
+    cursor: pointer;
+  }
+  .i104 .content .icon img {
+    width: 100%;
+    height: 100%;
+  }
+  .i104 .content .title {
+    font-size: 33.6px;
+    color: #6FBA2C;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+  .i104 .content .subText {
+    color: #7F8080;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .i104 .content .bottomImg {
+    width: 100%;
+    margin: 40px auto;
+  }
+  .i104 .content .item {
+    padding: 10px;
+    position: relative;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    width: 970px;
+    background: #fff;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+  .i104 .content .item .body .left {
+    width: 374.4px;
+    float: left;
+  }
+  .i104 .content .item .body .left img {
+    display: block;
+    width: 352px;
+    height: 265.6px;
+  }
+  .i104 .content .item .body .right {
+    float: left;
+    width: 572px;
+  }
+  .i104 .content .item .body .right .title {
+    font-size: 24px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .i104 .content .item .body .right .text {
+    text-align: left;
+    font-size: 16px;
+    color: #666;
+    line-height: 32px;
+    text-indent: 2em;
+    height: 126px;
+    overflow-y: hidden;
+  }
+  .i104 .content .detail {
+    padding-bottom: 60px;
+  }
+  .i104 .content .detail .title {
+    font-size: 36px;
+    padding: 0 90px;
+    color: #6FBA2C;
+    text-align: left;
+    position: relative;
+  }
+  .i104 .content .detail .title .closed {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+    height: 80px;
+    right: 0;
+    top: 0;
+  }
+  .i104 .content .detail .text {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666;
+  }
+  .i104 .content .detail .img {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
   .i104 {
     padding-top: 56px;
     background-color: #fff;

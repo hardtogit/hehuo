@@ -55,7 +55,42 @@
       background-color: #fff
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .footer .backTop {
+      position: fixed;
+      z-index: 100;
+      width: 56px;
+      cursor: pointer;
+      height: 44.8px;
+      right: 80px;
+      bottom: 120px;
+      background-image: url("./img/backTop.png");
+      background-size: 100% 100%;
+    }
+
+    .footer .backTop:hover {
+      background-image: url("./img/backTopH.png");
+    }
+
+    .footer .logo {
+      height: 80px;
+      background-color: #000;
+    }
+
+    .footer img {
+      width: 352px;
+      float: right;
+      margin-right: 56px;
+      margin-top: 16px;
+    }
+    .bottom{
+      font-size: 12px;
+      height: 80px;
+      line-height: 80px;
+      background-color: #fff
+    }
+  }
+  @media screen and (max-width: 992px) {
     .footer .backTop{
       position: fixed;
       z-index: 100;
