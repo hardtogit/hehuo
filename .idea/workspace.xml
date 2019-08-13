@@ -1,115 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8938f1a4-f985-4615-840b-19ddf79f1f0e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/.csscomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/.csslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/badges.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/breadcrumbs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/button-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/carousel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/close.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/code.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/component-animations.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/dropdowns.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/glyphicons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/input-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/jumbotron.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/media.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/background-variant.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/border-radius.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/center-block.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/clearfix.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/gradients.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/grid-framework.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/hide-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/image.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/nav-divider.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/nav-vertical-align.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/opacity.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/progress-bar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/reset-filter.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/reset-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/resize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/responsive-visibility.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/size.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/tab-focus.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/table-row.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/text-emphasis.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/text-overflow.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/mixins/vendor-prefixes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/modals.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/navbar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/navs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/normalize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/pager.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/popovers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/print.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/progress-bars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/responsive-embed.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/responsive-utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/scaffolding.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/tables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/thumbnails.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/tooltip.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/type.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/less/wells.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseFooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/baseFooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/common.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.less" beforeDir="false" afterPath="$PROJECT_DIR$/common.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/header.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i100.css" beforeDir="false" afterPath="$PROJECT_DIR$/i100.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i100.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/i100.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i100.html" beforeDir="false" afterPath="$PROJECT_DIR$/i100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i100.js" beforeDir="false" afterPath="$PROJECT_DIR$/i100.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i100.less" beforeDir="false" afterPath="$PROJECT_DIR$/i100.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i101.css" beforeDir="false" afterPath="$PROJECT_DIR$/i101.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i101.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/i101.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i101.html" beforeDir="false" afterPath="$PROJECT_DIR$/i101.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i101.less" beforeDir="false" afterPath="$PROJECT_DIR$/i101.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i102.css" beforeDir="false" afterPath="$PROJECT_DIR$/i102.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i102.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/i102.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i102.html" beforeDir="false" afterPath="$PROJECT_DIR$/i102.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i102.less" beforeDir="false" afterPath="$PROJECT_DIR$/i102.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i103.css" beforeDir="false" afterPath="$PROJECT_DIR$/i103.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i103.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/i103.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i103.less" beforeDir="false" afterPath="$PROJECT_DIR$/i103.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i104.css" beforeDir="false" afterPath="$PROJECT_DIR$/i104.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i104.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/i104.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i104.less" beforeDir="false" afterPath="$PROJECT_DIR$/i104.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i105.css" beforeDir="false" afterPath="$PROJECT_DIR$/i105.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i105.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/i105.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i105.less" beforeDir="false" afterPath="$PROJECT_DIR$/i105.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i106.css" beforeDir="false" afterPath="$PROJECT_DIR$/i106.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i106.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/i106.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i106.less" beforeDir="false" afterPath="$PROJECT_DIR$/i106.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="8938f1a4-f985-4615-840b-19ddf79f1f0e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -341,7 +233,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="native" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yhcsxAdmin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -408,7 +300,7 @@
       <workItem from="1565265406537" duration="4640000" />
       <workItem from="1565353435074" duration="3670000" />
       <workItem from="1565371512029" duration="537000" />
-      <workItem from="1565411369832" duration="4698000" />
+      <workItem from="1565411369832" duration="5336000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1561469800667</created>
@@ -634,11 +526,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565005009130</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="页面完成">
+      <created>1565689149958</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1565689149958</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328844000" />
+    <option name="totallyTimeSpent" value="329482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -696,7 +595,8 @@
     <MESSAGE value="调整新闻时间布局" />
     <MESSAGE value="Merge branch 'master' of https://github.com/hardtogit/hehuo into dev&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;i100.css.map" />
     <MESSAGE value="手机端适配" />
-    <option name="LAST_COMMIT_MESSAGE" value="手机端适配" />
+    <MESSAGE value="页面完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/i100.css.map">
