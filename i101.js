@@ -1,4 +1,5 @@
 iweb.controller('i101', function($scope,$routeParams) {
+  $scope.entity={}
   setTimeout(function () {
     if($routeParams.type==='1'){
       $(window).scrollTop(0)
@@ -13,5 +14,16 @@ iweb.controller('i101', function($scope,$routeParams) {
       $(window).scrollTop($('#four').offset().top)
     }
   },0)
+  setTimeout(function () {
+    window.ajax({
+      obj:'user',
+      act:'companyread',
+      location:'pc'
+    },function (jo) {
+      $scope.entity=jo.info
+    })
+  },300)
+
+
 
 })

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8938f1a4-f985-4615-840b-19ddf79f1f0e" name="Default" comment="" />
+    <list default="true" id="8938f1a4-f985-4615-840b-19ddf79f1f0e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i101.css" beforeDir="false" afterPath="$PROJECT_DIR$/i101.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i101.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/i101.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i101.html" beforeDir="false" afterPath="$PROJECT_DIR$/i101.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i101.js" beforeDir="false" afterPath="$PROJECT_DIR$/i101.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i101.less" beforeDir="false" afterPath="$PROJECT_DIR$/i101.less" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,28 +21,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="i100.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i100.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="888" column="27" lean-forward="true" selection-start-line="888" selection-start-column="27" selection-end-line="888" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="i101.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i101.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="426" column="23" lean-forward="true" selection-start-line="426" selection-start-column="23" selection-end-line="426" selection-end-column="23" />
+            <state relative-caret-position="114">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="i100.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i100.css">
+      <file leaf-file-name="banner.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img/i101/banner.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2010" />
+            <state relative-caret-position="1197">
+              <caret line="156" column="48" lean-forward="true" selection-start-line="156" selection-start-column="48" selection-end-line="156" selection-end-column="48" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -51,24 +56,17 @@
       <file leaf-file-name="i102.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i102.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="811">
+            <state relative-caret-position="4883">
               <caret line="257" column="7" selection-start-line="257" selection-start-column="7" selection-end-line="257" selection-end-column="7" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="i103.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i103.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-969" />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="i101.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i101.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -76,24 +74,30 @@
       <file leaf-file-name="i101.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/i101.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+            <state relative-caret-position="57">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="i104.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/i104.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1266" />
-          </provider>
+      <file leaf-file-name="i103.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/i103.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="i100.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i100.html">
+      <file leaf-file-name="i104.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/i104.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+            <state relative-caret-position="233">
+              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,10 +178,8 @@
         <option value="$PROJECT_DIR$/i105.html" />
         <option value="$PROJECT_DIR$/i102.js" />
         <option value="$PROJECT_DIR$/i105.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/header.js" />
-        <option value="$PROJECT_DIR$/i101.js" />
         <option value="$PROJECT_DIR$/bootstrap/less/variables.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/i100.js" />
@@ -192,8 +194,10 @@
         <option value="$PROJECT_DIR$/header.less" />
         <option value="$PROJECT_DIR$/i100.html" />
         <option value="$PROJECT_DIR$/i100.less" />
-        <option value="$PROJECT_DIR$/i101.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/i101.js" />
         <option value="$PROJECT_DIR$/i101.less" />
+        <option value="$PROJECT_DIR$/i101.html" />
       </list>
     </option>
   </component>
@@ -215,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,10 +226,22 @@
               <item name="hehuo" type="b2602c69:ProjectViewProjectNode" />
               <item name="hehuo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hehuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hehuo" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hehuo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hehuo" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="i101" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,6 +316,7 @@
       <workItem from="1565353435074" duration="3670000" />
       <workItem from="1565371512029" duration="537000" />
       <workItem from="1565411369832" duration="5336000" />
+      <workItem from="1565713539317" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1561469800667</created>
@@ -533,23 +549,30 @@
       <option name="project" value="LOCAL" />
       <updated>1565689149958</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="页面完成">
+      <created>1565713563454</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1565713563454</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329482000" />
+    <option name="totallyTimeSpent" value="331730000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1040" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.4082098" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.4082098" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3276644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.48574686" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.09236032" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -565,19 +588,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2457627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.40929705" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3276644" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18253969" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.40929705" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -599,14 +622,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="页面完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/i100.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="3918" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/WebstormProjects/hehuo/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -712,13 +727,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img/up.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5548">
-          <caret line="292" column="29" selection-start-line="292" selection-start-column="23" selection-end-line="292" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -827,55 +835,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/i100.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="1596">
           <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i101.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i101.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/i100.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="888" column="27" lean-forward="true" selection-start-line="888" selection-start-column="27" selection-end-line="888" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i101.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="426" column="23" lean-forward="true" selection-start-line="426" selection-start-column="23" selection-end-line="426" selection-end-column="23" />
+        <state relative-caret-position="16872">
+          <caret line="888" column="27" selection-start-line="888" selection-start-column="27" selection-end-line="888" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/i100.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2010" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/i102.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -886,20 +861,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/i102.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
+        <state relative-caret-position="4883">
           <caret line="257" column="7" selection-start-line="257" selection-start-column="7" selection-end-line="257" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/i103.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/i104.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1266" />
+        <state relative-caret-position="233">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="156" column="48" lean-forward="true" selection-start-line="156" selection-start-column="48" selection-end-line="156" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i101.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i101.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i101.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/i101/banner.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

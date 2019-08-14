@@ -61,8 +61,7 @@ function logout() {
     apiconn.logout();
 }
 
-var apiconn ={}
-// new APIConnection();
+var apiconn =new APIConnection();
 window.ajax = function (params, cb) {
     if (cb) {
         if (callBackFn[params.obj + '_' + params.act]) {
@@ -73,7 +72,7 @@ window.ajax = function (params, cb) {
     }
     apiconn.send_obj(params)
 }
-// apiconn.client_info.clienttype = "web";
+apiconn.client_info.clienttype = "web";
 
 apiconn.state_changed_handler = function () {
     rootScope.$apply(function () {
@@ -153,7 +152,7 @@ apiconn.response_received_handler = function (jo) {
     });
 };
 
-// apiconn.wsUri = "ws://live.121tongbu.com/znyx";
+window.apiconn.wsUri = 'ws://47.92.169.34:51708/demo8';
 angular.module("iweb")
     .factory('fileReader', function ($q, $log) {
 
@@ -294,7 +293,7 @@ iweb.run(['$rootScope', function ($rootScope) {
   }
 
     rootScope = $rootScope;
-    // apiconn.connect();
+    apiconn.connect();
 }]);
 iweb.filter('showAsHtml',function ($sce) {
   return function (input) {
