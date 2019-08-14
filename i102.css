@@ -115,11 +115,14 @@
   }
   .i102 .four .pics {
     margin-top: 100px;
-    margin-bottom: 290px;
+    margin-bottom: 100px;
+    text-align: center;
   }
   .i102 .four .pics .col-lg-6 {
     padding: 0;
     width: 527px;
+    display: inline-block;
+    float: none;
   }
   .i102 .four .pics .col-lg-6.left {
     margin-right: 25px;

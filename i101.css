@@ -83,6 +83,9 @@
     color: #333;
     line-height: 52px;
   }
+  .i101 .four .content .right li div {
+    display: inline-block;
+  }
   .i101 .five {
     background-color: #fff;
     padding: 120px 0 140px 0;
@@ -221,6 +224,10 @@
     font-size: 20px;
     color: #333;
     line-height: 52px;
+  }
+  .i101 .four .content .right li div {
+    width: 494px;
+    display: inline-block;
   }
   .i101 .five {
     background-color: #fff;

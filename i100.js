@@ -105,7 +105,7 @@ iweb.controller('i100', function($scope,$routeParams) {
     var timer = null;
     return function(){
       clearTimeout(timer)
-      timer = setTimeout(()=>{
+      timer = setTimeout(function(){
         fn()
       },wait)
     }
