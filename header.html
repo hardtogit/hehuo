@@ -27,12 +27,7 @@
                     <li class="dropdown" ng-if="device==='pc'">
                         <a class="dropdown-toggle"  href="#/i102" data-href="#/i102" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">工厂介绍</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#/i102?factory=1">北京</a></li>
-                            <li><a href="#/i102?factory=2">重庆</a></li>
-                            <li><a href="#/i102?factory=3">四川</a></li>
-                            <li><a href="#/i102?factory=4">福建</a></li>
-                            <li><a href="#/i102?factory=5">安徽</a></li>
-                            <li><a href="#/i102?factory=6">江苏</a></li>
+                            <li ng-repeat="(index,item) in factoryTitle"><a href="#/i102?factory={{index+1}}">{{item.name.substring(0,2)}}</a></li>
                         </ul>
                     </li>
                   <li class="dropdown" ng-if="device==='mobile'">
@@ -47,12 +42,7 @@
                   <li class="dropdown"  ng-if="device==='mobile'">
                     <a class="dropdown-toggle"  onclick="goto_view('i102')" style="position: relative" data-href="#/i102" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">工厂介绍 <div class="arrow-menu"></div></a>
                     <ul class="dropdown-menu">
-                      <li><a href="#/i102?factory=1">北京</a></li>
-                      <li><a href="#/i102?factory=2">重庆</a></li>
-                      <li><a href="#/i102?factory=3">四川</a></li>
-                      <li><a href="#/i102?factory=4">福建</a></li>
-                      <li><a href="#/i102?factory=5">安徽</a></li>
-                      <li><a href="#/i102?factory=6">江苏</a></li>
+                      <li ng-repeat="(index,item) in factoryTitle"><a href="#/i102?factory={{index+1}}">{{item.name.substring(0,2)}}</a></li>
                     </ul>
                   </li>
                     <li><a href="#/i103" data-href="#/i103">新闻资讯</a></li>

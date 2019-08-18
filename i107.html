@@ -1,0 +1,21 @@
+<div class="i107">
+  <div ng-include="'header.html'"></div>
+  <div class="banner">
+    <img class="bannerImg" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.banner+'&proj=demo8'}}"
+         alt="">
+    <div class="container">
+      <img src="./img/i103/one1.png" class="label"/>
+    </div>
+  </div>
+  <div class="two">
+    <div class="container">
+      <div class="detail">
+        <div class="title">{{detail.title}}
+          <div class="time">发布时间：{{detail.year}}-{{detail.mon}}-{{detail.day}} | 信息来源：{{detail.source}}</div>
+          <img ng-click="close()" class="closed" src="./img/i104/close.png" alt=""></div>
+        <div ng-bind-html="detail.detail|showAsHtml"></div>
+      </div>
+    </div>
+  </div>
+  <div ng-include="'baseFooter.html'"></div>
+</div>

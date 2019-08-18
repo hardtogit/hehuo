@@ -38,6 +38,10 @@ iweb.config(['$routeProvider',
           templateUrl: 'i106.html',
           controller: 'i106'
         }).
+        when('/i107', {
+          templateUrl: 'i107.html',
+          controller: 'i107'
+        }).
         otherwise({
             redirectTo: '/i100'
         });
@@ -124,9 +128,9 @@ apiconn.response_received_handler = function (jo) {
     rootScope.$apply(function () {
 
         if (jo.ustr != null && jo.ustr != "" && jo.uerr != "ERR_CONNECTION_EXCEPTION") {
-            layer.msg(jo.ustr, {
-                icon: 2
-            })
+            // layer.msg(jo.ustr, {
+            //     icon: 2
+            // })
             callBackFn[jo.obj + '_' + jo.act].shift()
         } else {
             if (callBackFn[jo.obj + '_' + jo.act] && callBackFn[jo.obj + '_' + jo.act].length) {

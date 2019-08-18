@@ -1,6 +1,7 @@
 <div class="i102">
   <div ng-include="'header.html'"></div>
   <div class="banner">
+    <img width="100%" height="100%" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.banner+'&proj=demo8'}}" alt="">
   </div>
   <div class="two">
     <div class="container">
@@ -9,20 +10,18 @@
         <img class="two2" src="./img/i102/two2.png" alt="">
         <img class="two3" src="./img/i102/two3.png" alt="">
         <div class="inner">
-        <p>彩食鲜生鲜中央工厂是集产品收储、检测、保鲜、加工、配送于一体的大型中枢系统。作为省属区域的调控中枢，既负责各个区域商品总调度，同时面向各地区商品交易中心进行仓储配送。</p>
-        <p>2016年，彩食鲜开始在重庆、福建、北京三地自建生鲜中央工厂；2017年，新增安徽、四川工厂；2018年江苏工厂正式投产。2019年，彩食鲜将同步在北上广深、西南市场、福建建立配送仓，为快消品、日用品等企业购做集成配送。</p>
-        <p>未来，彩食鲜还将在上海、深圳、南京、杭州、西安等地筹建生鲜中央工厂。</p>
+        <p>{{entity.description}}</p>
         </div>
       </div>
       <div class="imgs clearfix">
         <div class="col-lg-4 col-md-4">
-          <img src="./img/i102/two4.png" alt="">
+          <img src="./img/i102/two4.png" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.des1+'&proj=demo8'}}" alt="">
         </div>
         <div class="col-lg-4 col-md-4">
-          <img src="./img/i102/two5.png" alt="">
+          <img src="./img/i102/two5.png" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.des2+'&proj=demo8'}}" alt="">
         </div>
         <div class="col-lg-4 col-md-4">
-          <img src="./img/i102/two6.png" alt="">
+          <img src="./img/i102/two6.png" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.des3+'&proj=demo8'}}" alt="">
         </div>
       </div>
 
@@ -35,30 +34,30 @@
     </div>
     <div class="regions clearfix">
       <div class="container">
-        <div ng-class="['region',factory===1&&'active']" ng-click="changeFactory(1)" style="margin-left: 18px">
-          <img ng-if="factory===1" src="./img/i102/three3.png" width="68" alt="">
-          北京工厂
+        <div ng-repeat="(index,item) in location" ng-class="['region',factory===index+1&&'active']" ng-click="changeFactory(index+1)">
+          <img ng-if="factory===index+1" src="./img/i102/three3.png" width="68" alt="">
+          {{item.titleText}}
         </div>
-        <div ng-class="['region',factory===2&&'active']" ng-click="changeFactory(2)">
-          <img ng-if="factory===2" src="./img/i102/three3.png" width="68" alt="">
-          重庆工厂
-        </div>
-        <div ng-class="['region',factory===3&&'active']" ng-click="changeFactory(3)">
-          <img ng-if="factory===3" src="./img/i102/three3.png" width="68" alt="">
-          四川工厂
-        </div>
-        <div ng-class="['region',factory===4&&'active']" ng-click="changeFactory(4)">
-          <img ng-if="factory===4" src="./img/i102/three3.png" width="68" alt="">
-          福建工厂
-        </div>
-        <div ng-class="['region',factory===5&&'active']" ng-click="changeFactory(5)">
-          <img ng-if="factory===5" src="./img/i102/three3.png" width="68" alt="">
-          安徽工厂
-        </div>
-        <div ng-class="['region',factory===6&&'active']" ng-click="changeFactory(6)">
-          <img ng-if="factory===6" src="./img/i102/three3.png" width="68" alt="">
-          江苏工厂
-        </div>
+        <!--<div ng-class="['region',factory===2&&'active']" ng-click="changeFactory(2)">-->
+          <!--<img ng-if="factory===2" src="./img/i102/three3.png" width="68" alt="">-->
+          <!--重庆工厂-->
+        <!--</div>-->
+        <!--<div ng-class="['region',factory===3&&'active']" ng-click="changeFactory(3)">-->
+          <!--<img ng-if="factory===3" src="./img/i102/three3.png" width="68" alt="">-->
+          <!--四川工厂-->
+        <!--</div>-->
+        <!--<div ng-class="['region',factory===4&&'active']" ng-click="changeFactory(4)">-->
+          <!--<img ng-if="factory===4" src="./img/i102/three3.png" width="68" alt="">-->
+          <!--福建工厂-->
+        <!--</div>-->
+        <!--<div ng-class="['region',factory===5&&'active']" ng-click="changeFactory(5)">-->
+          <!--<img ng-if="factory===5" src="./img/i102/three3.png" width="68" alt="">-->
+          <!--安徽工厂-->
+        <!--</div>-->
+        <!--<div ng-class="['region',factory===6&&'active']" ng-click="changeFactory(6)">-->
+          <!--<img ng-if="factory===6" src="./img/i102/three3.png" width="68" alt="">-->
+          <!--江苏工厂-->
+        <!--</div>-->
       </div>
     </div>
   </div>

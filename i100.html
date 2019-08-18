@@ -5,9 +5,9 @@
     <div class="section ">
       <div  class="swiper-banner-container">
         <div class="swiper-wrapper" >
-          <div class="swiper-slide"><img  src="./img/i100/banner1.png" alt=""></div>
-          <div class="swiper-slide"><img src="./img/i100/banner2.png" alt=""></div>
-          <div class="swiper-slide"><img  src="./img/i100/banner3.png" alt=""></div>
+          <div class="swiper-slide" style="height: 100%" ng-repeat="(index,item) in entity.banner" ng-click="goLink(item)">
+            <img  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+item.fid+'&proj=demo8'}}" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -28,7 +28,7 @@
         <div class="introduce">
           <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=1')">
             <div class="car">
-              <img src="./img/car1.png" alt="">
+              <img  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.company1+'&proj=demo8'}}" alt="">
               <div class="tab-text">
                 公司概况
               </div>
@@ -38,7 +38,7 @@
           </div>
           <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=2')">
             <div class="car">
-              <img src="./img/car2.png" alt="">
+              <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.company2+'&proj=demo8'}}" alt="">
               <div class="tab-text">
                 公司荣誉
               </div>
@@ -48,7 +48,7 @@
           </div>
           <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=3')">
             <div class="car">
-              <img src="./img/car3.png" alt="">
+              <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.company3+'&proj=demo8'}}" alt="">
               <div class="tab-text">
                 发展历程
               </div>
@@ -58,7 +58,7 @@
           </div>
           <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=4')">
             <div class="car">
-              <img src="./img/car4.png" alt="">
+              <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.company4+'&proj=demo8'}}" alt="">
               <div class="tab-text">
                 愿景使命
               </div>
@@ -70,6 +70,8 @@
       </div>
     </div>
     <div class="section comply">
+         <!--style="background-image:url{{'(http://47.92.169.34/cgi-bin/download.pl?fid='+entity.national1+'&proj=demo8)'}}"-->
+
 
       <div class="container">
         <div class="bg-container">
@@ -94,23 +96,8 @@
       <div class="container">
         <img class="section-title" data-aos="fade-down" src="./img/i100/serve/title.png" alt="">
         <div class="items clearfix">
-          <div class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" onclick="goto_view('i104?type=1')">
-            <img src="./img/i100/serve/1.png" alt="">
-          </div>
-          <div class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" onclick="goto_view('i104?type=2')">
-            <img src="./img/i100/serve/2.png" alt="">
-          </div>
-          <div class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" onclick="goto_view('i104?type=3')">
-            <img src="./img/i100/serve/3.png" alt="">
-          </div>
-          <div class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" onclick="goto_view('i104?type=4')">
-            <img src="./img/i100/serve/4.png" alt="">
-          </div>
-          <div class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" onclick="goto_view('i104?type=5')">
-            <img src="./img/i100/serve/5.png" alt="">
-          </div>
-          <div class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" onclick="goto_view('i104?type=6')">
-            <img src="./img/i100/serve/6.png" alt="">
+          <div ng-repeat="(index,value) in entity.ptrcustomer" class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" onclick="goto_view('i104?type='+index+1)">
+            <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+value.hpicture+'&proj=demo8'}}" alt="">
           </div>
         </div>
         <img class="subTitle" data-aos="slide-up" src="./img/i100/serve/subTitle.png" alt="">
@@ -123,24 +110,9 @@
           </div>
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="./img/i100/1.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/2.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/3.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/4.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/5.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/6.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/7.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/8.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/9.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/10.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/11.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/12.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/13.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/14.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/15.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/16.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/17.png" alt=""></div>
-              <div class="swiper-slide"><img src="./img/i100/18.png" alt=""></div>
+              <div ng-repeat="item in entity.homepartner" class="swiper-slide">
+                <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+item.fid+'&proj=demo8'}}"  alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -157,101 +129,26 @@
         </div>
 
         <div class="newsItems clearfix">
-          <div class="col-lg-6 col-md-6" data-aos="zoom-out-up" onclick="goto_view('i103?detailId=1')">
-            <div class="new sub">
+          <div class="col-lg-6 col-md-6" ng-repeat="(index,item) in news" data-aos="zoom-out-up" ng-click="goDetail(item['_id'])">
+            <div ng-class="{{['new', index<2?'sub':'']}}">
               <div class="left">
-                <img src="./img/i100/tu1.png" alt="">
+                <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+item.homepicture+'&proj=demo8'}}" alt="">
               </div>
               <div class="center">
                 <div class="date">
-                  <div class="day">07</div>
-                  <div class="month">07/2019</div>
+                  <div class="day">{{item.day}}</div>
+                  <div class="month">{{item.mon}}/{{item.year}}</div>
                 </div>
               </div>
               <div class="right">
-                <div class="title">永辉B2B全品类发力：彩食鲜总部北上，
-                  全国布仓，年内50亿销售</div>
+                <div class="title">{{item.title}}</div>
                 <div class="text">
-                  永辉超市旗下“彩食鲜”全国总部，日前从福州大本营正式迁址北京。
-                  这一动作，或始于两方面战略导向：
-                  一、永辉全面发力B2B市场。彩食鲜将从专注生鲜食材的垂直B2B业务，延伸至囊括快消品、日用品等商超全品类、一站式、集成式供应B端。
-
-                  二、彩食鲜2B端的“打法”是抓大放小，路径是自上而下。北上广深一线城市是彩食鲜率先要覆盖的重点区域，然后是福建、西南市场。彩食鲜引入了规模性BD团队，集中做B端用户的拓展。头部企业、跨国公司、大公司是头号客户目标。
-
-                  业绩上，彩食鲜称，今年“拿下”50亿元的目标没问题。按永辉超市财报，2018年彩食鲜完成销售24亿元。
+                  {{item.description}}
                 </div>
                 <img src="./img/detailBtn.png" alt="">
-
               </div>
-
             </div>
           </div>
-          <div class="col-lg-6 col-md-6" data-aos="zoom-out-up" onclick="goto_view('i103?detailId=2')">
-            <div class="new sub">
-              <div class="left">
-                <img src="./img/i100/tu2.png" alt="">
-              </div>
-              <div class="center">
-                <div class="date">
-                  <div class="day">02</div>
-                  <div class="month">07/2019</div>
-                </div>
-              </div>
-              <div class="right">
-                <div class="title">“开放、融合、创新、前行” |
-                  机构代表团参访江苏永辉彩食鲜工厂</div>
-                <div class="text">
-                  6月21日，工商银行、招商银行、建信股权、平安银行、新华保险、中宏人寿、中英人寿、中意资产、诺亚财富等10余家机构组成的代表团莅临江苏永辉彩食鲜工厂参观。永辉彩食鲜创业合伙人程楷、永辉彩食鲜江苏区域总经理胥浩、江苏永辉彩食鲜工厂厂长杨建楠等陪同。            </div>
-                <img src="./img/detailBtn.png" alt="">
-              </div>
-
-              </div>
-
-            </div>
-
-          <div class="col-lg-6 col-md-6" data-aos="zoom-out-up" onclick="goto_view('i103?detailId=3')">
-            <div class="new">
-              <div class="left">
-                <img src="./img/i100/tu3.png" alt="">
-              </div>
-              <div class="center">
-                <div class="date">
-                  <div class="day">21</div>
-                  <div class="month">06/2019</div>
-                </div>
-              </div>
-              <div class="right">
-                <div class="title">永辉彩食鲜在重庆举行第二季度食品安全会议</div>
-                <div class="text">
-                  永辉彩食鲜建设初期就将食品安全放在首位。根据管理层战略，每季度由公司高层牵头，平台负责具体落实，召集下属区域组织召开食品安全会议，并根据各区域的阶段性食品安全工作，进行有效的落地培训，本次会议日程为2019年6月11日到2019年6月13日，选择最早成立的重庆彩食鲜工厂为会议地点，“提升，赋能，共创，前行”为本次会议主题。
-                </div>
-                <img src="./img/detailBtn.png" alt="">
-              </div>
-
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6" data-aos="zoom-out-up" onclick="goto_view('i103?detailId=4')">
-            <div class="new">
-              <div class="left">
-                <img src="./img/i100/tu4.png" alt="">
-              </div>
-              <div class="center">
-                <div class="date">
-                  <div class="day">07</div>
-                  <div class="month">06/2019</div>
-                </div>
-              </div>
-              <div class="right">
-                <div class="title">喜迁新总部，启航新时代 |
-                  永辉彩食鲜总部办公室正式入驻北京</div>
-                <div class="text">
-                  承天时，聚地利，凝人和；彩迁福地，共展“京”图。2019年6月3日，永辉彩食鲜发展有限公司新总部乔迁典礼在北京市丰台区丰科路房天下大厦隆重举行。
-                </div>
-                <img src="./img/detailBtn.png" alt="">
-                </div>
-              </div>
-
-            </div>
         </div>
         <div class="more-m visible-xs" onclick="goto_view('i103')">
           更多新闻
@@ -261,21 +158,21 @@
     <div class="section join">
       <div class="container">
         <div onclick="goto_view('i106')" style="cursor: pointer">
-        <img class="a" data-aos="fade-down"  width="234" src="./img/i100/join/joinUs.png" alt="">
-        <img class="b" data-aos="zoom-in-right" width="1024" src="./img/i100/join/joinImg.png" alt="">
+        <img class="a" data-aos="fade-down"   src="./img/i100/join/joinUs.png" alt="">
+        <img class="b" data-aos="zoom-in-right"  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.join1+'&proj=demo8'}}" alt="">
         </div>
         <div onclick="goto_view('i105')" style="cursor: pointer">
         <!--&lt;!&ndash;<img src="./img/joinImgL.png" alt="">&ndash;&gt;-->
         <!--<img class="d" data-aos="zoom-in-right" width="417" src="./img/hezuo.png" alt="">-->
         <!--<img class="e" data-aos="flip-up" width="674" src="./img/hezuot.png" alt="">-->
-        <img class="f" data-aos="fade-up" width="878" src="./img/i100/join/joinBottom.png" alt="">
+        <img class="f" data-aos="fade-up" width="878" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.join2+'&proj=demo8'}}"  alt="">
         </div>
 
       </div>
     </div>
     <div class="section qrcode">
-      <div class="container" data-aos="zoom-in">
-        <img class="code"  src="./img/qrCode.png" alt="">
+      <div class="container" data-aos="fade-up">
+        <img class="code"  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.qr1+'&proj=demo8'}}" alt="">
         <p class="text-center"  style="color: #666;font-size: 24px;margin-top: 25px">永辉彩食鲜服务号</p>
       </div>
     </div>

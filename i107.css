@@ -1,25 +1,25 @@
 @media screen and (min-width: 1600px) {
-  .i103 {
+  .i107 {
     padding-top: 100px;
   }
-  .i103 .banner {
+  .i107 .banner {
     height: 420px;
     position: relative;
     background-size: 100% 100%;
   }
-  .i103 .banner .bannerImg {
+  .i107 .banner .bannerImg {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
   }
-  .i103 .banner .container {
+  .i107 .banner .container {
     position: relative;
     overflow: visible;
     height: 100%;
   }
-  .i103 .banner .container .label {
+  .i107 .banner .container .label {
     width: 260px;
     height: 225px;
     display: block;
@@ -28,70 +28,10 @@
     padding: 0;
     bottom: -36px;
   }
-  .i103 .two {
-    margin-top: 60px;
+  .i107 .detail {
+    padding: 60px 49px 60px 48px;
   }
-  .i103 .two .item {
-    padding: 0 50px 30px 50px;
-    background-color: #fff;
-    position: relative;
-    margin-bottom: 30px;
-    border: 1px solid #ddd;
-    cursor: pointer;
-  }
-  .i103 .two .item:hover {
-    box-shadow: 0 4px 4px #ddd;
-  }
-  .i103 .two .item .date {
-    width: 164px;
-    height: 58px;
-    position: absolute;
-    left: -10px;
-    top: 20px;
-    background-color: #84C759;
-    font-size: 30px;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    line-height: 58px;
-  }
-  .i103 .two .item .header {
-    height: 110px;
-  }
-  .i103 .two .item .header .more {
-    width: 40px;
-    height: 40px;
-    float: right;
-    margin-top: 36px;
-  }
-  .i103 .two .item .body .left {
-    float: left;
-    width: 730px;
-  }
-  .i103 .two .item .body .left .title {
-    font-size: 30px;
-    color: #666666;
-    font-weight: bold;
-  }
-  .i103 .two .item .body .left .text {
-    font-size: 16px;
-    margin-top: 48px;
-    line-height: 32px;
-    height: 126px;
-    overflow-y: hidden;
-  }
-  .i103 .two .item .body .right {
-    float: left;
-    margin-left: 40px;
-  }
-  .i103 .two .item .body .right img {
-    width: 280px;
-    height: 216px;
-  }
-  .i103 .two .detail {
-    padding: 0 49px 60px 48px;
-  }
-  .i103 .two .detail .title {
+  .i107 .detail .title {
     font-size: 24px;
     border-bottom: 2px dashed #ddd;
     padding-bottom: 40px;
@@ -99,64 +39,72 @@
     text-align: left;
     position: relative;
   }
-  .i103 .two .detail .title .closed {
+  .i107 .detail .title .closed {
     position: absolute;
     width: 80px;
     cursor: pointer;
     height: 80px;
     right: 0;
     top: 0;
+    margin-top: 0;
   }
-  .i103 .two .detail .title .time {
+  .i107 .detail .title .time {
     font-size: 12px;
     color: #999;
     margin-top: 26px;
   }
-  .i103 .two .detail .text {
+  .i107 .detail .text,
+  .i107 .detail p {
     margin-top: 40px;
     font-size: 16px;
     line-height: 32px;
     color: #666;
   }
-  .i103 .two .detail .text .subTitle {
+  .i107 .detail .text .subTitle,
+  .i107 .detail p .subTitle {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
   }
-  .i103 .two .detail .textTitle {
+  .i107 .detail .textTitle {
     text-align: center;
     margin-top: 40px;
     font-size: 60px;
     font-weight: bold;
   }
-  .i103 .two .detail .img {
+  .i107 .detail .img {
     display: block;
     width: 100%;
-    margin-top: 40px;
+    margin: 40px auto 0 auto;
+  }
+  .i107 .detail img {
+    max-width: 100%;
+    margin: 40px auto 0 auto;
+    display: block;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1600px) {
-  .i103 {
+  .i107 {
     padding-top: 74px;
   }
-  .i103 .banner {
+  .i107 .banner {
     height: 336px;
     position: relative;
     background-size: 100% 100%;
   }
-  .i103 .banner .bannerImg {
+  .i107 .banner .bannerImg {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
   }
-  .i103 .banner .container {
+  .i107 .banner .container {
     position: relative;
     overflow: visible;
     height: 100%;
   }
-  .i103 .banner .container .label {
+  .i107 .banner .container .label {
     width: 208px;
     height: 180px;
     display: block;
@@ -165,10 +113,10 @@
     padding: 0;
     bottom: -28.8px;
   }
-  .i103 .two {
+  .i107 .two {
     margin-top: 48px;
   }
-  .i103 .two .item {
+  .i107 .two .item {
     padding: 0 40px 24px 40px;
     background-color: #fff;
     position: relative;
@@ -176,10 +124,10 @@
     border: 1px solid #ddd;
     cursor: pointer;
   }
-  .i103 .two .item:hover {
+  .i107 .two .item:hover {
     box-shadow: 0 4px 4px #ddd;
   }
-  .i103 .two .item .date {
+  .i107 .two .item .date {
     width: 131.2px;
     height: 46.4px;
     position: absolute;
@@ -192,43 +140,43 @@
     text-align: center;
     line-height: 46.4px;
   }
-  .i103 .two .item .header {
+  .i107 .two .item .header {
     height: 88px;
   }
-  .i103 .two .item .header .more {
+  .i107 .two .item .header .more {
     width: 32px;
     height: 32px;
     float: right;
     margin-top: 28.8px;
   }
-  .i103 .two .item .body .left {
+  .i107 .two .item .body .left {
     float: left;
     width: 584px;
   }
-  .i103 .two .item .body .left .title {
+  .i107 .two .item .body .left .title {
     font-size: 30px;
     color: #666666;
     font-weight: bold;
   }
-  .i103 .two .item .body .left .text {
+  .i107 .two .item .body .left .text {
     font-size: 16px;
     margin-top: 20px;
     line-height: 32px;
     height: 126px;
     overflow-y: hidden;
   }
-  .i103 .two .item .body .right {
+  .i107 .two .item .body .right {
     float: left;
     margin-left: 40px;
   }
-  .i103 .two .item .body .right img {
+  .i107 .two .item .body .right img {
     width: 224px;
     height: 172.8px;
   }
-  .i103 .two .detail {
+  .i107 .two .detail {
     padding: 0 49px 60px 48px;
   }
-  .i103 .two .detail .title {
+  .i107 .two .detail .title {
     font-size: 24px;
     border-bottom: 2px dashed #ddd;
     padding-bottom: 40px;
@@ -236,7 +184,7 @@
     text-align: left;
     position: relative;
   }
-  .i103 .two .detail .title .closed {
+  .i107 .two .detail .title .closed {
     position: absolute;
     width: 80px;
     cursor: pointer;
@@ -244,56 +192,63 @@
     right: 0;
     top: 0;
   }
-  .i103 .two .detail .title .time {
+  .i107 .two .detail .title .time {
     font-size: 12px;
     color: #999;
     margin-top: 26px;
   }
-  .i103 .two .detail .text {
+  .i107 .two .detail .text,
+  .i107 .two .detail p {
     margin-top: 40px;
     font-size: 16px;
     line-height: 32px;
     color: #666;
   }
-  .i103 .two .detail .text .subTitle {
+  .i107 .two .detail .text .subTitle,
+  .i107 .two .detail p .subTitle {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
   }
-  .i103 .two .detail .textTitle {
+  .i107 .two .detail .textTitle {
     text-align: center;
     margin-top: 40px;
     font-size: 60px;
     font-weight: bold;
   }
-  .i103 .two .detail .img {
+  .i107 .two .detail .img {
     display: block;
     width: 100%;
     margin-top: 40px;
   }
+  .i107 .two .detail img {
+    max-width: 100%;
+    margin: 32px auto 0 auto;
+    display: block;
+  }
 }
 @media screen and (max-width: 992px) {
-  .i103 {
+  .i107 {
     padding-top: 56px;
   }
-  .i103 .banner {
+  .i107 .banner {
     height: 1.05rem;
     position: relative;
     background-size: 100% 100%;
   }
-  .i103 .banner .bannerImg {
+  .i107 .banner .bannerImg {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
   }
-  .i103 .banner .container {
+  .i107 .banner .container {
     position: relative;
     overflow: visible;
     height: 100%;
   }
-  .i103 .banner .container .label {
+  .i107 .banner .container .label {
     width: 1.3rem;
     height: 1.12rem;
     display: block;
@@ -302,10 +257,10 @@
     padding: 0;
     bottom: -0.18rem;
   }
-  .i103 .two {
+  .i107 .two {
     margin-top: 60px;
   }
-  .i103 .two .item {
+  .i107 .two .item {
     padding: 0 0.15rem 0.15rem 0.15rem;
     background-color: #fff;
     position: relative;
@@ -313,10 +268,10 @@
     border: 1px solid #ddd;
     cursor: pointer;
   }
-  .i103 .two .item:hover {
+  .i107 .two .item:hover {
     box-shadow: 0 4px 4px #ddd;
   }
-  .i103 .two .item .date {
+  .i107 .two .item .date {
     width: 0.82rem;
     height: 0.29rem;
     position: absolute;
@@ -329,24 +284,24 @@
     text-align: center;
     line-height: 0.29rem;
   }
-  .i103 .two .item .header {
+  .i107 .two .item .header {
     height: 0.55rem;
   }
-  .i103 .two .item .header .more {
+  .i107 .two .item .header .more {
     width: 0.2rem;
     height: 0.2rem;
     float: right;
     margin-top: 0.18rem;
   }
-  .i103 .two .item .body .left {
+  .i107 .two .item .body .left {
     width: 100%;
   }
-  .i103 .two .item .body .left .title {
+  .i107 .two .item .body .left .title {
     font-size: 0.15rem;
     color: #666666;
     font-weight: bold;
   }
-  .i103 .two .item .body .left .text {
+  .i107 .two .item .body .left .text {
     font-size: 0.008rem;
     margin-top: 0.1rem;
     line-height: 0.2rem;
@@ -357,16 +312,16 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
   }
-  .i103 .two .item .body .right {
+  .i107 .two .item .body .right {
     margin-top: 0.1rem;
   }
-  .i103 .two .item .body .right img {
+  .i107 .two .item .body .right img {
     width: 100%;
   }
-  .i103 .two .detail {
+  .i107 .two .detail {
     padding: 0 0 0.2rem 0;
   }
-  .i103 .two .detail .title {
+  .i107 .two .detail .title {
     font-size: 0.12rem;
     border-bottom: 0.01rem dashed #ddd;
     padding-bottom: 0.2rem;
@@ -375,7 +330,7 @@
     position: relative;
     padding-right: 0.5rem;
   }
-  .i103 .two .detail .title .closed {
+  .i107 .two .detail .title .closed {
     position: absolute;
     width: 0.4rem !important;
     cursor: pointer;
@@ -383,35 +338,37 @@
     right: 0;
     top: 0;
   }
-  .i103 .two .detail .title .time {
+  .i107 .two .detail .title .time {
     font-size: 0.08rem;
     color: #999;
     margin-top: 0.13rem;
   }
-  .i103 .two .detail .text {
+  .i107 .two .detail .text,
+  .i107 .two .detail p {
     margin-top: 0.2rem;
     font-size: 0.08rem;
     line-height: 0.2rem;
     color: #666;
   }
-  .i103 .two .detail .text .subTitle {
+  .i107 .two .detail .text .subTitle,
+  .i107 .two .detail p .subTitle {
     font-size: 0.12rem;
     font-weight: bold;
     margin-bottom: 0.1rem;
   }
-  .i103 .two .detail .textTitle {
+  .i107 .two .detail .textTitle {
     text-align: center;
     margin-top: 0.2rem;
     font-size: 0.3rem;
     font-weight: bold;
   }
-  .i103 .two .detail img {
+  .i107 .two .detail img {
     width: 100%!important;
   }
-  .i103 .two .detail .img {
+  .i107 .two .detail .img {
     display: block;
     width: 100%;
     margin-top: 0.2rem;
   }
 }
-/*# sourceMappingURL=i103.css.map */
+/*# sourceMappingURL=i107.css.map */

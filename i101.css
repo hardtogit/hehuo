@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
   .i101 {
     padding-top: 100px;
   }
@@ -140,7 +140,7 @@
     margin: 90px 0 0 64px;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1600px) {
   .i101 {
     padding-top: 74px;
   }

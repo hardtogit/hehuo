@@ -1,5 +1,6 @@
 iweb.controller('header', function($scope,$routeParams) {
   $(window).scrollTop(0)
+  $scope.factoryTitle=[{}]
   $(function () {
       var path=window.location.href
      var arr=$('.navbar-nav>li>a')
@@ -47,4 +48,14 @@ iweb.controller('header', function($scope,$routeParams) {
 
 
   })
+  setTimeout(function () {
+    window.ajax({
+      obj:'user',
+      act:'factorread',
+      location:'pc'
+    },function (jo) {
+        $scope.factoryTitle=jo.info.ftymanage
+      // })
+    })
+  },300)
 })

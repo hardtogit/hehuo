@@ -34,19 +34,158 @@ body {
 .section-title {
   border: none!important;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
   .container {
     width: 1200px;
     padding: 0;
   }
+  ul.pages {
+    height: 50px;
+    display: inline-block;
+  }
+  ul.pages li {
+    float: left;
+    line-height: 30px;
+    padding: 0 10px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    color: #84C759;
+    cursor: pointer;
+  }
+  ul.pages li:hover {
+    color: red;
+  }
+  ul.pages li.shen {
+    color: #84C759;
+    width: 45px;
+    text-align: center;
+  }
+  ul.pages .first {
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  ul.pages .last {
+    border: 1px solid #ddd;
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+  }
+  ul.pages li.active {
+    background: #84C759;
+    color: #fff;
+    border-color: #84C759;
+  }
+  ul.pages li.no {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  ul.pages li.num {
+    width: 45px;
+    text-align: center;
+  }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1600px) {
   .container {
     width: 970px;
     padding: 0;
   }
+  ul.pages {
+    height: 50px;
+    display: inline-block;
+  }
+  ul.pages li {
+    float: left;
+    line-height: 30px;
+    padding: 0 10px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    color: #84C759;
+    cursor: pointer;
+  }
+  ul.pages li:hover {
+    color: red;
+  }
+  ul.pages li.shen {
+    color: #84C759;
+    width: 45px;
+    text-align: center;
+  }
+  ul.pages .first {
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  ul.pages .last {
+    border: 1px solid #ddd;
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+  }
+  ul.pages li.active {
+    background: #84C759;
+    color: #fff;
+    border-color: #84C759;
+  }
+  ul.pages li.no {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  ul.pages li.num {
+    width: 45px;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 992px) {
   font-family: normal;
+  #i004page {
+    text-align: center;
+  }
+  ul.pages {
+    height: 28px;
+    display: inline-block;
+  }
+  ul.pages li {
+    float: left;
+    line-height: 24px;
+    padding: 0 6px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    color: #84C759;
+    cursor: pointer;
+    font-size: 12px!important;
+  }
+  ul.pages li:hover {
+    color: red;
+  }
+  ul.pages li.shen {
+    color: #84C759;
+    width: 38px;
+    text-align: center;
+  }
+  ul.pages .first {
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  ul.pages .last {
+    border: 1px solid #ddd;
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+  }
+  ul.pages li.active {
+    background: #84C759;
+    color: #fff;
+    border-color: #84C759;
+  }
+  ul.pages li.no {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  ul.pages li.num {
+    width: 36px;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=common.css.map */

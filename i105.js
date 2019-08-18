@@ -1,4 +1,5 @@
 iweb.controller('i105', function($scope,$routeParams) {
+  $scope.entity={}
   // 百度地图API功能
   var map = new BMap.Map("myMapTwo");    // 创建Map实例
   map.centerAndZoom(new BMap.Point(116.504, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
@@ -9,7 +10,7 @@ iweb.controller('i105', function($scope,$routeParams) {
   // map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 
   if($(window).width()>993) {
-    var setCenter = function (lat, lng, titleText, subContent) {
+    var setCenter = function (lng, lat, titleText, subContent) {
       //自定义覆盖物
 
       function ComplexCustomOverlay(point) {
@@ -83,16 +84,30 @@ iweb.controller('i105', function($scope,$routeParams) {
       }
 
 
-      var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(lat, lng));
+      var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(lng, lat));
       map.addOverlay(myCompOverlay);//将标注添加到地图中
       var myIcon = new BMap.Icon("./img/i102/pointer.png", new BMap.Size(40, 57));
-      var marker = new BMap.Marker(new BMap.Point(lat, lng), {icon: myIcon});
+      var marker = new BMap.Marker(new BMap.Point(lng,lat), {icon: myIcon});
       map.addOverlay(marker);
     }
+    setTimeout(function () {
+      window.ajax({
+        obj:'user',
+        act:'cooperationread',
+        location:'pc',
+      },function (jo) {
+        $scope.entity=jo.info
+
+        // setCenter(116.307502,39.819898,'全国总部办公室','北京市丰台区郭公庄中街20号院房天下大厦A座7楼')
+        setCenter(jo.info.longitude,jo.info.latitude,jo.info.title,jo.info.address)
+      })
+    },300)
   }else{
-    var setCenter = function (lat, lng, titleText, subContent) {
+    var setCenter = function ( lng, lat,titleText, subContent) {
+      lng=parseFloat(lng)
+      lat=parseFloat(lat)
       map.clearOverlays()
-      map.centerAndZoom(new BMap.Point(lat + 0.18, lng), 11);  // 初始化地图,设置中心点坐标和地图级别
+      map.centerAndZoom(new BMap.Point(lng + 0.18, lat), 11);  // 初始化地图,设置中心点坐标和地图级别
       //添加地图类型控件
       // map.addControl(new BMap.MapTypeControl({
       //   mapTypes:[
@@ -176,13 +191,23 @@ iweb.controller('i105', function($scope,$routeParams) {
       }
 
 
-      var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(lat, lng));
+      var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(lng, lat));
       map.addOverlay(myCompOverlay);//将标注添加到地图中
       var myIcon = new BMap.Icon("./img/i102/pointer.png", new BMap.Size(20, 28));
       myIcon.setImageSize(new BMap.Size(20, 28))
-      var marker = new BMap.Marker(new BMap.Point(lat, lng), {icon: myIcon});
+      var marker = new BMap.Marker(new BMap.Point(lng, lat), {icon: myIcon});
       map.addOverlay(marker);
     }
+    setTimeout(function () {
+      window.ajax({
+        obj:'user',
+        act:'cooperationread',
+        location:'pc',
+      },function (jo) {
+        $scope.entity=jo.info
+        console.log(setCenter,'ssssssssssssssssss')
+        setCenter(jo.info.longitude,jo.info.latitude,jo.info.title,jo.info.address)
+      })
+    },300)
   }
-  setCenter(116.307502,39.819898,'全国总部办公室','北京市丰台区郭公庄中街20号院房天下大厦A座7楼')
 })

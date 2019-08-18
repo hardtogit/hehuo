@@ -1,12 +1,19 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
   .i106 {
     padding-top: 100px;
     .banner {
       height: 420px;
-      background-image: url("./img/i103/one2.png");
+      position: relative;
+      //background-image: url("./img/i103/one2.png");
       background-size: 100% 100%;
+      .bannerImg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+      }
       .container {
-        position: relative;
         overflow: visible;
         height: 100%;
         .label {
@@ -14,6 +21,7 @@
           height: 225px;
           display: block;
           position: absolute;
+          z-index: 2;
           left: 0;
           bottom: -36px;
           padding: 0;
@@ -22,13 +30,22 @@
     }
     .two {
       margin-top: 80px;
+      .bg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
       .left {
         width: 596px;
         position: relative;
         height: 369px;
         float: left;
-        background-image: url("./img/i106/two1.png");
+        //background-image: url("./img/i106/two1.png");
         margin-right: 8px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
         .bottom {
           position: absolute;
           bottom: 0;
@@ -44,10 +61,14 @@
       }
       .right {
         width: 596px;
-        background-image: url("./img/i106/two2.png");
+        //background-image: url("./img/i106/two2.png");
         height: 369px;
         position: relative;
         float: left;
+        img{
+          width: 100%;
+          height: 100%;
+        }
         .bottom {
           position: absolute;
           bottom: 0;
@@ -101,13 +122,22 @@
     }
   }
 }
-@media screen and(min-width: 992px) and (max-width: 1200px){
+@media screen and(min-width: 992px) and (max-width: 1600px){
   .i106 {
     padding-top: 74px;
     .banner {
       height: 336px;
-      background-image: url("./img/i103/one2.png");
+      //background-image: url("./img/i103/one2.png");
+      position: relative;
+      //background-image: url("./img/i103/one2.png");
       background-size: 100% 100%;
+      .bannerImg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+      }
       .container {
         position: relative;
         overflow: visible;
@@ -130,8 +160,12 @@
         position: relative;
         height: 295.2px;
         float: left;
-        background-image: url("./img/i106/two1.png");
+        //background-image: url("./img/i106/two1.png");
         margin-right: 8px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
         .bottom {
           position: absolute;
           bottom: 0;
@@ -147,10 +181,14 @@
       }
       .right {
         width: 476.8px;
-        background-image: url("./img/i106/two2.png");
+        //background-image: url("./img/i106/two2.png");
         height: 295.2px;
         position: relative;
         float: left;
+        img{
+          width: 100%;
+          height: 100%;
+        }
         .bottom {
           position: absolute;
           bottom: 0;
@@ -210,8 +248,15 @@
     padding-top: 56px;
     .banner {
       height:1.05rem;
-      background-image: url("./img/i103/banner.png");
+      position: relative;
       background-size: 100% 100%;
+      .bannerImg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+      }
       .container {
         position: relative;
         overflow: visible;
@@ -234,8 +279,12 @@
         position: relative;
         height:1.85rem;
         margin: 0 auto;
-        background-image: url("./img/i106/two1.png");
+        //background-image: url("./img/i106/two1.png");
         background-size: 100% 100%;
+        img{
+          width: 100%;
+          height: 100%;
+        }
         .bottom{
           position: absolute;
           bottom: 0;
@@ -254,8 +303,12 @@
         position: relative;
         height:1.85rem;
         margin: .2rem auto 0 auto;
-        background-image: url("./img/i106/two2.png");
+        //background-image: url("./img/i106/two2.png");
         background-size: 100% 100%;
+        img{
+          width: 100%;
+          height: 100%;
+        }
         .bottom{
           position: absolute;
           bottom: 0;

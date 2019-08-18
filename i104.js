@@ -3,6 +3,8 @@ iweb.controller('i104', function($scope,$routeParams) {
   $scope.type=$routeParams.type?parseInt($routeParams.type):1
   $scope.detail=false
   $scope.detailId=1
+  $scope.entity={}
+  $scope.supply=[]
   $scope.data=[{
     title:'政府、企事业单位食堂配送',
     content:[
@@ -66,4 +68,20 @@ iweb.controller('i104', function($scope,$routeParams) {
   $scope.close=function () {
     $scope.detail=false
   }
+  setTimeout(function () {
+    window.ajax({
+      obj:'user',
+      act:'partnerread',
+      location:'pc',
+    },function (jo) {
+      $scope.entity=jo.info
+      var arr=[]
+      for (var i = 0; i <jo.info.ptrcustomer.length ; i++) {
+          arr.push({title:jo.info.ptrcustomer[i].name,content:jo.info.ptrcustomer[i].detail.split('；'),bottomImg:jo.info.ptrcustomer[i].bpicture,icon:jo.info.ptrcustomer[i].icon,selicon:jo.info.ptrcustomer[i].selicon})
+      }
+      $scope.data=arr
+      $scope.supply=jo.info.ptrprovider
+      console.log($scope.entity,'aaaaaaaaaaaaaaaaa')
+    })
+  },300)
 })

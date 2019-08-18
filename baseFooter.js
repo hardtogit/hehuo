@@ -5,7 +5,7 @@ iweb.controller('baseFooter',function($scope,$rootScope,$routeParams) {
     var timer = null;
     return function(){
       clearTimeout(timer)
-      timer = setTimeout(()=>{
+      timer = setTimeout(function(){
         fn()
       },wait)
     }

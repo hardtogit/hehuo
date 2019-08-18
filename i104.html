@@ -1,6 +1,7 @@
 <div class="i104">
   <div ng-include="'header.html'"></div>
   <div class="banner">
+    <img width="100%" height="100%" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.banner+'&proj=demo8'}}" alt="">
   </div>
   <div class="tabs clearfix">
     <div class="tab" ng-class="['tab', tab===1&&'active']" ng-click="changeTab(1)">服务客户</div>
@@ -9,29 +10,12 @@
 
   <div class="content container" ng-if="tab===1">
     <div class="clearfix">
-    <div class="icon" ng-click="changeType(1)">
-      <img ng-if="type!==1" src="./img/i104/one1.png" alt="">
-      <img ng-if="type===1" src="./img/i104/one1H.png" alt="">
-    </div>
-      <div class="icon" ng-click="changeType(2)">
-        <img  ng-if="type!==2" src="./img/i104/one2.png" alt="">
-        <img ng-if="type===2" src="./img/i104/one2H.png" alt="">
-      </div>
-      <div class="icon" ng-click="changeType(3)">
-        <img  ng-if="type!==3" src="./img/i104/one3.png" alt="">
-        <img ng-if="type===3" src="./img/i104/one3H.png" alt="">
-      </div>
-    <div class="icon" ng-click="changeType(4)">
-      <img  ng-if="type!==4" src="./img/i104/one4.png" alt="">
-      <img ng-if="type===4" src="./img/i104/one4H.png" alt="">
-    </div>
-    <div class="icon" ng-click="changeType(5)">
-      <img  ng-if="type!==5" src="./img/i104/one5.png" alt="">
-      <img ng-if="type===5" src="./img/i104/one5H.png" alt="">
-    </div>
-    <div class="icon" ng-click="changeType(6)">
-      <img  ng-if="type!==6" src="./img/i104/one6.png" alt="">
-      <img ng-if="type===6" src="./img/i104/one6H.png" alt="">
+
+
+
+    <div ng-repeat="(i,value) in data" class="icon" ng-click="changeType(i+1)">
+      <img ng-show="type!==i+1" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+value.icon+'&proj=demo8'}}" alt="">
+      <img ng-show="type===i+1" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+value.selicon+'&proj=demo8'}}" alt="">
     </div>
     </div>
     <div class="title" ng-bind-html="data[type-1].title|showAsHtml">
@@ -46,57 +30,26 @@
     <!--<div class="subText">-->
       <!--省钱省心　更省时间-->
     <!--</div>-->
-    <img class="bottomImg" src={{data[type-1].bottomImg}} alt="">
+    <img class="bottomImg" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+data[type-1].bottomImg+'&proj=demo8'}}" alt="">
   </div>
 
   <div class="content container" ng-if="tab===2">
     <div ng-if="!detail">
-    <div class="item clearfix">
+    <div class="item clearfix" ng-repeat="item in supply">
       <div class="body">
         <div class="left">
-          <img src="./img/i104/three1.png" alt="">
+          <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+item.picture+'&proj=demo8'}}" alt="">
         </div>
         <div class="right">
           <div class="title  text-left">
-            合作种植，乐享新鲜果品
+            {{item.title}}
           </div>
-          <div class="text">
-            永辉彩食鲜与福建鸿蕉农业合作共建种植基地，直接参与到上游供应链的建设，基地优培、香蕉优选、精细储运。通过输出标准及技术支撑，对上游相关环节进行重构。坚持为消费者提供健康优质的香蕉，让消费者乐享新鲜香蕉果品，提升大众健康生活品质，推动中国香蕉行业可持续发展。          </div>
-
-        </div>
-      </div>
-    </div>
-      <div class="item clearfix">
-        <div class="body">
-          <div class="left">
-            <img src="./img/i104/three2.png" alt="">
-          </div>
-          <div class="right">
-            <div class="title  text-left">
-              农产品高标准种植园区
-            </div>
-            <div class="text">
-              永辉彩食鲜建设河北沽源西兰花种植基地，种植面积500亩，全区采用农产品高标准管理，实现产品源头化开发、品质把控、品牌化发展。切实保障食材从源头到餐桌全链条的高标准生产。
+          <div class="text text-left">
+            {{item.detail}}
           </div>
         </div>
       </div>
     </div>
-      <div class="item clearfix">
-        <div class="body">
-          <div class="left">
-            <img src="./img/i104/three3.png" alt="">
-          </div>
-          <div class="right">
-            <div class="title  text-left">
-              农业帮扶，助力农民增收
-            </div>
-            <div class="text">
-              永辉彩食鲜与华沙梦想水果合作社、成都市森塘专业合作社等农业基地，充分发挥和利用各自的资源以及优势，以种植和生产产地为采购基地，进行产地直采合作。
-              永辉彩食鲜希望通过产地直采起到农业帮扶的作用，以基地直采的方式来帮到更多的老百姓，帮助解决当地土地增值、农民增收的问题。
-            </div>
-          </div>
-        </div>
-  </div>
     </div>
   </div>
 </div>

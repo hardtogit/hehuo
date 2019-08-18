@@ -1,7 +1,4 @@
 <div class="footer " ng-controller="baseFooter">
-  <div class="logo">
-    <img width="" src="./img/footerImg.png" alt="">
-  </div>
   <div ng-show="showBack" class="backTop hidden-xs" ng-click="scrollToTop()">
 
   </div>
@@ -20,7 +17,7 @@
     /*transition: 1000ms;*/
     /*bottom: 0;*/
   /*}*/
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1600px) {
     .footer .backTop {
       position: fixed;
       z-index: 100;
@@ -52,10 +49,11 @@
       font-size: 12px;
       height: 100px;
       line-height: 100px;
-      background-color: #fff
+      background-color: #fff;
+      border-top: 1px solid #333;
     }
   }
-  @media screen and (min-width: 992px) and (max-width: 1200px) {
+  @media screen and (min-width: 992px) and (max-width: 1600px) {
     .footer .backTop {
       position: fixed;
       z-index: 100;
@@ -87,7 +85,8 @@
       font-size: 12px;
       height: 80px;
       line-height: 80px;
-      background-color: #fff
+      background-color: #fff;
+      border-top: 1px solid #333;
     }
   }
   @media screen and (max-width: 992px) {
@@ -119,7 +118,8 @@
       font-size: .08rem;
       height: .5rem;
       line-height: .5rem;
-      background-color: #fff
+      background-color: #fff;
+      border-top: 1px solid #333;
     }
   }
 </style>

@@ -1,6 +1,7 @@
 <div class="i106">
   <div ng-include="'header.html'"></div>
   <div class="banner">
+    <img  class="bannerImg" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.banner+'&proj=demo8'}}" alt="">
     <div class="container">
       <img src="./img/i106/one1.png" class="label"/>
     </div>
@@ -8,11 +9,13 @@
   <div class="two">
     <div class="container">
       <div class="left" style="cursor:pointer" onclick="window.open('https://www.liepin.com/company/9796595/','_blank')">
+        <img class="bg"  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.des1+'&proj=demo8'}}" alt="">
         <div class="bottom">
           社会招聘
         </div>
       </div>
       <div class="right" style="cursor:pointer" onclick="window.open('https://www.liepin.com/company/9796595/','_blank')">
+        <img class="bg"  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.des2+'&proj=demo8'}}" alt="">
         <div class="bottom">
         校园招聘
         </div>
@@ -27,60 +30,11 @@
           <div class="title">面试时请准备并携带</div>
           1、身份证原件及复印件3份；<br/>2、毕业证原件及复印件1份；<br/>3、其它有关证明（如健康证、失业证、下岗证、等级证书、荣誉证书、离职证明等）。<br/> 若您对我们的岗位有意向，欢迎您将资料投递到公司招聘网站，我们会在第一时间阅读您的简历。
         </div>
-        <div class="item">
-          <div class="title">北京</div>
-
-          地址：北京市丰台区房天下大厦A座7楼<br/>
-          邮箱：80890791@yonghui.cn<br/>
-          电话：010-61200258
-
-        </div>
-        <div class="item">
-          <div class="title">福建</div>
-
-          地址：福州市仓山区台屿路99号<br/>
-          邮箱：2011121592@yonghui.cn<br/>
-          电话：0591-87988063
-        </div>
-        <div class="item">
-          <div class="title">成都</div>
-          地址：四川省金牛区永陵路19号（永辉超市四川大区总部三楼）<br/>
-          邮箱：80797134@yonghui.cn<br/>
-          电话：028-83800777
-        </div>
-        <div class="item">
-          <div class="title">上海</div>
-
-          地址：上海静安区天目中路585号新梅大厦2101室<br/>
-          邮箱：80744983@yonghui.cn<br/>
-          电话：021-62668199
-
-        </div>
-        <div class="item">
-          <div class="title">重庆</div>
-          地址：重庆市江北区盘溪七支路11号永辉总部大楼<br/>
-          邮箱：80463528@yonghui.cn<br/>
-          电话：023-67788777
-
-
-        </div>
-        <div class="item">
-          <div class="title">江苏</div>
-          地址：苏州市广济南路19号永捷峰汇2005B<br/>
-          邮箱：80894177@yonghui.cn<br/>
-          电话：0512-68634121
-
-
-        </div>
-        <div class="item">
-          <div class="title">浙江</div>
-
-
-          地址：杭州市滨江区浦沿街道滨盛路3867号宝龙城3幢301-14室永辉超市<br/>
-          邮箱：2011052516@yonghui.cn<br/>
-          电话：13349200077
-
-
+        <div class="item" ng-repeat="item in entity.joinsubcompany">
+          <div class="title">{{item.name}}</div>
+          地址：{{item.address}}<br/>
+          邮箱：{{item.email}}<br/>
+          电话：{{item.phone}}
         </div>
       </div>
 

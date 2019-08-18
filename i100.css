@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
   .i100 .title,
   .i100 .introduce {
     font-size: 40px;
@@ -13,9 +13,11 @@
   }
   .i100 .swiper-banner-container {
     padding-top: 100px;
+    height: 100%;
   }
   .i100 .swiper-banner-container .swiper-slide img {
     width: 100%;
+    height: 100%;
   }
   .i100 .introduce {
     margin-top: 100px;
@@ -322,8 +324,10 @@
     width: 234px;
   }
   .i100 .join .b {
-    display: inline-block;
-    margin-bottom: 60px;
+    display: block;
+    margin: 0 auto 60px auto;
+    width: 1024px;
+    height: 370px;
   }
   .i100 .join .c {
     display: inline-block;
@@ -354,7 +358,11 @@
     margin: 0 40px;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1600px) {
+  .fp-tableCell {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
   .i100 .title,
   .i100 .introduce {
     font-size: 32px;
@@ -368,10 +376,12 @@
     margin: 0 auto;
   }
   .i100 .swiper-banner-container {
-    padding-top: 80px;
+    padding-top: 74px;
+    height: 100%;
   }
   .i100 .swiper-banner-container .swiper-slide img {
     width: 100%;
+    height: 100%;
   }
   .i100 .introduce {
     margin-top: 80px;
@@ -543,7 +553,7 @@
     width: 28px;
     height: 35px;
     left: -28px;
-    top: 25px;
+    top: 16px;
     cursor: pointer;
     background-image: url("./img/siderLeft.png");
     background-size: 100% 100%;
@@ -556,7 +566,7 @@
     width: 28px;
     height: 35px;
     right: -28px;
-    top: 25px;
+    top: 16px;
     cursor: pointer;
     background-image: url("./img/siderRight.png");
     background-size: 100% 100%;
@@ -681,9 +691,10 @@
     width: 187.2px;
   }
   .i100 .join .b {
-    display: inline-block;
-    margin-bottom: 48px;
+    display: block;
     width: 819.2px !important;
+    height: 320px;
+    margin: 0 auto 48px auto;
   }
   .i100 .join .c {
     display: inline-block;
@@ -736,6 +747,9 @@
   .i100 .told .title img {
     display: block;
     width: 100%!important;
+  }
+  .i100 .swiper-banner-container {
+    height: 100%;
   }
   .i100 .swiper-banner-container .swiper-slide img {
     width: 100%;
@@ -1089,9 +1103,9 @@
     width: 1.17rem;
   }
   .join .b {
-    display: inline-block;
+    display: block;
     width: 3.22rem;
-    margin-bottom: 0.25rem;
+    margin: 0 auto 0.25rem auto;
   }
   .join .c {
     display: inline-block;

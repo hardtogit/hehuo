@@ -1,12 +1,10 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
   .i104 {
     padding-top: 100px;
     background-color: #fff;
   }
   .i104 .banner {
-    height: 380px;
-    background-image: url("./img/i104/banner.png");
-    background-size: 100% 100%;
+    height: 420px;
     background-repeat: no-repeat;
   }
   .i104 .tabs {
@@ -31,12 +29,13 @@
   }
   .i104 .content {
     margin-top: 20px;
+    text-align: center;
+    vertical-align: top;
   }
   .i104 .content .icon {
     width: 190px;
     display: inline-block;
     height: 250px;
-    float: left;
     cursor: pointer;
   }
   .i104 .content .icon img {
@@ -129,14 +128,13 @@
     margin-top: 40px;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1600px) {
   .i104 {
     padding-top: 74px;
     background-color: #fff;
   }
   .i104 .banner {
     height: 336px;
-    background-image: url("./img/i104/banner.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -267,7 +265,6 @@
   }
   .i104 .banner {
     height: 1.05rem;
-    background-image: url("./img/i104/banner.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
