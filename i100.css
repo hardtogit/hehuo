@@ -178,6 +178,7 @@
   .i100 .firend .subTitle {
     display: block;
     width: 340px;
+    height: 60px;
     margin: 20px auto 40px auto ;
   }
   .i100 .firend .container-swiper {
@@ -326,7 +327,7 @@
   .i100 .join .b {
     display: block;
     margin: 0 auto 60px auto;
-    width: 1024px;
+    width: 920px;
     height: 370px;
   }
   .i100 .join .c {
@@ -363,6 +364,18 @@
     padding-top: 0!important;
     padding-bottom: 0!important;
   }
+  .i100 .container {
+    width: 850px;
+  }
+  .i100 .phone {
+    position: fixed;
+    display: block;
+    right: 56px;
+    width: 228px;
+    height: 87px;
+    top: 160px;
+    z-index: 100;
+  }
   .i100 .title,
   .i100 .introduce {
     font-size: 32px;
@@ -371,9 +384,12 @@
     background-color: #E5E5E5;
   }
   .i100 .told .title {
-    width: 532px;
+    width: 399px!important;
     display: block;
     margin: 0 auto;
+  }
+  .i100 .told .title img {
+    width: 100%;
   }
   .i100 .swiper-banner-container {
     padding-top: 74px;
@@ -384,27 +400,28 @@
     height: 100%;
   }
   .i100 .introduce {
-    margin-top: 80px;
+    margin-top: 60px;
   }
   .i100 .introduce .car {
     background-color: #fff;
-    height: 256px;
-    width: 216px;
-    padding-top: 64px;
+    height: 192px;
+    width: 162px;
+    padding-top: 48px;
     border-bottom: 2px solid #1A8A2F;
     cursor: pointer;
+    margin: 0 auto;
   }
   .i100 .introduce .car:hover {
     box-shadow: 0px 10px 10px #ddd;
   }
   .i100 .introduce .car img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     display: block;
     margin: 0 auto;
   }
   .i100 .introduce .car .tab-text {
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     margin-top: 10px;
     font-weight: bold;
@@ -419,19 +436,19 @@
     background-size: 100% 100%;
   }
   .i100 .comply .mapContainer {
-    width: 624px;
+    width: 468px;
     margin: 0 auto;
     display: block;
     position: relative;
   }
   .i100 .comply .mapContainer .city {
     position: absolute;
-    width: 24px;
-    height: 35.2px;
+    width: 18px;
+    height: 26.4px;
   }
   .i100 .comply .mapContainer .city.bj {
-    left: 416px;
-    top: 180.8px;
+    left: 312px;
+    top: 135.6px;
     background-image: url("./img/i100/map/bj.png");
     background-size: 100% 100%;
   }
@@ -439,8 +456,8 @@
     background-image: url("./img/i100/map/bjH.png");
   }
   .i100 .comply .mapContainer .city.sc {
-    left: 286.4px;
-    top: 296px;
+    left: 214.8px;
+    top: 222px;
     background-image: url("./img/i100/map/sc.png");
     background-size: 100% 100%;
   }
@@ -448,8 +465,8 @@
     background-image: url("./img/i100/map/scH.png");
   }
   .i100 .comply .mapContainer .city.cq {
-    left: 320px;
-    top: 320px;
+    left: 240px;
+    top: 240px;
     background-image: url("./img/i100/map/cq.png");
     background-size: 100% 100%;
   }
@@ -457,8 +474,8 @@
     background-image: url("./img/i100/map/cqH.png");
   }
   .i100 .comply .mapContainer .city.js {
-    left: 454.4px;
-    top: 286.4px;
+    left: 351.6px;
+    top: 214.8px;
     background-image: url("./img/i100/map/js.png");
     background-size: 100% 100%;
   }
@@ -466,8 +483,8 @@
     background-image: url("./img/i100/map/jsH.png");
   }
   .i100 .comply .mapContainer .city.fj {
-    left: 452px;
-    top: 361.6px;
+    left: 340.8px;
+    top: 271.2px;
     background-image: url("./img/i100/map/fj.png");
     background-size: 100% 100%;
   }
@@ -475,8 +492,8 @@
     background-image: url("./img/i100/map/fjH.png");
   }
   .i100 .comply .mapContainer .city.ah {
-    left: 425.6px;
-    top: 281.6px;
+    left: 319.2px;
+    top: 211.2px;
     background-image: url("./img/i100/map/ah.png");
     background-size: 100% 100%;
   }
@@ -488,30 +505,33 @@
     height: 100%;
   }
   .i100 .comply .mapTextLeft {
-    width: 624px;
+    width: 468px;
     display: block;
     margin-left: 160px;
     position: relative;
-    top: -32px;
+    top: -24px;
   }
   .i100 .comply .mapSubTextLeft {
-    width: 281.6px;
+    width: 211.2px;
     float: left;
     margin-left: 160px;
   }
   .i100 .comply .mapTextRight {
-    width: 236px;
-    margin-left: 112px;
+    width: 177px;
+    margin-left: 84px;
   }
   .i100 .firend {
     background-color: #E5E5E5;
   }
+  .i100 .firend .container {
+    width: 680px;
+  }
   .i100 .firend .section-title {
-    width: 569.6px;
+    width: 460px;
     display: block;
     height: auto;
     margin: 0 auto;
-    padding: 0 0 24px 0;
+    padding: 0 0 18px 0;
   }
   .i100 .firend .subTitle {
     text-align: center;
@@ -520,19 +540,19 @@
     font-weight: bold;
   }
   .i100 .firend .subTileImg {
-    width: 300px;
+    width: 225px;
     display: block;
     margin: 10px auto 0 auto;
   }
   .i100 .firend .swiper-container {
-    height: 64px;
+    height: 48px;
   }
   .i100 .firend .swiper-container img {
     height: 100%;
     width: 100%;
   }
   .i100 .firend .items img {
-    width: 248px;
+    width: 186px;
     display: block;
     cursor: pointer;
     margin: 0 auto 24px auto;
@@ -542,7 +562,8 @@
   }
   .i100 .firend .subTitle {
     display: block;
-    width: 272px;
+    width: 204px;
+    height: 36px;
     margin: 16px auto 32px auto ;
   }
   .i100 .firend .container-swiper {
@@ -550,10 +571,10 @@
   }
   .i100 .firend .container-swiper .siderLeft {
     position: absolute;
-    width: 28px;
-    height: 35px;
-    left: -28px;
-    top: 16px;
+    width: 21px;
+    height: 26px;
+    left: -21px;
+    top: 12px;
     cursor: pointer;
     background-image: url("./img/siderLeft.png");
     background-size: 100% 100%;
@@ -563,10 +584,10 @@
   }
   .i100 .firend .container-swiper .siderRight {
     position: absolute;
-    width: 28px;
-    height: 35px;
-    right: -28px;
-    top: 16px;
+    width: 21px;
+    height: 26px;
+    right: -21px;
+    top: 12px;
     cursor: pointer;
     background-image: url("./img/siderRight.png");
     background-size: 100% 100%;
@@ -578,7 +599,7 @@
     background-color: #f6f6f6;
   }
   .i100 .news .section-title {
-    width: 124.8px;
+    width: 93.6px;
     padding-top: 0;
     display: block;
     margin: 0 auto;
@@ -593,9 +614,9 @@
     border: 2px solid #ddd;
     border-radius: 4px;
     font-size: 18px;
-    width: 126px;
-    height: 44px;
-    line-height: 40px;
+    width: 96px;
+    height: 33px;
+    line-height: 33px;
     text-align: center;
     cursor: pointer;
   }
@@ -603,9 +624,12 @@
     border: 2px solid #18922F;
     color: #18922F;
   }
+  .i100 .news .newsItems .col-lg-6 {
+    padding: 0 6px;
+  }
   .i100 .news .newsItems .new {
-    height: 217.6px;
-    margin-bottom: 12px;
+    height: 190px;
+    margin-bottom: 15px;
     background-color: #fff;
     cursor: pointer;
     border: 1px solid #ddd;
@@ -617,13 +641,13 @@
     float: left;
   }
   .i100 .news .newsItems .new .left img {
-    height: 217.6px;
-    width: 217.6px;
+    height: 190px;
+    width: 190px;
   }
   .i100 .news .newsItems .new .center {
     width: 56px;
     float: left;
-    height: 217.6px;
+    height: 190px;
     text-align: center;
   }
   .i100 .news .newsItems .new .center .date {
@@ -646,15 +670,15 @@
   }
   .i100 .news .newsItems .new .right {
     float: left;
-    width: 170px;
+    width: 148px;
   }
   .i100 .news .newsItems .new .right .title {
-    font-size: 16px;
-    height: 62px;
+    font-size: 14px;
+    height: 48px;
     overflow: hidden;
     color: #222;
     font-weight: bold;
-    padding: 16px 0 0px 0;
+    padding: 10px 0 0px 0;
   }
   .i100 .news .newsItems .new .right .text {
     color: #777;
@@ -665,9 +689,9 @@
     padding: 10px 0;
   }
   .i100 .news .newsItems .new .right img {
-    width: 107.2px;
+    width: 90px;
     cursor: pointer;
-    margin: 14px 0 0 0;
+    margin: 10px 0 0 0;
   }
   .i100 .news .newsItems .new.sub .left {
     float: right;
@@ -688,13 +712,13 @@
   .i100 .join .a {
     display: block;
     margin-bottom: 40px;
-    width: 187.2px;
+    width: 134px;
   }
   .i100 .join .b {
     display: block;
-    width: 819.2px !important;
-    height: 320px;
-    margin: 0 auto 48px auto;
+    width: 552px!important;
+    height: 280px;
+    margin: 0 auto 36px auto;
   }
   .i100 .join .c {
     display: inline-block;
@@ -711,7 +735,7 @@
   }
   .i100 .join .f {
     display: block;
-    width: 702.4px;
+    width: 526px;
   }
   .i100 .qrcode {
     background-color: #f6f6f6;
@@ -720,8 +744,8 @@
     text-align: center;
   }
   .i100 .qrcode .code {
-    width: 256px;
-    height: 256px;
+    width: 192px;
+    height: 192px;
     display: inline-block;
     margin: 0 32px;
   }

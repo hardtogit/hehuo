@@ -6,7 +6,7 @@
       <div  class="swiper-banner-container">
         <div class="swiper-wrapper" >
           <div class="swiper-slide" style="height: 100%" ng-repeat="(index,item) in entity.banner" ng-click="goLink(item)">
-            <img  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+item.fid+'&proj=demo8'}}" alt="">
+            <img  ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+item.fid+'&proj=yh_ga'}}" alt="">
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@
         <div class="introduce">
           <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=1')">
             <div class="car">
-              <img  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.company1+'&proj=demo8'}}" alt="">
+              <img  ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.company1+'&proj=yh_ga'}}" alt="">
               <div class="tab-text">
                 公司概况
               </div>
@@ -38,7 +38,7 @@
           </div>
           <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=2')">
             <div class="car">
-              <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.company2+'&proj=demo8'}}" alt="">
+              <img ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.company2+'&proj=yh_ga'}}" alt="">
               <div class="tab-text">
                 公司荣誉
               </div>
@@ -48,7 +48,7 @@
           </div>
           <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=3')">
             <div class="car">
-              <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.company3+'&proj=demo8'}}" alt="">
+              <img ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.company3+'&proj=yh_ga'}}" alt="">
               <div class="tab-text">
                 发展历程
               </div>
@@ -58,7 +58,7 @@
           </div>
           <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=4')">
             <div class="car">
-              <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.company4+'&proj=demo8'}}" alt="">
+              <img ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.company4+'&proj=yh_ga'}}" alt="">
               <div class="tab-text">
                 愿景使命
               </div>
@@ -70,7 +70,7 @@
       </div>
     </div>
     <div class="section comply">
-         <!--style="background-image:url{{'(http://47.92.169.34/cgi-bin/download.pl?fid='+entity.national1+'&proj=demo8)'}}"-->
+         <!--style="background-image:url{{'(http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.national1+'&proj=yh_ga)'}}"-->
 
 
       <div class="container">
@@ -96,8 +96,8 @@
       <div class="container">
         <img class="section-title" data-aos="fade-down" src="./img/i100/serve/title.png" alt="">
         <div class="items clearfix">
-          <div ng-repeat="(index,value) in entity.ptrcustomer" class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" onclick="goto_view('i104?type='+index+1)">
-            <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+value.hpicture+'&proj=demo8'}}" alt="">
+          <div ng-repeat="(index,value) in entity.ptrcustomer" class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" ng-click="goServer(index+1)">
+            <img ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+value.hpicture+'&proj=yh_ga'}}" alt="">
           </div>
         </div>
         <img class="subTitle" data-aos="slide-up" src="./img/i100/serve/subTitle.png" alt="">
@@ -111,7 +111,7 @@
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div ng-repeat="item in entity.homepartner" class="swiper-slide">
-                <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+item.fid+'&proj=demo8'}}"  alt="">
+                <img ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+item.fid+'&proj=yh_ga'}}"  alt="">
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@
           <div class="col-lg-6 col-md-6" ng-repeat="(index,item) in news" data-aos="zoom-out-up" ng-click="goDetail(item['_id'])">
             <div ng-class="{{['new', index<2?'sub':'']}}">
               <div class="left">
-                <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+item.homepicture+'&proj=demo8'}}" alt="">
+                <img ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+item.homepicture+'&proj=yh_ga'}}" alt="">
               </div>
               <div class="center">
                 <div class="date">
@@ -159,20 +159,20 @@
       <div class="container">
         <div onclick="goto_view('i106')" style="cursor: pointer">
         <img class="a" data-aos="fade-down"   src="./img/i100/join/joinUs.png" alt="">
-        <img class="b" data-aos="zoom-in-right"  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.join1+'&proj=demo8'}}" alt="">
+        <img class="b" data-aos="zoom-in-right"  ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.join1+'&proj=yh_ga'}}" alt="">
         </div>
         <div onclick="goto_view('i105')" style="cursor: pointer">
         <!--&lt;!&ndash;<img src="./img/joinImgL.png" alt="">&ndash;&gt;-->
         <!--<img class="d" data-aos="zoom-in-right" width="417" src="./img/hezuo.png" alt="">-->
         <!--<img class="e" data-aos="flip-up" width="674" src="./img/hezuot.png" alt="">-->
-        <img class="f" data-aos="fade-up" width="878" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.join2+'&proj=demo8'}}"  alt="">
+        <img class="f" data-aos="fade-up" width="878" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.join2+'&proj=yh_ga'}}"  alt="">
         </div>
 
       </div>
     </div>
     <div class="section qrcode">
       <div class="container" data-aos="fade-up">
-        <img class="code"  ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.qr1+'&proj=demo8'}}" alt="">
+        <img class="code"  ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.qr1+'&proj=yh_ga'}}" alt="">
         <p class="text-center"  style="color: #666;font-size: 24px;margin-top: 25px">永辉彩食鲜服务号</p>
       </div>
     </div>

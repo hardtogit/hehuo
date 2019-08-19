@@ -54,8 +54,7 @@ iweb.controller('header', function($scope,$routeParams) {
       act:'factorread',
       location:'pc'
     },function (jo) {
-        $scope.factoryTitle=jo.info.ftymanage
-      // })
+         $scope.factoryTitle=jo.info.ftymanage
     })
   },300)
 })

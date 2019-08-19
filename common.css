@@ -137,7 +137,6 @@ body {
   }
 }
 @media screen and (max-width: 992px) {
-  font-family: normal;
   #i004page {
     text-align: center;
   }

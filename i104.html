@@ -1,7 +1,7 @@
 <div class="i104">
   <div ng-include="'header.html'"></div>
   <div class="banner">
-    <img width="100%" height="100%" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+entity.banner+'&proj=demo8'}}" alt="">
+    <img width="100%" height="100%" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga'}}" alt="">
   </div>
   <div class="tabs clearfix">
     <div class="tab" ng-class="['tab', tab===1&&'active']" ng-click="changeTab(1)">服务客户</div>
@@ -14,8 +14,8 @@
 
 
     <div ng-repeat="(i,value) in data" class="icon" ng-click="changeType(i+1)">
-      <img ng-show="type!==i+1" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+value.icon+'&proj=demo8'}}" alt="">
-      <img ng-show="type===i+1" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+value.selicon+'&proj=demo8'}}" alt="">
+      <img ng-show="type!==i+1" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+value.icon+'&proj=yh_ga'}}" alt="">
+      <img ng-show="type===i+1" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+value.selicon+'&proj=yh_ga'}}" alt="">
     </div>
     </div>
     <div class="title" ng-bind-html="data[type-1].title|showAsHtml">
@@ -30,7 +30,7 @@
     <!--<div class="subText">-->
       <!--省钱省心　更省时间-->
     <!--</div>-->
-    <img class="bottomImg" ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+data[type-1].bottomImg+'&proj=demo8'}}" alt="">
+    <img class="bottomImg" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+data[type-1].bottomImg+'&proj=yh_ga'}}" alt="">
   </div>
 
   <div class="content container" ng-if="tab===2">
@@ -38,7 +38,7 @@
     <div class="item clearfix" ng-repeat="item in supply">
       <div class="body">
         <div class="left">
-          <img ng-src="{{'http://47.92.169.34/cgi-bin/download.pl?fid='+item.picture+'&proj=demo8'}}" alt="">
+          <img ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+item.picture+'&proj=yh_ga'}}" alt="">
         </div>
         <div class="right">
           <div class="title  text-left">

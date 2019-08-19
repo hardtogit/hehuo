@@ -69,7 +69,7 @@ iweb.controller('i102', function($scope,$routeParams) {
   if($routeParams.factory){
     setTimeout(function () {
       $(window).scrollTop($('.three').offset().top-180)
-    },0)
+    },800)
   }
   var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
   map.addControl(top_right_navigation);
@@ -77,7 +77,12 @@ iweb.controller('i102', function($scope,$routeParams) {
   if($(window).width()>993) {
     var setCenter = function (lat, lng, titleText, subContent) {
       map.clearOverlays()
-      map.centerAndZoom(new BMap.Point(lat + 0.1, lng), 11);  // 初始化地图,设置中心点坐标和地图级别
+      if($(window).width()<1600){
+        map.centerAndZoom(new BMap.Point(lat + 0.28, lng), 11);  // 初始化地图,设置中心点坐标和地图级别
+      }else{
+        map.centerAndZoom(new BMap.Point(lat + 0.1, lng), 11);  // 初始化地图,设置中心点坐标和地图级别
+      }
+
       //添加地图类型控件
       // map.addControl(new BMap.MapTypeControl({
       //   mapTypes:[
@@ -282,10 +287,10 @@ $scope.changeFactory=function (index) {
             lng:current.latitude,
             titleText:current.name,
             subContent:current.address,
-            title:'http://47.92.169.34/cgi-bin/download.pl?fid='+current.title+'&proj=demo8',
+            title:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.title+'&proj=yh_ga',
             text:current.description,
-            leftImg:'http://47.92.169.34/cgi-bin/download.pl?fid='+current.left+'&proj=demo8',
-            rightImg:'http://47.92.169.34/cgi-bin/download.pl?fid='+current.right+'&proj=demo8',
+            leftImg:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.left+'&proj=yh_ga',
+            rightImg:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.right+'&proj=yh_ga',
 
           }
         )

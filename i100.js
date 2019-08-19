@@ -5,6 +5,9 @@ iweb.controller('i100', function($scope,$routeParams) {
     $(window).scrollTop(0)
     goto_view('i107?id='+id)
   }
+  $scope.goServer=function (id) {
+    goto_view('i104?type='+id)
+  }
     if($(window).width()>993) {
       $('.swiper-banner-container img').css('height',$(window).height()-100+'px')
       if($(window).width()<1200){
