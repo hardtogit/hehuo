@@ -5,7 +5,8 @@
   .i107 .banner {
     height: 420px;
     position: relative;
-    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .i107 .banner .bannerImg {
     position: absolute;
@@ -88,9 +89,11 @@
     padding-top: 74px;
   }
   .i107 .banner {
-    height: 336px;
+    height: 352px;
+    background-size: auto 100%;
     position: relative;
-    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .i107 .banner .bannerImg {
     position: absolute;
@@ -234,7 +237,8 @@
   .i107 .banner {
     height: 1.05rem;
     position: relative;
-    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .i107 .banner .bannerImg {
     position: absolute;
@@ -364,6 +368,7 @@
   }
   .i107 .two .detail img {
     width: 100%!important;
+    margin-bottom: 0.2rem;
   }
   .i107 .two .detail .img {
     display: block;

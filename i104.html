@@ -1,7 +1,7 @@
 <div class="i104">
   <div ng-include="'header.html'"></div>
-  <div class="banner">
-    <img width="100%" height="100%" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga'}}" alt="">
+  <div class="banner" data-ng-style="{'background-image':'url(http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga)'}">
+    <!--<img width="100%" height="100%" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga'}}" alt="">-->
   </div>
   <div class="tabs clearfix">
     <div class="tab" ng-class="['tab', tab===1&&'active']" ng-click="changeTab(1)">服务客户</div>

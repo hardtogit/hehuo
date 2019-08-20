@@ -1,7 +1,7 @@
 <div class="i102">
   <div ng-include="'header.html'"></div>
-  <div class="banner">
-    <img width="100%" height="100%" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga'}}" alt="">
+  <div class="banner" data-ng-style="{'background-image':'url(http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga)'}">
+    <!--<img width="100%" height="100%" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga'}}" alt="">-->
   </div>
   <div class="two">
     <div class="container">
@@ -65,7 +65,7 @@
     <div class="container">
     <img src="{{location[factory-1].title}}"  class="title" alt="">
     <div class="video">
-      <img src="./img/i102/three8.png" alt="">
+      <img src="{{location[factory-1].centerImg}}" alt="">
 
     </div>
       <div class="line"></div>

@@ -289,6 +289,7 @@ $scope.changeFactory=function (index) {
             subContent:current.address,
             title:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.title+'&proj=yh_ga',
             text:current.description,
+            centerImg:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.middle+'&proj=yh_ga',
             leftImg:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.left+'&proj=yh_ga',
             rightImg:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.right+'&proj=yh_ga',
 

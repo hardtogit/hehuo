@@ -4,7 +4,9 @@
   }
   .i102 .banner {
     height: 420px;
-    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
   }
   .i102 .two {
     background-color: #fff;
@@ -137,9 +139,10 @@
     padding-top: 74px;
   }
   .i102 .banner {
-    height: 336px;
-    background-image: url("./img/i102/banner.png");
-    background-size: 100% 100%;
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
   }
   .i102 .two {
     background-color: #fff;
@@ -269,8 +272,8 @@
   }
   .i102 .banner {
     height: 1.05rem;
-    background-image: url("./img/i102/banner.png");
-    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .i102 .two {
     background-color: #fff;
