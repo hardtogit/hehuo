@@ -84,9 +84,9 @@
   }
   .i105 .banner {
     height: 352px;
-    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: auto 100%;
   }
   .i105 .know .container {
     background-color: #fff;
@@ -166,6 +166,7 @@
     height: 1.05rem;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: auto 100%;
   }
   .i105 .know {
     width: 3.56rem;

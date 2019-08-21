@@ -1,6 +1,6 @@
+<div ng-include="'header.html'"></div>
 <div class="i100">
   <img  class="hidden-xs hidden-sm phone" data-aos="fade-left" src="./img/phone.png" alt="">
-  <div ng-include="'header.html'"></div>
   <div id="fullpage">
     <div class="section ">
       <div  class="swiper-banner-container">
@@ -94,7 +94,8 @@
     </div>
     <div class="section firend">
       <div class="container">
-        <img class="section-title" data-aos="fade-down" src="./img/i100/serve/title.png" alt="">
+        <img class="section-title hidden-xs"  data-aos="fade-down" src="./img/i100/serve/title.png" alt="">
+        <img class="section-title visible-xs"  data-aos="fade-down" src="./img/i100/serve/titlem.png" alt="">
         <div class="items clearfix">
           <div ng-repeat="(index,value) in entity.ptrcustomer" class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" ng-click="goServer(index+1)">
             <img ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+value.hpicture+'&proj=yh_ga'}}" alt="">

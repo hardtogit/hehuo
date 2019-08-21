@@ -136,9 +136,9 @@
   }
   .i104 .banner {
     height: 352px;
-    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: auto 100%;
   }
   .i104 .tabs {
     width: 970px;
@@ -269,6 +269,7 @@
     height: 1.05rem;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: auto 100%;
   }
   .i104 .tabs {
     width: 100%;
