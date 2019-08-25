@@ -1,4 +1,4 @@
-iweb.controller('i102', function($scope,$routeParams) {
+iweb.controller('i102', function($scope,$routeParams,$rootScope) {
   $scope.entity={}
   $scope.location=[{}]
   // $scope.location=[{
@@ -287,11 +287,11 @@ $scope.changeFactory=function (index) {
             lng:current.latitude,
             titleText:current.name,
             subContent:current.address,
-            title:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.title+'&proj=yh_ga',
+            title:$rootScope.staticRootPath+current.title,
             text:current.description,
-            centerImg:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.middle+'&proj=yh_ga',
-            leftImg:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.left+'&proj=yh_ga',
-            rightImg:'http://www.freshfood.cn/cgi-bin/download.pl?fid='+current.right+'&proj=yh_ga',
+            centerImg:$rootScope.staticRootPath+current.middle,
+            leftImg:$rootScope.staticRootPath+current.left,
+            rightImg:$rootScope.staticRootPath+current.right,
 
           }
         )

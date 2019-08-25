@@ -1,8 +1,8 @@
 
 <div class="i103">
   <div ng-include="'header.html'"></div>
-  <div class="banner" data-ng-style="{'background-image':'url(http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga)'}">
-    <!--<img class="bannerImg" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga'}}" alt="">-->
+  <div class="banner" data-ng-style="{'background-image':'url('+staticRootPath+entity.banner+')'}">
+    <!--<img class="bannerImg" ng-src="{{staticRootPath+entity.banner}}" alt="">-->
     <div class="container">
       <img src="./img/i103/one1.png" class="label"/>
     </div>
@@ -27,7 +27,7 @@
             </div>
           </div>
           <div class="right">
-            <img ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+item.picture+'&proj=yh_ga'}}" alt="">
+            <img ng-src="{{staticRootPath+item.picture}}" alt="">
           </div>
         </div>
       </div>

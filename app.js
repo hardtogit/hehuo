@@ -295,7 +295,7 @@ iweb.run(['$rootScope', function ($rootScope) {
   }else{
     $rootScope.device='mobile'
   }
-
+    $rootScope.staticRootPath='http://www.freshfood.cn/cgi-bin/download.pl?proj=yh_ga&fid='
     rootScope = $rootScope;
     apiconn.connect();
 }]);

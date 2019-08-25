@@ -1,6 +1,6 @@
 <div class="i101" id="one">
   <div ng-include="'header.html'"></div>
-  <div class="banner" data-ng-style="{'background-image':'url(http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga)'}">
+  <div class="banner" data-ng-style="{'background-image':'url('+staticRootPath+entity.banner+')'}">
     <!--<img width="100%" height="100%" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga'}}" alt="">-->
   </div>
   <div class="container two" >
@@ -12,14 +12,14 @@
     </div>
   </div>
   <div class="three container">
-    <img  ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.des1+'&proj=yh_ga'}}" alt="">
+    <img  ng-src="{{staticRootPath+entity.des1}}" alt="">
   </div>
   <div class="four" id="two">
     <div class="container">
     <img class="title" src="./img/i101/four1.png" alt="">
     <div class="content">
       <div class="left">
-        <img  ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.honor1+'&proj=yh_ga'}}" alt="">
+        <img  ng-src="{{staticRootPath+entity.honor1}}" alt="">
       </div>
       <div class="right">
         <ul class="list-unstyled">
@@ -32,9 +32,9 @@
   <div class="five" id="three">
     <img class="title hidden-xs" src="./img/i101/five1.png" alt="">
     <img class="title visible-xs" src="./img/i101/five1m.png" alt="">
-    <img class="detail"  ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.progress1+'&proj=yh_ga'}}" alt="">
+    <img class="detail"  ng-src="{{staticRootPath+entity.progress1}}" alt="">
   </div>
-  <div class="six" id="four" style="background-image:url{{'(http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner1+'&proj=yh_ga)'}}">
+  <div class="six" id="four" style="background-image:url{{'('+staticRootPath+entity.banner1+')'}}">
     <div class="container">
       <div class="text1">永辉彩食鲜愿景</div>
       <div class="text2">为满足用户需求提供安全、健康、高性价比的食材</div>

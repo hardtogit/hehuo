@@ -1,7 +1,7 @@
 <div class="i106">
   <div ng-include="'header.html'"></div>
-  <div class="banner" data-ng-style="{'background-image':'url(http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga)'}">
-    <!--<img  class="bannerImg" ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.banner+'&proj=yh_ga'}}" alt="">-->
+  <div class="banner" data-ng-style="{'background-image':'url('+staticRootPath+entity.banner+')'}">
+    <!--<img  class="bannerImg" ng-src="{{staticRootPath+entity.banner}}" alt="">-->
     <div class="container">
       <img src="./img/i106/one1.png" class="label"/>
     </div>
@@ -9,13 +9,13 @@
   <div class="two">
     <div class="container">
       <div class="left" style="cursor:pointer" onclick="window.open('https://www.liepin.com/company/9796595/','_blank')">
-        <img class="bg"  ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.des1+'&proj=yh_ga'}}" alt="">
+        <img class="bg"  ng-src="{{staticRootPath+entity.des1}}" alt="">
         <div class="bottom">
           社会招聘
         </div>
       </div>
       <div class="right" style="cursor:pointer" onclick="window.open('https://www.liepin.com/company/9796595/','_blank')">
-        <img class="bg"  ng-src="{{'http://www.freshfood.cn/cgi-bin/download.pl?fid='+entity.des2+'&proj=yh_ga'}}" alt="">
+        <img class="bg"  ng-src="{{staticRootPath+entity.des2}}" alt="">
         <div class="bottom">
         校园招聘
         </div>
