@@ -9,10 +9,7 @@ iweb.controller('i100', function($scope,$routeParams) {
     goto_view('i104?type='+id)
   }
     if($(window).width()>993) {
-      $('.swiper-banner-container img').css('height',$(window).height()-100+'px')
-      if($(window).width()<1200){
-        $('.swiper-banner-container img').css('height',$(window).height()-72+'px')
-      }
+
       $(function () {
         $('.section').css('height',$(window).height())
         setTimeout(function () {
@@ -74,6 +71,10 @@ iweb.controller('i100', function($scope,$routeParams) {
               loop:true,
               height:300
             });
+            $('.swiper-banner-container').css('height',$(window).height()-100+'px')
+            if($(window).width()<1600){
+              $('.swiper-banner-container').css('height',$(window).height()-72+'px')
+            }
           },0)
         })
       },300)

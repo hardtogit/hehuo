@@ -12,7 +12,7 @@
     margin: 0 auto;
   }
   .i100 .swiper-banner-container {
-    padding-top: 100px;
+    margin-top: 100px;
     height: 100%;
   }
   .i100 .swiper-banner-container .swiper-slide img {
@@ -392,8 +392,7 @@
     width: 100%;
   }
   .i100 .swiper-banner-container {
-    padding-top: 74px;
-    height: 100%;
+    margin-top: 72px;
   }
   .i100 .swiper-banner-container .swiper-slide img {
     width: 100%;
@@ -752,7 +751,7 @@
 }
 @media screen and (max-width: 992px) {
   .i100 {
-    padding-top: 60px;
+    padding-top: 58px;
   }
   .i100 .title,
   .i100 .introduce {
