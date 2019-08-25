@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8938f1a4-f985-4615-840b-19ddf79f1f0e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i100.html" beforeDir="false" afterPath="$PROJECT_DIR$/i100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i101.html" beforeDir="false" afterPath="$PROJECT_DIR$/i101.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i102.html" beforeDir="false" afterPath="$PROJECT_DIR$/i102.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i102.js" beforeDir="false" afterPath="$PROJECT_DIR$/i102.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i103.html" beforeDir="false" afterPath="$PROJECT_DIR$/i103.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i104.html" beforeDir="false" afterPath="$PROJECT_DIR$/i104.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i105.html" beforeDir="false" afterPath="$PROJECT_DIR$/i105.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i106.html" beforeDir="false" afterPath="$PROJECT_DIR$/i106.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i107.html" beforeDir="false" afterPath="$PROJECT_DIR$/i107.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -361,7 +351,7 @@
       <workItem from="1566351410191" duration="3827000" />
       <workItem from="1566441206391" duration="816000" />
       <workItem from="1566523695223" duration="1496000" />
-      <workItem from="1566561436206" duration="2573000" />
+      <workItem from="1566561436206" duration="2830000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1561469800667</created>
@@ -636,11 +626,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566735215605</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="bug修复">
+      <created>1566737383439</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1566737383439</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="432184000" />
+    <option name="totallyTimeSpent" value="432441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,14 +650,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12579282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12579282" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.19708847" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.07614782" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.53303474" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.58454645" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32474804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.28779396" />
