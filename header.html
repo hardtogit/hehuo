@@ -14,41 +14,41 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav clearfix">
-                    <li class="active"><a href="#/i100" data-href="#/i100" >首页 <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="#/home" data-href="#/home" >首页 <span class="sr-only">(current)</span></a></li>
                     <li class="dropdown" ng-if="device==='pc'">
-                      <a class="dropdown-toggle" href="#/i101" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-href="#/i101">公司介绍</a>
+                      <a class="dropdown-toggle" href="#/company" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-href="#/i101">公司介绍</a>
                       <ul class="dropdown-menu">
-                        <li><a href="#/i101?type=1">企业介绍</a></li>
-                        <li><a href="#/i101?type=2">公司荣誉</a></li>
-                        <li><a href="#/i101?type=3">发展历程</a></li>
-                        <li><a href="#/i101?type=4">愿景使命</a></li>
+                        <li><a href="#/company?type=1">企业介绍</a></li>
+                        <li><a href="#/company?type=2">公司荣誉</a></li>
+                        <li><a href="#/company?type=3">发展历程</a></li>
+                        <li><a href="#/company?type=4">愿景使命</a></li>
                       </ul>
                     </li>
                     <li class="dropdown" ng-if="device==='pc'">
-                        <a class="dropdown-toggle"  href="#/i102" data-href="#/i102" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">工厂介绍</a>
+                        <a class="dropdown-toggle"  href="#/factory" data-href="#/factory" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">工厂介绍</a>
                         <ul class="dropdown-menu">
-                            <li ng-repeat="(index,item) in factoryTitle"><a href="#/i102?factory={{index+1}}">{{item.name.substring(0,2)}}</a></li>
+                            <li ng-repeat="(index,item) in factoryTitle"><a href="#/factory?factory={{index+1}}">{{item.name.substring(0,2)}}</a></li>
                         </ul>
                     </li>
                   <li class="dropdown" ng-if="device==='mobile'">
-                    <a class="dropdown-toggle" onclick="goto_view('i101')" style="position: relative"  role="button" aria-haspopup="true" aria-expanded="false" data-href="#/i101">公司介绍 <div class="arrow-menu"></div></a>
+                    <a class="dropdown-toggle" onclick="goto_view('company')" style="position: relative"  role="button" aria-haspopup="true" aria-expanded="false" data-href="#/company">公司介绍 <div class="arrow-menu"></div></a>
                     <ul class="dropdown-menu">
-                      <li><a href="#/i101?type=1">企业介绍</a></li>
-                      <li><a href="#/i101?type=2">公司荣誉</a></li>
-                      <li><a href="#/i101?type=3">发展历程</a></li>
-                      <li><a href="#/i101?type=4">愿景使命</a></li>
+                      <li><a href="#/company?type=1">企业介绍</a></li>
+                      <li><a href="#/company?type=2">公司荣誉</a></li>
+                      <li><a href="#/company?type=3">发展历程</a></li>
+                      <li><a href="#/company?type=4">愿景使命</a></li>
                     </ul>
                   </li>
                   <li class="dropdown"  ng-if="device==='mobile'">
-                    <a class="dropdown-toggle"  onclick="goto_view('i102')" style="position: relative" data-href="#/i102" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">工厂介绍 <div class="arrow-menu"></div></a>
+                    <a class="dropdown-toggle"  onclick="goto_view('factory')" style="position: relative" data-href="#/i102" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">工厂介绍 <div class="arrow-menu"></div></a>
                     <ul class="dropdown-menu">
-                      <li ng-repeat="(index,item) in factoryTitle"><a href="#/i102?factory={{index+1}}">{{item.name.substring(0,2)}}</a></li>
+                      <li ng-repeat="(index,item) in factoryTitle"><a href="#/factory?factory={{index+1}}">{{item.name.substring(0,2)}}</a></li>
                     </ul>
                   </li>
-                    <li><a href="#/i103" data-href="#/i103">新闻资讯</a></li>
-                    <li><a href="#/i104" data-href="#/i104">合作伙伴</a></li>
-                    <li><a href="#/i105" data-href="#/i105">洽谈合作</a></li>
-                    <li><a href="#/i106" data-href="#/i106">加入我们</a></li>
+                    <li><a href="#/news" data-href="#/news">新闻资讯</a></li>
+                    <li><a href="#/partner" data-href="#/partner">合作伙伴</a></li>
+                    <li><a href="#/cooperation" data-href="#/cooperation">洽谈合作</a></li>
+                    <li><a href="#/join" data-href="#/join">加入我们</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

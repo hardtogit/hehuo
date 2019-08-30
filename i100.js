@@ -3,10 +3,10 @@ iweb.controller('i100', function($scope,$routeParams) {
   $scope.news={}
   $scope.goDetail=function(id){
     $(window).scrollTop(0)
-    goto_view('i107?id='+id)
+    goto_view('news/detail?id='+id)
   }
   $scope.goServer=function (id) {
-    goto_view('i104?type='+id)
+    goto_view('partner?type='+id)
   }
     if($(window).width()>993) {
 
@@ -46,6 +46,7 @@ iweb.controller('i100', function($scope,$routeParams) {
           location:'pc'
         },function (jo) {
           $scope.entity=jo.info
+          // console.error(jo.info.video)
           setTimeout(function () {
             var mySwiper = new Swiper('.swiper-container', {
               slidesPerView: 8,
@@ -65,7 +66,7 @@ iweb.controller('i100', function($scope,$routeParams) {
             }
             var myBannerSwiper = new Swiper('.swiper-banner-container', {
               // freeMode:true,
-              autoplay:true,
+              autoplay:jo.info.status==='生效'?false:true,
               delay:5000,
               setWrapperSize :true,
               loop:true,
@@ -75,6 +76,12 @@ iweb.controller('i100', function($scope,$routeParams) {
             if($(window).width()<1600){
               $('.swiper-banner-container').css('height',$(window).height()-72+'px')
             }
+            // window.onresize=function () {
+            //   $('.swiper-banner-container').css('height',$(window).height()-100+'px')
+            //   if($(window).width()<1600){
+            //     $('.swiper-banner-container').css('height',$(window).height()-72+'px')
+            //   }
+            // }
           },0)
         })
       },300)

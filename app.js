@@ -10,40 +10,40 @@ iweb.config(['$routeProvider',
   	function ($routeProvider) {
 
         $routeProvider.
-        when('/i100', {
+        when('/home', {
             templateUrl: 'i100.html',
             controller: 'i100'
         }).
-        when('/i101', {
+        when('/company', {
           templateUrl: 'i101.html',
           controller: 'i101'
         }).
-        when('/i102', {
+        when('/factory', {
           templateUrl: 'i102.html',
           controller: 'i102'
         }).
-        when('/i103', {
+        when('/news', {
           templateUrl: 'i103.html',
           controller: 'i103'
         }).
-        when('/i104', {
+        when('/partner', {
           templateUrl: 'i104.html',
           controller: 'i104'
         }).
-        when('/i105', {
+        when('/cooperation', {
           templateUrl: 'i105.html',
           controller: 'i105'
         }).
-        when('/i106', {
+        when('/join', {
           templateUrl: 'i106.html',
           controller: 'i106'
         }).
-        when('/i107', {
+        when('/news/detail', {
           templateUrl: 'i107.html',
           controller: 'i107'
         }).
         otherwise({
-            redirectTo: '/i100'
+            redirectTo: '/home'
         });
 }]);
 
@@ -156,7 +156,8 @@ apiconn.response_received_handler = function (jo) {
     });
 };
 
-window.apiconn.wsUri = 'ws://www.freshfood.cn/yh_ga';
+// window.apiconn.wsUri = 'ws://www.freshfood.cn/yh_ga';
+window.apiconn.wsUri = 'ws://47.92.169.34:51708/demo8';
 angular.module("iweb")
     .factory('fileReader', function ($q, $log) {
 
@@ -274,7 +275,7 @@ angular.module("iweb")
 iweb.run(['$rootScope', function ($rootScope) {
     $rootScope.$on("$routeChangeSuccess", function (angularEvent, current, previous) { //
 
-      console.log(current)
+      console.log(current,'sssssssssssss')
         if (current.controller == "main") {
             $rootScope.showMenu = false;
         } else {
@@ -295,7 +296,7 @@ iweb.run(['$rootScope', function ($rootScope) {
   }else{
     $rootScope.device='mobile'
   }
-    $rootScope.staticRootPath='http://www.freshfood.cn/cgi-bin/download.pl?proj=yh_ga&fid='
+    $rootScope.staticRootPath='http://47.92.169.34/cgi-bin/download.pl?proj=demo8&fid='
     rootScope = $rootScope;
     apiconn.connect();
 }]);
@@ -304,3 +305,9 @@ iweb.filter('showAsHtml',function ($sce) {
     return $sce.trustAsHtml(input);
   }
 })
+
+iweb.filter("trustUrl", ['$sce', function ($sce) {
+  return function (recordingUrl) {
+    return $sce.trustAsResourceUrl(recordingUrl);
+  };
+}]);

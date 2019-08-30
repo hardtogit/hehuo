@@ -8,13 +8,13 @@
   </div>
   <div class="two">
     <div class="container">
-      <div class="left" style="cursor:pointer" onclick="window.open('https://www.liepin.com/company/9796595/','_blank')">
+      <div class="left" style="cursor:pointer" ng-click="openLeft()">
         <img class="bg"  ng-src="{{staticRootPath+entity.des1}}" alt="">
         <div class="bottom">
           社会招聘
         </div>
       </div>
-      <div class="right" style="cursor:pointer" onclick="window.open('https://www.liepin.com/company/9796595/','_blank')">
+      <div class="right" style="cursor:pointer" onclick="openRight()">
         <img class="bg"  ng-src="{{staticRootPath+entity.des2}}" alt="">
         <div class="bottom">
         校园招聘
@@ -27,8 +27,10 @@
       <img class="title" src="./img/i106/three1.png" alt="">
       <div class="items">
         <div class="item">
-          <div class="title">面试时请准备并携带</div>
-          1、身份证原件及复印件3份；<br/>2、毕业证原件及复印件1份；<br/>3、其它有关证明（如健康证、失业证、下岗证、等级证书、荣誉证书、离职证明等）。<br/> 若您对我们的岗位有意向，欢迎您将资料投递到公司招聘网站，我们会在第一时间阅读您的简历。
+          <div class="title">{{entity.title}}</div>
+          <div ng-repeat="item in entity.content">
+            {{item}}
+          </div>
         </div>
         <div class="item" ng-repeat="item in entity.joinsubcompany">
           <div class="title">{{item.name}}</div>

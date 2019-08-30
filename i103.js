@@ -4,7 +4,7 @@ iweb.controller('i103', function($scope,$routeParams) {
   $scope.detailId=$routeParams.detailId?parseInt($routeParams.detailId):1
   $scope.goDetail=function(id){
     $(window).scrollTop(0)
-    goto_view('i107?id='+id)
+    goto_view('news/detail?id='+id)
   }
   $scope.close=function () {
     $scope.detail=false

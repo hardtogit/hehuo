@@ -1,10 +1,19 @@
 <div ng-include="'header.html'"></div>
 <div class="i100">
+
   <img  class="hidden-xs hidden-sm phone" data-aos="fade-left" src="./img/phone.png" alt="">
   <div id="fullpage">
     <div class="section ">
       <div  class="swiper-banner-container">
         <div class="swiper-wrapper" >
+          <!--<div class="swiper-slide" ng-if="entity.status==='生效'" style="height: 100%">-->
+            <!--&lt;!&ndash;<video  muted="muted" loop="loop" id="video" autoplay="autoplay" data-autoplay style="width: 100%">&ndash;&gt;-->
+              <!--&lt;!&ndash;<source   ng-src="{{staticRootPath+entity.video|trustUrl}}" />&ndash;&gt;-->
+              <!--&lt;!&ndash;&lt;!&ndash;<source   src="https://www.meicai.cn/media/video.02023024.mp4" />&ndash;&gt;&ndash;&gt;-->
+              <!--&lt;!&ndash;&lt;!&ndash;<source   src="http://47.92.169.34/cgi-bin/download.pl?proj=demo8&fid=f15669134433035058975111" />&ndash;&gt;&ndash;&gt;-->
+              <!--&lt;!&ndash;&lt;!&ndash;<source   src="http://47.92.169.34/cgi-bin/download.pl?proj=demo8&fid=f15669134433035058975111" />&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;</video>&ndash;&gt;-->
+          <!--</div>-->
           <div class="swiper-slide" style="height: 100%" ng-repeat="(index,item) in entity.banner" ng-click="goLink(item)">
             <img  ng-src="{{staticRootPath+item.fid}}" alt="">
           </div>
@@ -26,7 +35,7 @@
           <img src="./img/i103/told/title.png" alt="">
         </div>
         <div class="introduce">
-          <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=1')">
+          <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('company?type=1')">
             <div class="car">
               <img  ng-src="{{staticRootPath+entity.company1}}" alt="">
               <div class="tab-text">
@@ -36,7 +45,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=2')">
+          <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('company?type=2')">
             <div class="car">
               <img ng-src="{{staticRootPath+entity.company2}}" alt="">
               <div class="tab-text">
@@ -46,7 +55,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=3')">
+          <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('company?type=3')">
             <div class="car">
               <img ng-src="{{staticRootPath+entity.company3}}" alt="">
               <div class="tab-text">
@@ -56,7 +65,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('i101?type=4')">
+          <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('company?type=4')">
             <div class="car">
               <img ng-src="{{staticRootPath+entity.company4}}" alt="">
               <div class="tab-text">
