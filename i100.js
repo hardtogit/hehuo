@@ -9,9 +9,18 @@ iweb.controller('i100', function($scope,$routeParams) {
     goto_view('partner?type='+id)
   }
     if($(window).width()>993) {
-
       $(function () {
         $('.section').css('height',$(window).height())
+        $('.swiper-banner-container').css('height',$(window).height()-100+'px')
+        if($(window).width()<1600){
+          $('.swiper-banner-container').css('height',$(window).height()-72+'px')
+        }
+        window.onresize=function () {
+          $('.swiper-banner-container').css('height',$(window).height()-100+'px')
+          if($(window).width()<1600){
+            $('.swiper-banner-container').css('height',$(window).height()-72+'px')
+          }
+        }
         setTimeout(function () {
           $('#fullpage').fullpage({
             scrollBar: true,
@@ -23,21 +32,26 @@ iweb.controller('i100', function($scope,$routeParams) {
                 $('.headerNav').css('top', '0')
               }
               if(nextIndex !==7){
+                // $('.next-page').css('display','block')
                 $('.footer').css('bottom','-100px')
               }else{
                 $('.footer').css('bottom',0)
+                // $('.next-page').css('display','none')
               }
             },
             lazyLoading: false,
             loopHorizontal:false,
             recordHistory:false
           });
+          $('.next-page').on('click',function () {
+            $.fn.fullpage.moveSectionDown();
+          })
           AOS.init({
             duration: 1200,
             offset:0
             // debounceDelay:10000
           });
-        },0)
+        },500)
         })
       setTimeout(function () {
         window.ajax({
@@ -72,16 +86,6 @@ iweb.controller('i100', function($scope,$routeParams) {
               loop:true,
               height:300
             });
-            $('.swiper-banner-container').css('height',$(window).height()-100+'px')
-            if($(window).width()<1600){
-              $('.swiper-banner-container').css('height',$(window).height()-72+'px')
-            }
-            // window.onresize=function () {
-            //   $('.swiper-banner-container').css('height',$(window).height()-100+'px')
-            //   if($(window).width()<1600){
-            //     $('.swiper-banner-container').css('height',$(window).height()-72+'px')
-            //   }
-            // }
           },0)
         })
       },300)

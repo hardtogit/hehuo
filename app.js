@@ -274,8 +274,8 @@ angular.module("iweb")
 
 iweb.run(['$rootScope', function ($rootScope) {
     $rootScope.$on("$routeChangeSuccess", function (angularEvent, current, previous) { //
-
-      console.log(current,'sssssssssssss')
+      // console.log(current.$$route.originalPath,'sssssssssssss')
+      window._hmt.push(['_trackPageview', '/#' +current.$$route.originalPath ])
         if (current.controller == "main") {
             $rootScope.showMenu = false;
         } else {

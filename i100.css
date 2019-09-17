@@ -23,18 +23,17 @@
     margin-top: 100px;
   }
   .i100 .introduce .car {
-    background-color: #fff;
+    width: 240px;
     height: 320px;
-    padding-top: 80px;
-    border-bottom: 2px solid #1A8A2F;
+    margin: 0 auto;
     cursor: pointer;
   }
   .i100 .introduce .car:hover {
     box-shadow: 0px 10px 10px #ddd;
   }
   .i100 .introduce .car img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: 0 auto;
   }
@@ -67,55 +66,37 @@
   .i100 .comply .mapContainer .city.bj {
     left: 520px;
     top: 226px;
-    background-image: url("./img/i100/map/bj.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.bj:hover {
     background-image: url("./img/i100/map/bjH.png");
   }
   .i100 .comply .mapContainer .city.sc {
     left: 358px;
     top: 370px;
-    background-image: url("./img/i100/map/sc.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.sc:hover {
     background-image: url("./img/i100/map/scH.png");
   }
   .i100 .comply .mapContainer .city.cq {
     left: 400px;
     top: 399px;
-    background-image: url("./img/i100/map/cq.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.cq:hover {
     background-image: url("./img/i100/map/cqH.png");
   }
   .i100 .comply .mapContainer .city.js {
     left: 586px;
     top: 358px;
-    background-image: url("./img/i100/map/js.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.js:hover {
     background-image: url("./img/i100/map/jsH.png");
   }
   .i100 .comply .mapContainer .city.fj {
     left: 565px;
     top: 452px;
-    background-image: url("./img/i100/map/fj.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.fj:hover {
     background-image: url("./img/i100/map/fjH.png");
   }
   .i100 .comply .mapContainer .city.ah {
     left: 532px;
     top: 352px;
-    background-image: url("./img/i100/map/ah.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.ah:hover {
     background-image: url("./img/i100/map/ahH.png");
   }
   .i100 .comply .mapContainer .map {
@@ -402,11 +383,8 @@
     margin-top: 60px;
   }
   .i100 .introduce .car {
-    background-color: #fff;
-    height: 192px;
+    height: 216px;
     width: 162px;
-    padding-top: 48px;
-    border-bottom: 2px solid #1A8A2F;
     cursor: pointer;
     margin: 0 auto;
   }
@@ -414,8 +392,8 @@
     box-shadow: 0px 10px 10px #ddd;
   }
   .i100 .introduce .car img {
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: 0 auto;
   }
@@ -448,55 +426,37 @@
   .i100 .comply .mapContainer .city.bj {
     left: 312px;
     top: 135.6px;
-    background-image: url("./img/i100/map/bj.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.bj:hover {
     background-image: url("./img/i100/map/bjH.png");
   }
   .i100 .comply .mapContainer .city.sc {
     left: 214.8px;
     top: 222px;
-    background-image: url("./img/i100/map/sc.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.sc:hover {
     background-image: url("./img/i100/map/scH.png");
   }
   .i100 .comply .mapContainer .city.cq {
     left: 240px;
     top: 240px;
-    background-image: url("./img/i100/map/cq.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.cq:hover {
     background-image: url("./img/i100/map/cqH.png");
   }
   .i100 .comply .mapContainer .city.js {
     left: 351.6px;
     top: 214.8px;
-    background-image: url("./img/i100/map/js.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.js:hover {
     background-image: url("./img/i100/map/jsH.png");
   }
   .i100 .comply .mapContainer .city.fj {
     left: 340.8px;
     top: 271.2px;
-    background-image: url("./img/i100/map/fj.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.fj:hover {
     background-image: url("./img/i100/map/fjH.png");
   }
   .i100 .comply .mapContainer .city.ah {
     left: 319.2px;
     top: 211.2px;
-    background-image: url("./img/i100/map/ah.png");
     background-size: 100% 100%;
-  }
-  .i100 .comply .mapContainer .city.ah:hover {
     background-image: url("./img/i100/map/ahH.png");
   }
   .i100 .comply .mapContainer .map {
@@ -782,19 +742,16 @@
   }
   .i100 .introduce .car {
     margin: 0.12rem auto;
-    background-color: #fff;
     height: 1.6rem;
     width: 1.2rem;
-    padding-top: 0.4rem;
-    border-bottom: 2px solid #1A8A2F;
     cursor: pointer;
   }
   .i100 .introduce .car:hover {
     box-shadow: 0px 10px 10px #ddd;
   }
   .i100 .introduce .car img {
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: 0 auto;
   }
@@ -1164,11 +1121,33 @@
     margin-top: 0.1rem !important;
   }
 }
+@keyframes move-bot {
+  0% {
+    bottom: 1%;
+  }
+  50% {
+    bottom: 3%;
+  }
+  100% {
+    bottom: 1%;
+  }
+}
 .i100 .phone {
   position: fixed;
   right: 70px;
   top: 200px;
   z-index: 100;
+}
+.i100 .next-page {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 1000;
+  animation: move-bot 1s infinite;
+  -moz-animation: move-bot 1s infinite;
+  -webkit-animation: move-bot 1s infinite;
 }
 .i100 .title .titleEn {
   width: 16.5em;
@@ -1186,8 +1165,5 @@
   width: 4.5em;
   display: block;
   margin: 0.2rem auto;
-}
-.i100 .introduce .car {
-  background-color: #fff;
 }
 /*# sourceMappingURL=i100.css.map */
