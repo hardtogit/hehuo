@@ -156,8 +156,8 @@ apiconn.response_received_handler = function (jo) {
     });
 };
 
-// window.apiconn.wsUri = 'ws://www.freshfood.cn/yh_ga';
-window.apiconn.wsUri = 'ws://47.92.169.34:51708/demo8';
+window.apiconn.wsUri = 'ws://www.freshfood.cn/yh_ga';
+// window.apiconn.wsUri = 'ws://47.92.169.34:51708/demo8';
 angular.module("iweb")
     .factory('fileReader', function ($q, $log) {
 
@@ -296,7 +296,8 @@ iweb.run(['$rootScope', function ($rootScope) {
   }else{
     $rootScope.device='mobile'
   }
-    $rootScope.staticRootPath='http://47.92.169.34/cgi-bin/download.pl?proj=demo8&fid='
+  $rootScope.staticRootPath='http://www.freshfood.cn/cgi-bin/download.pl?proj=yh_ga&fid='
+    // $rootScope.staticRootPath='http://47.92.169.34/cgi-bin/download.pl?proj=demo8&fid='
     rootScope = $rootScope;
     apiconn.connect();
 }]);
