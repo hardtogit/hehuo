@@ -108,9 +108,182 @@
   </head>
 
   <body ng-app="iweb">
-    <div ng-view style="overflow: hidden">
-    </div>
+  <div ng-include="'header.html'"></div>
+  <div class="i100" ng-controller="i100">
+    <img  class="hidden-xs hidden-sm phone" data-aos="fade-left" src="./img/phone.png" alt="">
+    <div id="fullpage">
+      <div class="section">
+        <img  class="hidden-xs hidden-sm next-page" src="./img/jiantou.png" alt="">
+        <div  class="swiper-banner-container">
+          <div class="swiper-wrapper" >
+            <div class="swiper-slide" ng-if="entity.status==='生效'" style="height: 100%">
+              <video  muted="muted" loop="loop" id="video" autoplay="autoplay" data-autoplay style="width: 100%">
+                <source   ng-src="{{staticRootPath+entity.video|trustUrl}}" />
+                <!--<source   src="https://www.meicai.cn/media/video.02023024.mp4" />-->
+                <!--<source   src="http://47.92.169.34/cgi-bin/download.pl?proj=demo8&fid=f15669134433035058975111" />-->
+                <!--<source   src="http://47.92.169.34/cgi-bin/download.pl?proj=demo8&fid=f15669134433035058975111" />-->
+              </video>
+            </div>
+            <div class="swiper-slide" style="height: 100%" ng-repeat="(index,item) in entity.banner" ng-click="goLink(item)">
+              <img  ng-src="{{staticRootPath+item.fid}}" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<div class="section visible-xs">-->
+      <!--<div  class="swiper-banner-container">-->
+      <!--<div class="swiper-wrapper" >-->
+      <!--<div class="swiper-slide"><img  src="./img/i100/banner1.png" alt=""></div>-->
+      <!--<div class="swiper-slide"><img src="./img/i100/banner2.png" alt=""></div>-->
+      <!--<div class="swiper-slide"><img  src="./img/i100/banner3.png" alt=""></div>-->
+      <!--</div>-->
+      <!--</div>-->
+      <!--</div>-->
+      <div class="section told">
+        <img  class="hidden-xs hidden-sm next-page" src="./img/jiantou.png" alt="">
+        <div class="container">
+          <div class="title" data-aos="fade-down">
+            <img src="./img/i103/told/title.png" alt="">
+          </div>
+          <div class="introduce">
+            <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('company?type=1')">
+              <div class="car">
+                <img  ng-src="{{staticRootPath+entity.company1}}" alt="">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('company?type=2')">
+              <div class="car">
+                <img ng-src="{{staticRootPath+entity.company2}}" alt="">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('company?type=3')">
+              <div class="car">
+                <img ng-src="{{staticRootPath+entity.company3}}" alt="">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-6" data-aos="zoom-in-up" onclick="goto_view('company?type=4')">
+              <div class="car">
+                <img ng-src="{{staticRootPath+entity.company4}}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section comply">
+        <!--style="background-image:url{{'(staticRootPath'+entity.national1+'&proj=yh_ga)'}}"-->
+        <img  class="hidden-xs hidden-sm next-page" src="./img/jiantou.png" alt="">
+        <div class="container">
+          <div class="bg-container">
+            <div class="mapContainer" data-aos="zoom-in">
+              <a href="#/factory?factory=1"><div class="city bj" alt=""></div></a>
+              <a href="#/factory?factory=3"><div class="city sc" alt=""></div></a>
+              <a href="#/factory?factory=6"><div class="city js" alt=""></div></a>
+              <a href="#/factory?factory=5"><div class="city ah" alt=""></div></a>
+              <a href="#/factory?factory=4"><div class="city fj" alt=""></div></a>
+              <a href="#/factory?factory=2"><div class="city cq" alt=""></div></a>
+              <img class="map"  src="./img/i100/map/map.png" alt="">
+            </div>
+          </div>
+          <div class="map-text">
+            <img class="mapTextLeft"  data-aos="fade-right" src="./img/i100/map/title.png" alt="">
+            <img class="mapSubTextLeft" data-aos="fade-right" src="./img/mapSubTextLeft.png" alt="">
+            <img class="mapTextRight" data-aos="fade-left" src="./img/mapTextRight.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="section firend">
+        <img  class="hidden-xs hidden-sm next-page" src="./img/jiantou.png" alt="">
+        <div class="container">
+          <img class="section-title hidden-xs"  data-aos="fade-down" src="./img/i100/serve/title.png" alt="">
+          <img class="section-title visible-xs"  data-aos="fade-down" src="./img/i100/serve/titlem.png" alt="">
+          <div class="items clearfix">
+            <div ng-repeat="(index,value) in entity.ptrcustomer" class="col-lg-4 col-md-4 col-xs-6" data-aos="flip-right" ng-click="goServer(index+1)">
+              <img ng-src="{{staticRootPath+value.hpicture}}" alt="">
+            </div>
+          </div>
+          <img class="subTitle" data-aos="slide-up" src="./img/i100/serve/subTitle.png" alt="">
+          <div class="container-swiper" data-aos="slide-up">
+            <div class="siderLeft" ng-click="slidePrev()" alt="">
+              <!--<img src="./img/siderLeft.png" alt="">-->
+            </div>
+            <div class="siderRight" ng-click="slideNext()" alt="">
+              <!--<img  src="./img/siderRight.png" >-->
+            </div>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div ng-repeat="item in entity.homepartner" class="swiper-slide">
+                  <img ng-src="{{staticRootPath+item.fid}}"  alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
+      </div>
+      <div class="section news">
+        <img  class="hidden-xs hidden-sm next-page" src="./img/jiantou.png" alt="">
+        <div class="container">
+          <div class="title">
+            <img class="section-title" data-aos="fade-down" src="./img/i100/news/title.png" alt="">
+            <div class="more hidden-xs" onclick="goto_view('i103')">
+              更多新闻
+            </div>
+          </div>
+
+          <div class="newsItems clearfix">
+            <div class="col-lg-6 col-md-6" ng-repeat="(index,item) in news" data-aos="zoom-out-up" ng-click="goDetail(item['_id'])">
+              <div ng-class="{{['new', index<2?'sub':'']}}">
+                <div class="left">
+                  <img ng-src="{{staticRootPath+item.homepicture}}" alt="">
+                </div>
+                <div class="center">
+                  <div class="date">
+                    <div class="day">{{item.day}}</div>
+                    <div class="month">{{item.mon}}/{{item.year}}</div>
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="title">{{item.title}}</div>
+                  <div class="text">
+                    {{item.description}}
+                  </div>
+                  <img src="./img/detailBtn.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="more-m visible-xs" onclick="goto_view('i103')">
+            更多新闻
+          </div>
+        </div>
+      </div>
+      <div class="section join">
+        <img  class="hidden-xs hidden-sm next-page" src="./img/jiantou.png" alt="">
+        <div class="container">
+          <div onclick="goto_view('i106')" style="cursor: pointer">
+            <img class="a" data-aos="fade-down"   src="./img/i100/join/joinUs.png" alt="">
+            <img class="b" data-aos="zoom-in-right"  ng-src="{{staticRootPath+entity.join1}}" alt="">
+          </div>
+          <div onclick="goto_view('i105')" style="cursor: pointer">
+            <!--&lt;!&ndash;<img src="./img/joinImgL.png" alt="">&ndash;&gt;-->
+            <!--<img class="d" data-aos="zoom-in-right" width="417" src="./img/hezuo.png" alt="">-->
+            <!--<img class="e" data-aos="flip-up" width="674" src="./img/hezuot.png" alt="">-->
+            <img class="f" data-aos="fade-up" width="878" ng-src="{{staticRootPath+entity.join2}}"  alt="">
+          </div>
+
+        </div>
+      </div>
+      <div class="section qrcode">
+        <img ng-src="{{staticRootPath+entity.qr1}}" style="width: 100%" alt="">
+        <!--<div class="container" data-aos="fade-up">-->
+        <!--<img class="code"  ng-src="{{staticRootPath+entity.qr1}}" alt="">-->
+        <!--<p class="text-center"  style="color: #666;font-size: 24px;margin-top: 25px">永辉彩食鲜服务号</p>-->
+        <!--</div>-->
+      </div>
+      <div  ng-if="device==='pc'" ng-include="'footer.html'"></div>
+    </div>
+  </div>
+  <div  ng-if="device==='mobile'" ng-include="'baseFooter.html'"></div>
 
   </body>
 </html>
