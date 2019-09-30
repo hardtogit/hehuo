@@ -2,7 +2,7 @@
 
 ### 该项目基于angularJs开发，其框架用法请查看angularJsp文档  [文档地址](https://www.runoob.com/angularjs/angularjs-reference.html)  
 
-#### 目录说明请查看项目根目录下的file.md文件
+#### 注：目录说明请查看项目根目录下的file.md文件
 ---
 #### 开发流程
 1.安装依赖  
