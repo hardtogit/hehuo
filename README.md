@@ -4,7 +4,7 @@
 
 #### 开发流程
 1.安装依赖  
-  `npm install`
+  `npm install`  
 2.启动本地服务,通过8000端口访问，如果出错请检查下端口是否被占用  
   `npm start`
 
@@ -14,7 +14,7 @@
 
 ### 服务器地址更改
 1.接口地址在/static/app.js的89行  
-  `window.apiconn.wsUri = 'ws://www.freshfood.cn/yh_ga';`
+  `window.apiconn.wsUri = 'ws://www.freshfood.cn/yh_ga';`  
 2.静态资源的下载地址在/static/app.js的229行  
   `$rootScope.staticRootPath='http://www.freshfood.cn/cgi-bin/download.pl?proj=yh_ga&fid='`
 
