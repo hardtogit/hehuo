@@ -1,37 +1,34 @@
-# hehuo
+# 永辉彩食鲜官网前端代码
 
-#### 介绍
-合伙工程代码
+## 该项目基于angularJs开发，其框架用法请查看angularJsp文档  [文档地址](https://www.runoob.com/angularjs/angularjs-reference.html)
 
-#### 软件架构
-软件架构说明
+#### 开发流程
+1.安装依赖
+`npm install`
+2.启动本地服务,通过8000端口访问，如果出错请检查下端口是否被占用
+`npm start`
 
-
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+### 上线流程
+1.static目录对应要上线的文件，开发完成将改资源放到服务器/var/www/html目录下即可
 
 
-#### 码云特技
+### 服务器地址更改
+1.接口地址在/static/app.js的89行
+`window.apiconn.wsUri = 'ws://www.freshfood.cn/yh_ga';`
+2.静态资源的下载地址在/static/app.js的229行
+`$rootScope.staticRootPath='http://www.freshfood.cn/cgi-bin/download.pl?proj=yh_ga&fid='`
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 与后端交互
+1.已在window上面添加ajax方法使用示例如下
+```
+window.ajax({
+      obj:'user',
+      act:'newsread',
+      page_num:page_num,
+      page_size:5,
+      home:'是',
+    },function (jo) {
+      $scope.news=jo.info
+    })
+```
+该方法接收两个参数，第一个为请求参数，第二个为回调函数。
