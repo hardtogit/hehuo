@@ -6,9 +6,9 @@
 ---
 ### 开发流程
 1.安装依赖  
-  `npm install`  
+  ```npm install```  
 2.启动本地服务,通过8000端口访问，如果出错请检查下端口是否被占用  
-  `npm start`
+  ```npm start```
 ---
 ### 上线流程
 1.static目录对应要上线的文件，开发完成将改资源放到服务器/var/www/html目录下即可
@@ -16,9 +16,9 @@
 ---
 ### 服务器地址更改
 1.接口地址在/static/app.js的89行  
-  `window.apiconn.wsUri = 'ws://www.freshfood.cn/yh_ga';`  
+  ```window.apiconn.wsUri = 'ws://www.freshfood.cn/yh_ga';```  
 2.静态资源的下载地址在/static/app.js的229行  
-  `$rootScope.staticRootPath='http://www.freshfood.cn/cgi-bin/download.pl?proj=yh_ga&fid='`
+  ```$rootScope.staticRootPath='http://www.freshfood.cn/cgi-bin/download.pl?proj=yh_ga&fid='```  
 ---
 ### 与后端交互
 1.已在window上面添加ajax方法使用示例如下
